@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Dear America | Scholastic.com</title>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+em	{
+	font-style:normal!important;
+}
+</style>
+<![endif]-->
+<link rel="stylesheet" href="styles/popUpStyles.css" media="all" type="text/css"  />
+<!-- LOAD THE RECIPES -->
+<script type="text/javascript" src="scripts/loadAllTheRecipes.js"></script>
+<style type="text/css">
+<!-- 
+-->
+</style>
+<script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+	// LOAD THE AUTHORS XML
+	$.ajax({
+			type: "GET",
+			url: "xml/recipes.xml",
+			dataType: "xml",
+			success: loadTheRecipes
+		});
+		
+	$("#formSortRecipes").bind("submit", function() { return false; });
+	$("#btnGo").click(function(){
+		$('#recipesList').html('');
+		var girlChoice = $("#girlChoice").val();
+		//alert(girlChoice);
+		var recipeArrayLength = recipesArray.length;
+		var specificNumber = 0;
+		for (i=0;i<=recipeArrayLength;i++)
+			{
+			var girlsName = recipesArray[i][0];
+			var recipeTitle = recipesArray[i][1];
+			var imageSmall = recipesArray[i][2];
+			if(i==0 && girlsName == girlChoice)
+				{
+				}
+			if(girlsName == girlChoice)
+				{
+				$('#recipesList').append('<div class="smallRecipeBox"><a href="therecipe.htm?recipe='+recipeTitle+'"><div class="recipeThumbnail" id="recipe'+i+'"><!-- recipe image small --></div>'+recipeTitle+'</a></div>');
+				$('#recipe'+i).css('background', 'url('+imageSmall+') no-repeat');
+				var recipeBreak = specificNumber+1;
+				if(recipeBreak%4==0)
+					{
+					$('#recipesList').append('<div class="linebreak"><!-- break every 4 recipes --></div>');			
+					}
+				specificNumber++;
+				}
+			else if (girlChoice == 'All' )
+				{
+				$('#recipesList').append('<div class="smallRecipeBox"><a href="therecipe.htm?recipe='+recipeTitle+'"><div class="recipeThumbnail" id="recipe'+i+'"><!-- recipe image small --></div>'+recipeTitle+'</a></div>');
+				$('#recipe'+i).css('background', 'url('+imageSmall+') no-repeat');
+				var recipeBreak = i+1;
+				if(recipeBreak%4==0)
+					{
+					$('#recipesList').append('<div class="linebreak"><!-- break every 4 recipes --></div>');			
+					}				
+				}
+			}
+	return false;
+  });
+	
+});
+</script>
+</head>
+<body>
+	<div id="popUpWrapper">
+        <a name="top"></a>
+        <div id="contentWrapper">
+            <div id="hdrPopUp">
+            	<span class="noCss">
+	                Teach Dear America
+				</span>
+            </div><!-- hdrPopup -->    
+        	<div id="hdrRecipes">
+				<span class="noCss">
+					Recipes	
+				</span>
+			</div><!-- /hdrRecipes -->
+            <div id="bkgrdSort">
+              <form id="formSortRecipes" class="formSort">
+                <input type="image" src="images/btnFormSortGo.png" alt="Go!" id="btnGo" value="choice" />
+                <label for="selection">Sort Recipes: </label>
+                <select name="selection" id="girlChoice">
+                  <option value="All">All Recipes</option>
+                  <option value="Piper">Piper's Recipes</option>
+                  <option value="Mem">Mem's Recipes</option>
+                  <option value="Abigail">Abigail's Recipes</option>
+                  <option value="Margaret">Margaret's Recipes</option>
+                  <option value="Patsy">Patsy's Recipes</option>
+                  <option value="Catherine">Catherine's Recipes</option>
+                </select>
+              </form>
+            </div><!-- /bkgrdSort -->
+            <div id="recipesList"></div><!-- /recipesList -->
+            <div class="clearRight"><!-- clear the list --></div>
+        </div>
+    <!-- /primaryShadeBox -->
+        <div class="clear"><!-- clear the floats --></div>
+        </div><!-- /contentWrapper -->
+        </div><!-- /PopUpWrapper -->    
+     
+
+<!-- SiteCatalyst code version: H.5.
+
+Copyright 1997-2006 Omniture, Inc. More info available at
+
+http://www.omniture.com -->
+
+<script type="text/javascript" src="http://www.scholastic.com/menu/templates/s_code.js"></script>
+
+<script type="text/javascript">
+
+var currentPage = location.pathname;
+
+s.pageName=""
+
+s.channel=""
+
+s.server=""
+
+if ( currentPage.indexOf("404error.asp") != -1 )
+
+        s.pageType="errorPage";
+
+else
+
+        s.pageType="";
+
+s.prop1=""
+
+s.prop2=""
+
+s.prop3=""
+
+s.prop4=""
+
+s.prop5=""
+
+s.prop14=""
+
+s.prop15=""
+
+s.prop16=""
+
+s.prop17=""
+
+s.prop18=""
+
+s.eVar3=""
+
+s.eVar4=""
+
+s.eVar6=""
+
+s.eVar13=""
+
+s.eVar14=""
+
+s.eVar15=""
+
+s.eVar16=""
+
+s.hier1=""
+
+if ( currentPage.indexOf("404error.asp") != -1 )
+
+            s.hier5=""
+
+else
+
+            s.hier5="static"
+
+s.events=""
+
+ 
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+
+<script type="text/javascript"><!--
+
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+
+//--></script><!--/DO NOT REMOVE/-->
+
+<!-- End SiteCatalyst code version: H.5. -->
+
+     
+</body>
+</html>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<books>
+	<book name="Mem">
+		<link>memscrapbook.htm</link>
+		<imageSmallBkgrd>images/books/imgHomeMemBkgrd.png</imageSmallBkgrd>
+		<imageSmallBook>images/books/imgBookMemSmall.png</imageSmallBook>
+		<imageLarge></imageLarge>
+	</book>
+	<book name="Abigail">
+		<link>abbyscrapbook.htm</link>
+		<imageSmallBkgrd>images/books/imgHomeAbigailBkgrd.png</imageSmallBkgrd>
+		<imageSmallBook>images/books/imgBookAbigailSmall.png</imageSmallBook>
+		<imageLarge></imageLarge>
+	</book>
+	<book name="Margaret">
+		<link>margaretscrapbook.htm</link>
+		<imageSmallBkgrd>images/books/imgHomeMargaretBkgrd.png</imageSmallBkgrd>
+		<imageSmallBook>images/books/imgBookMargaretSmall.png</imageSmallBook>
+		<imageLarge></imageLarge>
+	</book>
+	<book name="Piper">
+		<link>piperscrapbook.htm</link>
+		<imageSmallBkgrd>images/books/imgHomePiperBkgrd.png</imageSmallBkgrd>
+		<imageSmallBook>images/books/imgBookPiperSmall2.png</imageSmallBook>
+		<imageLarge></imageLarge>
+	</book>
+</books>

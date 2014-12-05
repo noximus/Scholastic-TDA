@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Dear America | Scholastic.com</title>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+em	{
+	font-style:normal!important;
+}
+</style>
+<![endif]-->
+<link rel="stylesheet" href="styles/popUpStyles.css" media="all" type="text/css"  />
+<link rel="stylesheet" type="text/css" href="styles/n.css" />
+<script type="text/javascript" src="scripts/pac.js"></script>
+<script type="text/javascript" src="scripts/ASPAjax.js"></script>
+<!-- LOAD A RECIPE -->
+<script type="text/javascript" src="scripts/loadARecipe.js"></script>
+<style type="text/css">
+<!-- 
+-->
+</style>
+</head>
+<body>
+<script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+<!-- LOAD GET VALUES FROM URL -->
+<script type="text/javascript" src="scripts/jquery.url.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+	// LOAD THE RECIPES XML
+	$.ajax({
+			type: "GET",
+			url: "xml/recipes.xml",
+			dataType: "xml",
+			success: loadARecipe
+		});	
+});
+</script>
+	<div id="popUpWrapper">
+        <a name="top"></a>
+      <div id="contentWrapper">
+        <div id="hdrPopUp">
+            	<span class="noCss">
+	                Teach Dear America
+				</span>
+        </div><!-- hdrPopup -->    
+        	<div id="hdrRecipes">
+				<span class="noCss">
+					Recipes	
+				</span>
+			</div><!-- /hdrRecipes -->
+            <div id="theRecipe">
+            </div><!-- /theRecipe -->
+            <div class="clearRight"><!-- clear the list --></div>
+      </div><!-- /contentWrapper -->
+    </div><!-- /popUpWrapper -->   
+
+<div id="emailCallout">
+	<a href="#" onclick="$('#emailCallout').css('display', 'none');" id="btnClosePopup"><span class="noCss">Close</span></a>
+  <div id="emailform"> <a href="#" class="email" onclick="hideEmail(); return false;">Email</a>
+    <form action="" method="post" name="frmEmail" id="frmEmail" autocomplete="off">
+      <input type="hidden" name="design" value="" />
+      <input type="hidden" name="ID" value="" />
+      <input type="text" class="txt" value="Your First Name" name="FromName" id="FromName" onfocus="pacClear(this);" onblur="pacClear(this);" />
+      <input type="text" class="txt" value="Friend's First Name" name="ToName"  id="ToName" onfocus="pacClear(this);" onblur="pacClear(this);" />
+      <input type="text" class="txt" value="Friend's Email Address" name="EmailTo" id="EmailTo"  onfocus="pacClear(this);" onblur="pacClear(this);" />
+      <p>Message: Check out this cool recipe I found on the Dear America Website!</p>
+      <p class="btn"><a href="#" onclick="SendEmail(); return false;">Send Email</a></p>
+      <p class="small">Scholastic does not collect or retain this information. Ask your parent or guardian for permission before you send email, and read our <a href="/privacy.htm">Privacy Policy</a>.</p>
+    </form>
+  </div><!-- /emailForm -->
+  <div id="tyou" style="display:none">
+    <h3>Thank you!</h3>
+    <p>Your email has been sent.</p>
+    <p><a href="#" onclick="sendAnother(); return false;">Send another email.</a></p>
+  </div><!-- /tyou -->
+</div>
+<!-- /emailCallout -->
+    </div><!-- /PopUpWrapper -->    
+     
+
+<!-- SiteCatalyst code version: H.5.
+
+Copyright 1997-2006 Omniture, Inc. More info available at
+
+http://www.omniture.com -->
+
+<script type="text/javascript" src="http://www.scholastic.com/menu/templates/s_code.js"></script>
+
+<script type="text/javascript">
+
+var currentPage = location.pathname;
+
+s.pageName=""
+
+s.channel=""
+
+s.server=""
+
+if ( currentPage.indexOf("404error.asp") != -1 )
+
+        s.pageType="errorPage";
+
+else
+
+        s.pageType="";
+
+s.prop1=""
+
+s.prop2=""
+
+s.prop3=""
+
+s.prop4=""
+
+s.prop5=""
+
+s.prop14=""
+
+s.prop15=""
+
+s.prop16=""
+
+s.prop17=""
+
+s.prop18=""
+
+s.eVar3=""
+
+s.eVar4=""
+
+s.eVar6=""
+
+s.eVar13=""
+
+s.eVar14=""
+
+s.eVar15=""
+
+s.eVar16=""
+
+s.hier1=""
+
+if ( currentPage.indexOf("404error.asp") != -1 )
+
+            s.hier5=""
+
+else
+
+            s.hier5="static"
+
+s.events=""
+
+ 
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+
+<script type="text/javascript"><!--
+
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+
+//--></script><!--/DO NOT REMOVE/-->
+
+<!-- End SiteCatalyst code version: H.5. -->
+
+     
+</body>
+</html>
+<script language="JavaScript" src="/menu/templates/fieldsValidation.js"></script>
+<script type="text/JavaScript">
+<!--
+
+function SendEmail()
+{
+	////////Declare all variables/////////
+	var errMsg="";
+	////////////////Begin: Check all required fields and display an error message if needed////////////////////
+
+	if (document.frmEmail.FromName.value =="Your First Name")
+	{ 	jQuery('#FromName').addClass('error');	
+	 errMsg=errMsg+1;
+	}
+
+	if (document.frmEmail.ToName.value =="Friend's First Name")
+	{ 	jQuery('#ToName').addClass('error');	
+	 errMsg=errMsg+1;
+	}
+
+	if (document.frmEmail.EmailTo.value =="Friend's Email Address" ||  isEmail(document.frmEmail.EmailTo.value)!=true)
+	{document.frmEmail.EmailTo.value="Friend's Email Address";
+	 	jQuery('#EmailTo').addClass('error');	
+		 errMsg=errMsg+1;
+	}
+
+	if (isblank(errMsg) != true)
+		{return false;
+	}
+	else if (isblank(errMsg) || errMsg=="")
+	{
+	DynamicEmail('FromName='+document.frmEmail.FromName.value+'&ToName='+document.frmEmail.ToName.value+'&EmailTo='+document.frmEmail.EmailTo.value+'&ID='+document.frmEmail.ID.value+'&design='+document.frmEmail.design.value)
+	}
+	////////////////End: Check all required fields and display an error message if needed////////////////////
+}
+
+//-->
+</script>

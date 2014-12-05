@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quizzes>
+	<quiz>
+		<girlName>Piper</girlName>
+		<quizTitle>Are you like Piper?</quizTitle>
+		<imageSmall>images/quizzes/areyoulikepiper.jpg</imageSmall>
+		<quizLink>quizzes/Piper/quizareyoulikepiper.htm</quizLink>
+	</quiz>
+	<quiz>
+		<girlName>Piper</girlName>
+		<quizTitle>Photographer or Photo-Hogger?</quizTitle>
+		<imageSmall>images/quizzes/photographerorphotohogger.jpg</imageSmall>
+		<quizLink>quizzes/Piper/quizphotographer.htm</quizLink>
+	</quiz>
+	<quiz>
+		<girlName>Abigail</girlName>
+		<quizTitle>Are you like Abby?</quizTitle>
+		<imageSmall>images/quizzes/areyoulikeabby.jpg</imageSmall>
+		<quizLink>quizzes/Abby/quizareyoulikeabby.htm</quizLink>
+	</quiz>
+	<quiz>
+		<girlName>Abigail</girlName>
+		<quizTitle>Could you be a Continental Soldier?</quizTitle>
+		<imageSmall>images/quizzes/canyoubeacontinentalsoldier.jpg</imageSmall>
+		<quizLink>quizzes/Abby/quizcouldyoubeasoldier.htm</quizLink>
+	</quiz>
+	<quiz>
+		<girlName>Margaret</girlName>
+		<quizTitle>Are you like Margaret?</quizTitle>
+		<imageSmall>images/quizzes/areyoulikemargaret.jpg</imageSmall>
+		<quizLink>quizzes/Margaret/quizareyoulikemargaret.htm</quizLink>
+	</quiz>
+	<quiz>
+		<girlName>Margaret</girlName>
+		<quizTitle>Would you survive the sinking of the Titanic?</quizTitle>
+		<imageSmall>images/quizzes/couldyousurvivethetitanic.jpg</imageSmall>
+		<quizLink>quizzes/Margaret/quizsurvivetitanic.htm</quizLink>
+	</quiz>
+	<quiz>
+		<girlName>Mem</girlName>
+		<quizTitle>How much do you have in common with Mem?</quizTitle>
+		<imageSmall>images/quizzes/howmuchdoyouhaveincommonwithmem.jpg</imageSmall>
+		<quizLink>quizzes/Mem/quizhowmuchcommonwithmem.htm</quizLink>
+	</quiz>
+	<quiz>
+		<girlName>Mem</girlName>
+		<quizTitle>Would you make it on the Mayflower?</quizTitle>
+		<imageSmall>images/quizzes/couldyousurvivethemayflower.jpg</imageSmall>
+		<quizLink>quizzes/Mem/quizsurvivemayflower.htm</quizLink>
+	</quiz>
+</quizzes>

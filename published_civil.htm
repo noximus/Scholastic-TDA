@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Dear America | Scholastic.com</title>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+em	{
+	font-style:normal!important;
+}
+.kbsStoreX	{
+	z-index:9999;
+	border:10px solid transparent;
+	margin-top:-5px!important;
+	height:1px!important;
+	width:0px!important;
+}
+</style>
+<![endif]-->
+
+<style type="text/css">@import url("/kids/stacks/scene/signatures/_css/agescreener.css");</style>
+<link rel="stylesheet" href="styles/popUpStyles.css" media="all" type="text/css"  />
+<!-- LOAD THE AUTHORS -->
+<script type="text/javascript" src="scripts/loadAllTheBooks.js"></script>
+<style type="text/css">
+<!-- 
+-->
+</style>
+<script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 	
+	// LOAD THE AUTHORS XML
+	$.ajax({
+			type: "GET",
+			url: "xml/allthebooks.xml",
+			dataType: "xml",
+			success: loadAllTheBooks
+		});
+
+	// BUY IT NOW BOXES
+	$('.storePopup').css('display', 'none');
+	//CLOSE THE POPUP
+	$('.kbsStoreX').click(function(){
+		$('#kbsStorePopCalloutBooks').fadeOut('slow');
+		return false;
+	});	
+});
+</script>
+</head>
+<body>
+	<div id="popUpWrapper">
+        <a name="top"></a>
+        <div id="contentWrapper">
+            <div id="hdrPopUp">
+            	<span class="noCss">
+	                Teach Dear America
+				</span>
+            </div>
+          <div class="clear"><!-- clear the floats -->
+            <table width="479" border="0" cellpadding="10">
+              <tr>
+                <td colspan="2"><h3>Slavery and the Civil War (1859-1865)</h3></td>
+              </tr>
+              <tr>
+                <td width="53">&nbsp;</td>
+                <td width="428">
+                  <em>The Journal of James Edmond Pease, A Civil War Union Soldier, Virginia, 1863</em><br />
+                  By Jim Murphy<br />
+                  16-year-old James is in the thick of the bloody battle to preserve the Union!</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td><em>The Journal of Rufus Rowe, A Witness to the Battle of Fredericksburg, Bowling Green, Virginia, 1862</em><br />
+By Sid Hite<br />
+16-year-old Rufus Rowe runs away from home, to escape his cruel stepfather. He finds work and shelter in Fredericksburg, Virginia, just as the Rebel troops begin to amass in preparation for a confrontation with the Union Army. </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+            </table>
+          </div>
+    </div><!-- /contentWrapper -->
+	</div><!-- /popUpWrapper --> 
+</body>
+</html>

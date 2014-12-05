@@ -1,0 +1,602 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.reset html{color:#000;background:#FFF;}.reset body,.reset dl,.reset dt,.reset dd,.reset ul,.reset ol,.reset li,.reset h1,.reset h2,.reset h3,.reset h4,.reset h5,.reset h6,.reset pre,.reset code,.reset form,.reset fieldset,.reset legend,.reset input,.reset textarea,.reset p,.reset blockquote,.reset th,.reset td{margin:0;padding:0;}.reset table{border-collapse:collapse;border-spacing:0;}.reset fieldset,.reset img{border:0;}.reset address,.reset caption,.reset cite,.reset code,.reset dfn,.reset strong,.reset th,.reset var{font-style:normal;font-weight:normal;}.reset li{list-style:none;}.reset caption,.reset th{text-align:left;}.reset h1,.reset h2,.reset h3,.reset h4,.reset h5,.reset h6{font-size:100%;font-weight:normal;}.reset q:before,.reset q:after{content:'';}.reset abbr,.reset acronym{border:0;font-variant:normal;}.reset sup{vertical-align:text-top;}.reset sub{vertical-align:text-bottom;}.reset input,.reset textarea,.reset select{font-family:inherit;font-size:inherit;font-weight:inherit;}.reset input,.reset textarea,.reset select{*font-size:100%;}.reset legend{color:#000;}
+
+
+/* =Clearfix (all browsers)--------------------------------*/
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+/* IE6 */
+ * html .clearfix {height: 1%;}
+ /* IE7 */
+ *:first-child+html .clearfix {min-height: 1px;}
+
+body{
+height:101% !important;
+}
+
+em {
+	font-style:italic!important;
+}
+.tabs ul li	{	
+vertical-align: top!important;  
+}
+#pageWrapper {
+background:url("images/bkgrdPopup.jpg") repeat scroll 0 0 transparent;
+height:auto;
+position:relative;
+width:920px;
+}
+
+.pgFooter {
+background:url("images/footer.jpg") no-repeat scroll 0 0 transparent;
+height:21px;
+width:920px;
+}
+
+
+#slideWrapper {
+background:url("images/slider_bg.png") no-repeat scroll 0 0 transparent;
+height:315px;
+padding-left:17px;
+padding-top:17px;
+width:784px;
+margin:0 auto;
+clear:both;
+}
+
+#slideWrapper-feature {
+background:url("images/sliderfeature_bg.png") no-repeat scroll 0 0 transparent;
+clear:both;
+height:51px;
+margin:0 auto;
+padding-left:17px;
+padding-top:17px;
+width:784px;
+}
+
+
+#hero {
+clear:both;
+height:262px;
+overflow:hidden;
+position:relative;
+width:751px;
+}
+
+
+#hero .items {
+clear:both;
+margin:0;
+padding:0;
+position:absolute;
+width:20000em;
+}
+	
+#hero div {
+		float:left;
+		display:block;
+		width:751px;
+		font-size:14px;
+		overflow: hidden;
+		position: relative;
+	}	
+
+/********************************
+ * Nav tabs styles go here!
+ ********************************/
+
+ul#herotabs {
+	background:url("images/track.png") no-repeat scroll 0 0 transparent;
+	float:left;
+	height:41px;
+}
+
+ul#herotabs li a{
+	display: block;
+	float: left;
+}
+
+ul#herotabs li{
+	float: left;
+}
+
+/************************************/
+
+.btn-civil { background: url(images/buttons.png); background-position: 0 -92px; width: 63px; height: 36px; } 
+.btn-civil:hover, .btn-civil.active { background: url(images/buttons.png); background-position: 0 -138px; width: 63px; height: 36px; } 
+
+.btn-colonial { background: url(images/buttons.png); background-position: 0 -184px; width: 101px; height: 36px; } 
+.btn-colonial:hover, .btn-colonial.active { background: url(images/buttons.png); background-position: 0 -230px; width: 101px; height: 36px; } 
+
+.btn-depression { background: url(images/buttons.png); background-position: 0 -276px; width: 120px; height: 36px; } 
+.btn-depression:hover, .btn-depression.active { background: url(images/buttons.png); background-position: 0 -322px; width: 120px; height: 36px; } 
+
+.btn-revolutionary { background: url(images/buttons.png); background-position: 0 -368px; width: 110px; height: 36px; } 
+.btn-revolutionary:hover, .btn-revolutionary.active { background: url(images/buttons.png); background-position: 0 -414px; width: 110px; height: 36px; } 
+
+.btn-turnof { background: url(images/buttons.png); background-position: 0 -460px; width: 134px; height: 36px; } 
+.btn-turnof:hover, .btn-turnof.active { background: url(images/buttons.png); background-position: 0 -506px; width: 134px; height: 36px; } 
+
+.btn-westward { background: url(images/buttons.png); background-position: 0 -552px; width: 122px; height: 36px; } 
+.btn-westward:hover, .btn-westward.active { background: url(images/buttons.png); background-position: 0 -598px; width: 122px; height: 36px; } 
+
+.btn-wwii { background: url(images/buttons.png); background-position: 0 -644px; width: 59px; height: 36px; } 
+.btn-wwii:hover, .btn-wwii.active { background: url(images/buttons.png); background-position: 0 -690px; width: 59px; height: 36px; } 
+
+
+
+
+.sidenav-about_era { background-image: url(images/sidenav.png);background-position: 0 0; width: 219px; height: 38px; text-indent: -9999px;} 
+.sidenav-about_era:hover, .sidenav-about_era.current { background-image: url(images/sidenav.png);background-position: 0 -48px; width: 219px; height: 38px; } 
+
+.sidenav-century { background-image: url(images/sidenav.png);background-position: 0 -96px; width: 219px; height: 38px; text-indent: -9999px;} 
+.sidenav-century:hover, .sidenav-century.current { background-image: url(images/sidenav.png);background-position: 0 -144px; width: 219px; height: 38px; }
+ 
+.sidenav-colonial {visibility:hidden; visibility:collapse;} 
+.sidenav-colonial:hover, .sidenav-colonial.current { background-image: url(images/sidenav.png);background-position: 0 -240px; width: 219px; height: 38px; } 
+
+.sidenav-related_books { background-image: url(images/sidenav.png);background-position: 0 -288px; width: 219px; height: 38px; text-indent: -9999px;} 
+.sidenav-related_books:hover, .sidenav-related_books.current { background-image: url(images/sidenav.png);background-position: 0 -336px; width: 219px; height: 38px; } 
+
+.sidenav-revolutionary { background-image: url(images/sidenav.png);background-position: 0 -384px; width: 219px; height: 38px; text-indent: -9999px;} 
+.sidenav-revolutionary:hover, .sidenav-revolutionary.current { background-image: url(images/sidenav.png);background-position: 0 -432px; width: 219px; height: 38px; } 
+
+.sidenav-scrapbook { background-image: url(images/sidenav.png);background-position: 0 -480px; width: 219px; height: 38px; text-indent: -9999px;} 
+.sidenav-scrapbook:hover, .sidenav-scrapbook.current { background-image: url(images/sidenav.png);background-position: 0 -528px; width: 219px; height: 38px; } 
+
+.sidenav-scrapbook.multiple-scrapbooks { background-image: url(images/sidenav_v2.png); }
+.sidenav-scrapbook.multiple-scrapbooks:HOVER, 
+.sidenav-scrapbook.multiple-scrapbooks.current { background-image: url(images/sidenav_v2.png); }
+
+.sidenav-student_activities { background-image: url(images/sidenav.png);background-position: 0 -576px; width: 219px; height: 38px; text-indent: -9999px;} 
+.sidenav-student_activities:hover, .sidenav-student_activities.current { background-image: url(images/sidenav.png);background-position: 0 -624px; width: 219px; height: 38px; } 
+
+.sidenav-whiteboard {background-image: url(images/sidenav.png); background-position: 0 -672px; width: 219px; height: 38px; text-indent: -9999px;} 
+.sidenav-whiteboard:hover, .sidenav-whiteboard.current { background-image: url(images/sidenav.png);background-position: 0 -720px; width: 219px; height: 38px; } 
+
+
+.sidenav-civil_war { background-image: url(images/sidenav2.png); background-position: 0 0; width: 217px; height: 37px; } 
+.sidenav-civil_war:hover, .sidenav-civil_war.current { background-image: url(images/sidenav2.png); background-position: 0 -47px; width: 217px; height: 37px; }
+ 
+.sidenav-great_depression {background-image: url(images/sidenav2.png); background-position: 0 -94px; width: 217px; height: 37px; } 
+.sidenav-great_depression:hover, .sidenav-great_depression.current { background-image: url(images/sidenav2.png); background-position: 0 -141px; width: 217px; height: 37px; } 
+
+.sidenav-teachers_resources { background-image: url(images/sidenav2.png); background-position: 0 -188px; width: 217px; height: 38px; text-decoration:none; color:#2B0318; } 
+
+
+.sidenav-teachers_published {  width: 217px; height: 10px; vertical-align:middle; margin-top:10px;  padding-left:4px;  color:#370A18;} 
+
+.readMore{background-image:url(images/readMore.jpg);width: 128px; height: 29px;
+	
+}
+
+
+.sidenav-teachers_resources:hover, .sidenav-teachers_resources.current { background-image: url(images/sidenav2.png); background-position: 0 -236px; width: 217px; height: 38px; } 
+
+.sidenav-westward_expansion { background-image: url(images/sidenav2.png); background-position: 0 -284px; width: 217px; height: 37px; } 
+.sidenav-westward_expansion:hover, .sidenav-westward_expansion.current { background-image: url(images/sidenav2.png); background-position: 0 -331px; width: 217px; height: 37px; } 
+
+.sidenav-world_war { background-image: url(images/sidenav3.png); background-position: 0 0; width: 217px; height: 36px; } 
+.sidenav-world_war:hover,.sidenav-world_war.current  { background-image: url(images/sidenav3.png); background-position: 0 -46px; width: 217px; height: 36px; } 
+
+
+.hidden{
+display: none;
+}
+
+
+ul li span{display:block;}
+
+
+.btn-arrow-left {
+background:url("images/arrow_left.png") no-repeat;
+display:block;
+float:left;
+height:40px;
+margin-left:-4px;
+width:25px;
+cursor: pointer;
+}
+
+.btn-arrow-right {
+background:url("images/arrow_right.png") no-repeat;
+display:block;
+float:left;
+height:40px;
+width:25px;
+cursor: pointer;
+}
+
+.track { background: url(images/buttons.png); background-position: 0 -754px; width: 708px; height: 45px; } 
+
+
+
+.slide-info{
+position: absolute !important;
+width: 328px !important;
+right:0;
+top:0;
+color:#3b0723;
+font-family: Georgia;
+}
+
+.slide-info .slideinfotop{
+background: url(images/slideinfotop.png) no-repeat;
+width:328px !important;
+height: 46px;
+}
+
+.slide-info .slideinfotop h2 {
+font-family:Georgia;
+font-size:17px;
+font-weight:bold;
+margin-left:14px;
+margin-top:12px;
+}
+
+.slide-info .slideinfotop h2 span{
+
+font-size:12px;
+
+}
+
+.slide-info .slideinfomid{
+background: url(images/slideinfomid.png) repeat-y;
+width:328px !important;
+height: auto;
+
+}
+
+.slide-info .slideinfomid p {
+font-size:14px;
+padding-left:31px;
+padding-right:31px;
+}
+
+.slide-info .slideinfobot{
+background: url(images/slideinfobot.png) no-repeat;
+width:328px !important;
+height: 18px;
+
+}
+
+
+a.viewera {
+background-image:url("images/viewera.jpg");
+background-position:0 0;
+background-repeat:no-repeat;
+display:block;
+height:33px;
+margin-bottom:3px;
+margin-left:31px;
+margin-top:7px;
+width:135px;
+}
+a.viewera:hover { display:block; background-image:url(images/viewera.jpg); background-position: 0 -43px; width: 135px; height: 33px; } 
+
+
+
+#secondary {
+transparent;
+height:256px;
+margin:0 auto 0 61px;
+width:784px;
+}
+
+#secondaryBackground{
+background:url("images/secondaryBG.png") no-repeat scroll 0 0;
+
+}
+
+#daHeader {
+background:url("images/header.png") no-repeat scroll 0 0 transparent;
+clear:both;
+float:left;
+height:118px;
+margin-left:-15px;
+margin-top:-10px;
+width:953px;
+position: relative;
+}
+
+.navigation {
+color:#230000;
+float:right;
+font-family:georgia;
+font-size:14px;
+height:30px;
+margin-top:47px;
+width:559px;
+}
+
+.navigation a {
+color:#230000 !important;
+padding-left:10px !important;
+padding-right:9px !important;
+text-decoration:none !important;
+}
+
+.navigation a:hover {
+color:#5a3b1d !important;
+}
+
+#secondary .boxtile {
+float:left;
+height:auto;
+margin-left:8px;
+padding-top:11px;
+width:250px;
+text-align: center;
+}
+
+#teacherResources a {
+    display: block;
+    
+    padding: 0px !important;
+    margin: 10px auto 0 auto !important;
+    
+    width: 151px;
+    height: 33px;
+    
+    background: url(images/homepage/teacherResources_btns.jpg) no-repeat;
+}
+
+#teacherResources a#studentActivities {
+    background-position: 0 0;
+}
+
+#teacherResources a#whiteboardReady {
+    background-position: 0 -33px;
+}
+
+#teacherResources a#primarySource {
+    background-position: 0 -99px;
+}
+
+#teacherResources a#studentJournals {
+    background-position: 0 -66px;
+}
+
+#secondary .boxtile .tileheader{}
+#secondary .boxtile a {
+margin:9px auto 0;
+padding-top:6px;
+}
+
+/*a.checkout { display:block;background-image: url(images/tiles.png);background-position: 0 0; width: 236px; height: 165px; } 
+a.checkout:hover { display:block;background-image: url(images/tiles.png);background-position: 0 -175px; width: 236px; height: 165px; }*/
+a.checkout {
+    display: block;
+    padding: 0  !important;
+    margin-top: 15px  !important;
+    
+    background-image: url(images/homepage/promoTile.jpg);
+    background-position: bottom left;
+    
+    width: 156px;
+    height: 161px;
+}
+a.checkout:HOVER {
+    background-position: bottom right;
+}
+
+/*a.findoutmore { display:block;background-image: url(images/tiles.png);background-position: 0 -350px; width: 218px; height: 167px; }
+a.findoutmore:hover { display:block;background-image: url(images/tiles.png);background-position: 0 -527px; width: 218px; height: 167px; } */
+a.findoutmore {
+    display: block;
+    padding: 0 !important;
+    margin-top: 15px  !important;
+    
+    background-image: url(images/homepage/promoTile.jpg);
+    background-position: top left;
+    
+    width: 222px;
+    height: 161px;
+}
+a.findoutmore:HOVER {
+    background-position: top right;
+}
+
+a.journals { display:block;background-image: url(images/tiles.png);background-position: 0 -704px; width: 164px; height: 46px; } 
+a.journals:hover { display:block;background-image: url(images/tiles.png);background-position: 0 -760px; width: 164px; height: 46px; } 
+a.printables { display:block;background-image: url(images/tiles.png);background-position: 0 -816px; width: 203px; height: 46px; } 
+a.printables:hover { display:block;background-image: url(images/tiles.png);background-position: 0 -872px; width: 203px; height: 46px; } 
+a.teachersguide { display:block;background-image: url(images/tiles.png);background-position: 0 -928px; width: 150px; height: 33px; } 
+a.teachersguide:hover { display:block;background-image: url(images/tiles.png);background-position: 0 -971px; width: 150px; height: 33px; } 
+
+
+.mainContent {
+margin:10px auto 0 54px;
+width:797px;
+}
+.mainContent .content-top {
+background:url("images/content-top.png") no-repeat scroll 0 0 transparent;
+height:15px;
+width:797px;
+}
+.mainContent .content-mid {
+	background:url("images/content-mid.png") repeat-y scroll 0 0 transparent;
+	height:auto;
+	padding-left:26px;
+	padding-right:24px;
+	padding-top:5px;
+	width:745px;
+	min-height: 400px;
+}
+
+.mainContent .content-bot {
+background:url("images/content-bot.png") no-repeat scroll 0 0 transparent;
+height:34px;
+width:797px;
+}
+
+
+
+
+
+#erainfo .pageLeft{
+float:left;
+width:230px;
+height: auto;
+padding-right: 30px;
+}
+
+
+#erainfo .pageRight{
+float:left;
+width:480px;
+height: auto;
+}
+
+
+.eraInfo_TeacherResources_ItemText,
+#erainfo .pageRight p, #erainfo .pageRight a {
+color:#2B0318;
+font-family:Georgia;
+font-size:14px;
+font-weight:normal;
+line-height:1.4em;
+padding-bottom:8px;
+padding-top:7px;
+}
+
+#erainfo .pageRight p a{
+color:#2B0318;
+}
+
+#erainfo .pageRight h3, #erainfo .pageRight h2{
+font-weight: bold;
+color:#2B0318;
+font-family: Georgia;
+font-size: 15px;
+padding-top: 3px;
+padding-bottom: 6px
+}
+#erainfo .pageRight span.timeline strong{
+font-weight: bold;
+font-size:14px !important;
+
+}
+#erainfo .pageRight span.timeline{
+color:#2B0318;
+font-family: Georgia;
+float:left;
+clear:both;
+font-size:14px !important;
+padding-bottom:8px;
+width:485px;
+}
+
+.pageLeft ul.tabs li{
+width:219px;
+border-bottom: 1px solid #e5d2b5;
+}
+
+.pageLeft ul.tabs li a{
+	display: block;
+	height: 38px;
+	vertical-align: middle;
+}
+
+span.hidden ul li{
+border:0 !important;
+list-style-type: disc;
+color:#cc8e00;
+cursor: pointer;
+}
+
+span.hidden ul{
+width:180px;
+padding-left:25px;
+}
+span.hidden ul li a{
+text-decoration: none !important;
+color:#cc8e00 !important;
+}
+
+.dakids {
+background: url("images/dakids.png") no-repeat scroll 0 0 transparent;
+display: block;
+height: 12px;
+margin-left: 67px;
+margin-top: 8px;
+padding-bottom: 12px;
+width: 298px;
+}
+
+#daBottomLinks_homepage {
+    margin: 8px 0 0 67px;
+    padding-bottom: 12px;
+    
+    height: 12px;
+}
+
+.dakids_homepage {
+float: left;
+display:block;
+
+height:12px;
+width:298px;
+
+background:url("images/dakids.png") no-repeat scroll 0 0 transparent;
+}
+
+.photoCredits_homepage {
+float: left;
+display:block;
+
+margin-left: 17px;
+margin-top:5px;
+
+height:12px;
+width:105px;
+
+background:url("images/homepage/photoCredits.png") no-repeat scroll 0 0 transparent;
+}
+
+#daHeader a.library{
+position: absolute;
+right: 0;
+width:202px;
+height: 63px;
+}
+
+#daHeader a.logo{
+position: absolute;
+left: 0;
+width:347px;
+height: 77px;
+}
+
+.pageRight li{
+list-style:circle inside none;
+}
+
+.about p{
+font-size:14px !important;
+}
+
+.about a{
+color:#CC8E00 !important;
+text-decoration:underline !important;
+}
+
+.resources a{
+color:#CC8E00 !important;
+}
+
+.resources a.resourceSectionAnchor  {
+    color: #069 !important;
+}
+
+.loclogo{margin-left:37px !important;}
+
+.text_18 {
+    font-size: 18px !important;
+}
+
+.resources ul li.tdaSubItem
+{
+    padding: 0 0 0 20px;
+}

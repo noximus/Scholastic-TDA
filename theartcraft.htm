@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Dear America | Scholastic.com</title>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+em	{
+	font-style:normal!important;
+}
+</style>
+<![endif]-->
+<link rel="stylesheet" href="styles/popUpStyles.css" media="all" type="text/css"  />
+<link rel="stylesheet" type="text/css" href="styles/n.css" />
+<script type="text/javascript" src="scripts/pac.js"></script>
+<script type="text/javascript" src="scripts/ASPAjax.js"></script>
+<!-- LOAD THE RECIPES -->
+<script type="text/javascript" src="scripts/loadACraft.js"></script>
+<style type="text/css">
+<!-- 
+#theCraft	{
+	padding-right:20px;
+}
+-->
+</style>
+<script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+<!-- LOAD GET VALUES FROM URL -->
+<script type="text/javascript" src="scripts/jquery.url.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+	//var urlTitle = jQuery.url.param("craft");
+	//alert(urlTitle);
+	// LOAD THE CRAFTS XML
+	$.ajax({
+			type: "GET",
+			url: "xml/crafts.xml",
+			dataType: "xml",
+			success: loadACraft
+		});	
+});
+</script>
+</head>
+<body>
+	<div id="popUpWrapper">
+        <a name="top"></a>
+        <div id="contentWrapper">
+            <div id="hdrPopUp">
+            	<span class="noCss">
+	                Teach Dear America
+				</span>
+            </div><!-- hdrPopup -->    
+        	<div id="hdrArtsCrafts">
+				<span class="noCss">
+					Arts &amp; Crafts
+				</span>
+			</div><!-- /hdrArtsCrafts -->
+            <div id="theCraft">
+            </div><!-- /theCraft -->
+        <div class="clear"><!-- clear the floats --></div>
+        </div><!-- /contentWrapper -->
+    </div><!-- /PopUpWrapper -->  
+    </div><!-- /PopUpWrapper -->    
+     
+
+<!-- SiteCatalyst code version: H.5.
+
+Copyright 1997-2006 Omniture, Inc. More info available at
+
+http://www.omniture.com -->
+
+<script type="text/javascript" src="http://www.scholastic.com/menu/templates/s_code.js"></script>
+
+<script type="text/javascript">
+
+var currentPage = location.pathname;
+
+s.pageName=""
+
+s.channel=""
+
+s.server=""
+
+if ( currentPage.indexOf("404error.asp") != -1 )
+
+        s.pageType="errorPage";
+
+else
+
+        s.pageType="";
+
+s.prop1=""
+
+s.prop2=""
+
+s.prop3=""
+
+s.prop4=""
+
+s.prop5=""
+
+s.prop14=""
+
+s.prop15=""
+
+s.prop16=""
+
+s.prop17=""
+
+s.prop18=""
+
+s.eVar3=""
+
+s.eVar4=""
+
+s.eVar6=""
+
+s.eVar13=""
+
+s.eVar14=""
+
+s.eVar15=""
+
+s.eVar16=""
+
+s.hier1=""
+
+if ( currentPage.indexOf("404error.asp") != -1 )
+
+            s.hier5=""
+
+else
+
+            s.hier5="static"
+
+s.events=""
+
+ 
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+
+<script type="text/javascript"><!--
+
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+
+//--></script><!--/DO NOT REMOVE/-->
+
+<!-- End SiteCatalyst code version: H.5. -->
+
+     
+
+</body>
+</html>

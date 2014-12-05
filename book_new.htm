@@ -1,0 +1,305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">@import url("/kids/stacks/scene/signatures/_css/agescreener.css");</style>
+<link rel="stylesheet" href="styles/popUpStyles.css" media="all" type="text/css"  />
+<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+
+<title>Teach Dear America | Scholastic.com</title>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+em	{
+	font-style:normal!important;
+}
+</style>
+<![endif]-->
+
+<style type="text/css">
+	#contentWrapper_Spacer {
+        height: 120px;
+    }
+    
+    #contentWrapper {
+        padding-top: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .kbsStoreBottom strong {
+        font-weight: bold !important;
+    }
+    
+    #kbsStorePopCalloutBook,
+    #kbsStorePopCalloutBooks {
+        font-size: 12px !important;
+        line-height: 15px !important;
+        color:#2B0318 !important;
+    }
+    
+    #kbsStorePopCalloutBook p,
+    #kbsStorePopCalloutBooks p {
+        padding: 8px 0;
+    }
+    
+    #kbsStorePopCalloutBook a,
+    #kbsStorePopCalloutBooks a {
+        color:#2B0318 !important;
+    }
+    
+    #kbsStorePopCalloutBook {
+        left: 130px;
+    }
+</style>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+em	{
+	font-style:normal!important;
+}
+.kbsStoreX	{
+	z-index:9999;
+	border:10px solid transparent;
+	margin-top:-5px!important;
+	height:1px!important;
+	width:0px!important;
+}
+.btnReadExcerpt {
+    margin-left: 13px !important;
+}
+#contentWrapper_Spacer {
+    height: 0px;
+}
+</style>
+<![endif]-->
+
+</head>
+<body>
+<!-- #exec cgi="/menu/menu.pl?uri=/wide/teacher/no_ads/" -->
+
+<!--script src="http://cdn.jquerytools.org/1.2.4/full/jquery.tools.min.js"></script-->
+<script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.url.js"></script>
+<script type="text/javascript" src="scripts/loadABook.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 		
+	// LOAD THE AUTHORS XML
+	$.ajax({
+			type: "GET",
+			url: "xml/allthebooks.xml",
+			dataType: "xml",
+			success: loadABook
+		});
+	$('.buyBook').click(function(){
+		
+		$('#kbsStorePopCalloutBook')
+			.fadeIn('slow')
+			.animate({ top: (
+							 $('div.btnBuyTheBook').position().top
+							 //- $('#kbsStorePopCalloutBook').height()
+							 - 200 // the background image height
+							 ) + 'px',
+					 	left: $('div.btnBuyTheBook').position().left + 'px'
+					}, 'slow');
+		return false;
+	});
+	$('.kbsStoreX').click(function(){
+		$('#kbsStorePopCalloutBook').fadeOut('slow');
+		return false;
+	});
+	$('#btnMoreSummary').click(function(){
+		$('#bookDetail').show('slow');
+		$('#btnMoreSummary').css('display', 'none');
+		return false;		
+	});	
+});
+</script>
+
+<div id="pageWrapper" class="reset">
+
+<div id="daHeader">
+<a href="index.htm" class="logo"></a>
+<a href="libraryofcongress.htm" class="library" target="_blank"></a>
+<div class="navigation">
+<a href="index.htm">Home</a>    |    <a href="meettheauthors.htm" target="_blank">Meet the Authors</a>    |    <a href="explorethebooks.htm" target="_blank">Explore the Books   |</a>     
+</div>
+
+</div>
+
+<!--
+<div id="slideWrapper-feature">
+
+
+
+<a class="btn-arrow-left prev" href="westward.htm"></a>
+<ul id="herotabs" class="navi">
+	<li><a class="btn-colonial" href="colonial.htm"></a></li>
+	<li><a class="btn-revolutionary" href="revolutionary.htm"></a></li>
+	<li><a class="btn-westward" href="westward.htm"></a></li>
+	<li><a class="btn-civil active" href="civil.htm"></a></li>
+	<li><a class="btn-turnof" href="turnof.htm"></a></li>
+	<li><a class="btn-depression" href="depression.htm"></a></li>
+	<li><a class="btn-wwii" href="wwii.htm"></a></li>
+</ul>
+<a class="btn-arrow-right next" href="turnof.htm"></a>
+
+</div>
+-->
+
+
+<div class="mainContent">
+	<!--
+    
+	<div class="content-top"></div>
+
+
+	<div id="erainfo" class="content-mid clearfix">
+	<div class="pageLeft">
+
+
+<ul class="tabs">
+	<li><a class="sidenav-civil_war main current"href="civil.htm"></a></li>
+	<li><a class="sidenav-about_era main" href="civil_about.htm">About the Era</a></li>
+	<li><span class="sidenav-related_books main slideDwn" href="#">Related Books</span>
+	<span class="hidden">
+	<ul>
+    <li><a href="civil_related1.htm"><em>When Will This Cruel War Be Over?</em></a></li>
+    <li><a href="civil_related2.htm"><em>I Thought My Soul Would Rise and Fly</em></a></li>
+    <li><a href="civil_related3.htm"><em>The Journal of James Edmond Pease</em></a></li>
+    </ul>
+    <br/>
+    </span>
+    </li>
+</ul>
+
+</div>
+
+<div class="pageRight">
+	<div class="eralogo"></div>
+
+
+
+<div>
+		<img src="images/civil_logo.jpg" />
+		<img src="images/eraimages/civilwar.jpg" alt="civil war" width="455" height="222" />
+		<p>The American Civil War was a conflict that pitted the Northern states against the Southern states. The war raged for four years (1861-65) and was marked by some of the bloodiest battles of modern history. Huge armies were raised on both sides. The war not only affected the soldiers but women and children at home, especially in the Southern states. Everyone was engaged in supporting the war effort even when battles were taking place in view of their homes.</p>
+		</div>
+
+	
+	</div>
+
+
+
+
+
+<script>
+
+
+$('.slideDwn').click( function() {
+$("a.current").removeClass("current");
+$('ul li').removeClass("current");
+$(this).addClass("current").parent().find('.hidden').slideToggle("slow");
+});
+
+</script>	
+	
+	
+	
+	
+	</div>
+
+
+
+
+	<div class="content-bot"></div>
+    
+    -->
+    
+    <div id="contentWrapper_Spacer"></div>
+    <div id="contentWrapper">
+        <!--<div id="hdrPopUp">
+            <span class="noCss">
+                Teach Dear America
+            </span>
+    
+        </div> hdrPopup -->  	
+        <div id="hdrAllTheBooks">
+            <span class="noCss">
+                All The Books
+            </span>
+        </div><!-- /hdrAllScrapbooks -->
+        <div id="TheBookBox">
+            <div id="bookTitle1">
+            </div><!-- /bookTitle1 -->
+            <div id="bookTitle2">
+    
+            </div><!-- /bookTitle2 -->
+            <div id="bookAuthor">
+                Author: <span></span>
+            </div><!-- /bookAuthor -->
+            <div id="bookTimePeriod">
+                Time Period: <span></span>
+            </div><!-- /bookTimePeriod -->
+            <div id="bookSummary">
+    
+            </div><!-- /bookSummary -->
+            <!--<a href="" id="btnMoreSummary">...MORE</a>-->
+            <div id="bookDetail">
+            </div><!-- /bookDetail -->
+            <div class="spaceBox"><!-- space! --></div>
+            
+            <div>
+                <div class="btnBuyTheBook">
+                    <a href="#" class="buyBook" id="openbookNumber">
+                        <span class="noCss">Buy The Book</span>
+    
+                    </a>
+                    <div id="kbsStorePopCalloutBook" class="storePopup">
+                        <a title="Close" class="kbsStoreX" href="#"></a>
+                        <p class="kbsStoreTop" id="storeTopbookNumber"><br />
+                            <a class="aAgeScreener" href="" id="buyLinkScholastic">Scholastic</a><br />
+                            Or try these other online stores:<br/>
+                            <a class="aAgeScreener" href="" id="buyLink1" target="_blank"></a> | 
+                            <a class="aAgeScreener" href="" id="buyLink2" target="_blank"></a> | 
+                            <a class="aAgeScreener" href="" id="buyLink3" target="_blank"></a>
+    
+                            <a class="aAgeScreener" href="" id="buyLink4" target="_blank"></a>
+                            <a class="aAgeScreener" href="" id="buyLink5" target="_blank"></a>
+                            <a class="aAgeScreener" href="" id="buyLink6" target="_blank"></a>
+                            <p class="kbsStoreBottom"><strong>Find a Local Bookstore</strong><br/>Enter your address, city, or zip code to find bookstores near you using Google Maps:</p>
+                            <form target="_blank" method="get" action="http://maps.google.com/maps" name="storeNearMe" onsubmit="exitPageGM(this);return false;" id="zipFormbookNumber">
+                                <input type="text" class="kbsZip" name="near"/>
+                                <input type="hidden" value="bookstore" name="q"/>
+                                <input type="image" alt="FIND NOW" class="kbsFind" src="http://www.scholastic.com/kids/lastdragonchronicles/images/find_now.gif" name="find"/>
+    
+                            </form>
+                        </p>
+                    </div><!-- /kbsStorePopCalloutBook -->
+                </div><!-- /btnBuyTheBook -->
+                <div class="btnReadExcerpt">
+                    <a href="pdf/excerpt.pdf" target="_blank" id="btnDownload">
+                        <span class="noCss">Download an Excerpt</span>
+                    </a>
+    
+                </div><!-- /btnReadExcerpt -->
+            </div>
+            
+            <div class="clearRight"><!-- clear the floats --></div>
+        </div>
+        <!-- /theBookBox -->
+    <div class="clear"><!-- clear the floats --></div>
+    </div><!-- /contentWrapper -->
+
+</div>
+
+<a class="dakids" href="http://www.scholastic.com/dearamerica"></a>
+	
+</div><!-- /pageWrapper -->
+<div class="pgFooter"></div>
+
+<!-- #exec cgi="/menu/footer.pl?uri=/wide/teacher/no_ads/" -->
+
+
+
+</body>
+</html>

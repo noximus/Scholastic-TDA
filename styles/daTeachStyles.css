@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+#daContainer	{
+	width:722px;
+}
+#daTopBox	{
+	background:url(../images/daBkgrdTop.jpg) no-repeat;
+	height:274px;
+}
+#daLogoBanner	{
+	height:78px;
+	margin-bottom:25px;
+}
+#daLogo	{
+	float:left;
+	background:url(../images/daLogoDearAmerica.png) no-repeat;
+	width:289px;
+	height:78px;	
+}
+#daBanner	{
+	float:left;
+	background:url(../images/daBanner.png) no-repeat;
+	width:433px;
+	height:78px;
+}
+#daBanner span	{
+	display:none;
+}
+#daBooks	{
+	background:url(../images/daBooks.png) no-repeat;
+	height:153px;
+}
+#daBooks a	{
+	display:block;
+	height:163px;
+	width:304px;
+}
+#daBottomBox	{
+	padding-top:39px;
+	background:url(../images/daBkgrdParchment.jpg) no-repeat;
+	height:557px;
+}
+#daVideoBox	{
+	border:1px #523224 solid;
+	margin-left:191px;
+	padding:8px;
+	width:323px;
+	height:273px;
+}
+#daTxtComeBack	{
+	background:url(../images/daTxtComeBack.png) no-repeat;
+	margin-top:10px;
+	height:112px;
+}
+#daBtnDownloadSample	{
+	margin-top:13px;
+	background:url(../images/daBtnDownloadSample.png) no-repeat;
+	margin-left:188px;
+	width:346px;
+	height:161px;
+}
+#daBtnDownloadSample span	{
+	display:none;
+}
+#daBtnDownloadSample a	{
+	display:block;
+	width:346px;
+	height:161px;
+}

@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<title>Teach Dear America | Scholastic.com</title>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+em	{
+	font-style:normal!important;
+}
+</style>
+<![endif]-->
+
+
+</head>
+<body>
+<!-- #exec cgi="/menu/menu.pl?uri=/wide/teacher/no_ads/" -->
+
+<div id="pageWrapper" class="reset">
+<script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		/*$('.tabs  a.main.current').toggleClass('current');
+		$('.tabs .sidenav-' + $.tdaCurrentPage).toggleClass('current');*/
+		
+		function showSection(link)
+		{
+			if (0 == $(link).attr('href')
+				|| 0 == $($(link).attr('href')).size())
+			{
+				return false;
+			}
+			
+			var sectionToShow = $(link).attr('href');
+			$('#tdaCivil_Content > div').each(function(i, e) {
+				if (false == $(e).hasClass('hidden'))
+				{
+					$(e).fadeOut('slow', function() {
+						
+						$(this).addClass('hidden');
+						
+						$(sectionToShow)
+							.removeClass('hidden')
+							.fadeIn('slow');
+					});
+					
+					return false;
+				}
+			});
+			
+			return false;
+		}
+		
+		$('.tabs a.main').click(function() {
+			if (true == $(this).hasClass('current'))
+			{
+				return false;
+			}
+			
+			var selected = $(this);
+			if (0 == $('.tabs span.slideDown_Current').size())
+			{
+				$('.tabs a.main.current').toggleClass('current');
+				$(this).toggleClass('current');
+			}
+			else
+			{
+				$('.tabs span.slideDown_Current').removeClass('slideDown_Current')
+				.slideToggle("slow", function() {
+					$('.tabs a.main.current').toggleClass('current');
+					$(selected).toggleClass('current');
+				});
+			}
+			
+			if (0 < $(this).parent().find('span.hidden').size())
+			{
+				$(this).parent().find('.hidden').addClass('slideDown_Current')
+				.slideToggle("slow");
+			}
+			
+			return showSection($(this));
+		});
+		
+		$('.tabs .tdaRelatedBooks a').click(function() {
+			return showSection($(this));
+		});
+		
+		/*$(function(){
+			$('li.recipes').click(function(){
+				window.open("recipes.htm");
+				return false;
+			});
+		});
+		
+		$(function(){
+			$('li.artsandcrafts').click(function(){
+				window.open("artscrafts.htm");
+				return false;
+			});
+		});*/
+	});
+</script>
+
+<div id="daHeader">
+<a href="index.htm" class="logo"></a>
+<a href="libraryofcongress.htm" class="library" target="_blank"></a>
+<div class="navigation">
+<a href="index.htm">Home</a>    |    <a href="meettheauthors.htm" target="_blank">Meet the Authors</a>    |    <a href="explorethebooks.htm" target="_blank">Explore the Books   |</a>     
+</div>
+
+</div>
+
+<div id="slideWrapper-feature">
+
+
+
+<a class="btn-arrow-left prev" href="westward.htm"></a>
+<ul id="herotabs" class="navi">
+	<li><a class="btn-colonial" href="colonial.htm"></a></li>
+	<li><a class="btn-revolutionary" href="revolutionary.htm"></a></li>
+	<li><a class="btn-westward" href="westward.htm"></a></li>
+	<li><a class="btn-civil active" href="civil.htm"></a></li>
+	<li><a class="btn-turnof" href="turnof.htm"></a></li>
+	<li><a class="btn-depression" href="depression.htm"></a></li>
+	<li><a class="btn-wwii" href="wwii.htm"></a></li>
+</ul>
+<a class="btn-arrow-right next" href="turnof.htm"></a>
+
+</div>
+
+
+
+<div class="mainContent">
+	<div class="content-top"></div>
+
+	<div id="erainfo" class="content-mid clearfix">
+    
+        <!-- NOTE: Remove this script after Dev proccess 
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $.ajax({
+                    url: 'includes/civil_sidenav.inc.htm',
+                    dataType: 'html',
+                    success: function(data)
+                    {
+                        $('div.pageLeft').first()
+                            .html(data);
+                    },
+                    error: function(XMLHttpRequest, textStatus, errorThrown)
+                    {
+                        $('div.pageLeft').first()
+                            .html('<h2>Could not find Sidenav</h2>');
+                    }
+                });
+            });
+        </script>-->
+        <div class="pageLeft">
+        
+            <!-- the tabs - which is the sidenav -->
+            <!-- include file="includes\civil_sidenav.inc.htm" -->
+        	
+        	<ul class="tabs">
+            <li><a class="sidenav-civil_war main current"href="#tdaCivil_Home"></a></li>
+            <li><a class="sidenav-about_era main" href="#tdaCivil_About">About the Era</a></li>
+            
+            <li><a class="sidenav-student_activities main slideDwn" href="#">Student Activities</a>
+                <span class="hidden">
+                    <ul>
+                        <li class="recipes">
+                        	<a href="recipes.htm" target="_blank">Recipes</a>
+                        </li>
+                        <li class="artsandcrafts">
+                        	<a href="artscrafts.htm" target="_blank">Arts &amp; Crafts</a>
+                        </li>
+                    </ul>
+                <br/>
+                </span>
+            </li>
+            
+            <li><a class="sidenav-scrapbook main multiple-scrapbooks" href="#tdaCivil_Scrapbook">Explore the Scrapbook</a></li>
+            <li>
+                <a class="sidenav-related_books main slideDwn" href="#">Related Books</a>
+                <span class="hidden">
+                    <ul class="tdaRelatedBooks">
+                    <li><a href="#tdaCivil_Book_1"><em>When Will This Cruel War Be Over?</em></a></li>
+                    <li><a href="#tdaCivil_Book_2"><em>I Thought My Soul Would Rise and Fly</em></a></li>
+                    <li><a href="#tdaCivil_Book_3"><em>The Journal of James Edmond Pease</em></a></li>
+                    </ul>
+                    <br/>
+                </span>
+            </li>
+        </ul>
+        	
+        </div>
+    	
+    	
+        <div class="pageRight">
+            <div class="eralogo"></div>
+            
+            <div id="tdaCivil_Content">
+                <div id="tdaCivil_Home">
+                    <img src="images/civil_logo.jpg" />
+                    <img src="images/eraimages/civilwar.jpg" alt="civil war" width="455" height="222" />
+                    <p>The American Civil War was a conflict that pitted the Northern states against the Southern states. The war raged for four years (1861-65) and was marked by some of the bloodiest battles of modern history. Huge armies were raised on both sides. The war not only affected the soldiers but women and children at home, especially in the Southern states. Everyone was engaged in supporting the war effort even when battles were taking place in view of their homes.</p>
+                </div>
+                
+                <div id="tdaCivil_About" class="hidden">
+                    <img src="images/civil_logo.jpg" />
+            
+                    <p>Eighty-five years after the United States declared its independence, the country was at war again. This time, Americans were not fighting foreigners, they were fighting each other, North versus South. The American Civil War lasted four years, from 1861 to 1865, and killed more American soldiers - both Union and Confederate - than would die in the two world wars combined. What happened to the United States to make them fight?</p>
+                    
+                    <p>One of the most significant issues was the economic split between the North and the South. In the early 1800s the Northern states, especially those in New England, turned from farming to manufacturing. But in the South, farming remained the most important way of life. Southern planters found cotton and tobacco to be their most profitable crops, and they farmed large areas of land in order to meet the demand for these goods. This system was profitable because of slave labor. Southern plantations used African-American slaves as a huge and cheap labor force. In the North, people began to regard slavery as wrong, and abolitionists, anti-slavery reformers, began to preach against the evils of slavery. The South felt that their way of life was being threatened.</p>
+                    
+                    <p>As America expanded west, the issue of whether slavery should be allowed in the new territories grew heated. Many Northerners were opposed to expansion of slavery. Abolitionists wanted to end slavery throughout the entire country. They considered the practice evil and contrary to the ideals of democracy.</p>
+                    
+                    <p>In addition to the conflict over slavery, many Southern states believed that the laws of the individual states should overrule the laws of the federal, or national, government. These Southerners didn't want the federal government to interfere in their state affairs. They believed that the states reserved the right to reject any federal laws they did not like.</p>
+                    
+                    <p>The turning point was the 1860 presidential election. The Republican Party picked Abraham Lincoln as its candidate for president. Lincoln was not an abolitionist but he had spoken against the spread of slavery into the territories, which meant the South considered him an enemy. Leading Southerners announced that they would demand secession from the Union if Lincoln won the election. Lincoln did win the election on November 6, 1860, and a month later, South Carolina seceded from the United States. Mississippi, Florida, Alabama, Georgia, Louisiana, and Texas followed South Carolina in leaving the Union. The Civil War had begun.</p>
+                    
+                    <p>Originally, the North began the war to preserve the Union, not to end slavery. But President Lincoln eventually became convinced that emancipation, granting freedom to slaves, was necessary to win the war. He issued the Emancipation Proclamation at the beginning of 1863, after which the Union considered all slaves in the Confederacy to be free.</p>
+                    
+                    <p>The Civil War lasted until 1865 and was finally won by the North after a terrible cost in lives on both sides - including the life of President Lincoln. As the North celebrated its victory, Lincoln was assassinated by John Wilkes Booth, a Southern sympathizer.</p>
+                    
+                    <p>Following the Civil War, three amendments to the U.S. Constitution (13, 14, and 15) were ratified to outlaw slavery and to guarantee citizenship and voting rights to all Americans, specifically the recently freed slaves. Many of the problems involving states' rights were also put to rest, as the federal government emerged as the supreme authority in the United States. In addition, before the Civil War the development of industry and transportation had been slow. But during the grim years of the war, American industry had learned new ways of manufacturing and had developed more efficient methods of transporting people and supplies.</p>
+                    
+                    <p>Nevertheless, many new problems surfaced. The Southern economy, which had been almost entirely based on agriculture, had collapsed. The war had destroyed the plantations and ruined much of the farmland. Many Southern cities and towns had also been destroyed, and the people of the South were desperately poor. Second, at the end of the war, the Southern states found themselves without governments. These states had to be re-admitted to the Union, but they could not rejoin the United States until they had established legal state governments. Finally, 4 million former slaves had to start new lives as free people. </p>
+                    
+                    <p>Read the diaries of James Edmond Pease, a Union soldier; Emma Simpson, a Southern girl; and Patsy, a freed slave, to learn what life was like for these young people in these chaotic and bloody times.</p>
+                    <br/>
+                    <br/>
+                    
+                    <h3>Civil War Timeline</h3>
+                    
+                    <span class="timeline"><strong>1850:</strong> Compromise of 1850 effected between antislavery and proslavery factions. It brought California into the union as a free state while Texas was admitted as a slave state. It also abolished the slave trade from the District of Columbia, though it was still legal to own slaves there. The compromise also states that New Mexico and Utah would decide for themselves on whether they would be slave or free states when they joined the Union. Finally, a new fugitive slave law made it a crime for anyone to help an escaped slave.</span>
+                    <span class="timeline"><strong>1854:</strong> Republican Party formed.</span>
+                    <span class="timeline"><strong>1856:</strong> Civil war in Kansas over slavery issue.</span>
+                    <span class="timeline"><strong>1857:</strong> Dred Scott decision by Supreme Court legalizes slavery in U.S. territories.</span>
+                    <span class="timeline"><strong>1858:</strong> Senatorial candidates Abraham Lincoln and Stephen Douglas debate slavery in Illinois.</span>
+                    <span class="timeline"><strong>1859:</strong> Abolitionist John Brown leads raid at Harper's Ferry, Virginia, and is hanged..</span>
+                    <span class="timeline"><strong>1860:</strong> Lincoln elected president. South Carolina secedes from Union</span>
+                    <span class="timeline"><strong>1861:</strong> Civil War begins with firing on Fort Sumter in South Carolina.</span>
+                    <span class="timeline"><strong>1863:</strong> Emancipation Proclamation issued.Battles of Gettysburg and Vicksburg.</span>
+                    <span class="timeline"><strong>1864:</strong> Sherman's army marches to the sea in Georgia.</span>
+                    <span class="timeline"><strong>1865:</strong> Confederate General Robert E. Lee surrenders at Appomattox, Virginia. Lincoln assassinated; Andrew Johnson succeeds him as President. 13th Amendment, prohibiting slavery, ratified</span>
+                </div>
+                
+                <div id="tdaCivil_Scrapbook" class="hidden">
+                    Dummy scrapbook links!
+                    <a href="#" onclick='window.open("margaretscrapbook.htm","","location=0,status=0,scrollbars=1,width=1100,height=800");'><img src="images/scrapbook_margaret.jpg" alt="scrapbook_margaret" width="450" height="155" /></a>
+                    <a href="#" onclick='window.open("margaretscrapbook.htm","","location=0,status=0,scrollbars=1,width=1100,height=800");'><img src="images/scrapbook_margaret.jpg" alt="scrapbook_margaret" width="450" height="155" /></a>
+                </div>
+                
+                <div id="tdaCivil_Book_1" class="hidden">
+                    <img src="images/civil_logo.jpg" />
+                    <img src="images/book_simpson.png" />
+                    <br/>
+                    <br/>
+                    <h3><em>When will this cruel war be over?: The Civil War Diary of Emma Simpson, Gordonsville, VA, 1864</em></h3>
+                    
+                    <p>For Southerners, the Civil War took place in their backyards - literally! The Southern states of the Confederacy fought to maintain their way of life as farmers and slave owners. They felt that Northerners wanted to dictate how they should live. Nearly all men who could join the army did, abandoning their farms and leaving their families to struggle for survival in harsh conditions. Prices of basic supplies and food soared, and many went hungry. Disease plagued both soldiers and those left at home. Southerners found the world as they knew it destroyed by the war, which raged on their doorsteps, as farms lay barren, homes were burned, and loved ones were killed. Those who survived the war faced the humiliation of defeat, adjustment to a world where their former slaves were now their equals, and the monumental task of rebuilding a devastated land. </p>
+                    <br/>
+                    <h3>Meet Emma Simpson</h3>
+                    <p>Emma Simpson lived with her family on a plantation in Gordonsville, Virginia. Her family owned slaves, and both her brother and father fought for the Confederacy. Left with her mother and their slaves, Emma recorded the difficulties of her life during the war. She feared for her brother and father, and with her mother, had to run the plantation without them. Read her thoughts on the war and all about her life in her diary.</p>
+                    
+                    <p><em>The war has been going on far longer than anyone thought, so long that I fear we have become accustomed to it. We have grown accustomed to having no men around, accustomed to things we had taken for granted - coffee, ink, flour for baking - all becoming precious, and accustomed to all the gaiety having vanished from our lives. We seem to have lost all hope, as if this is the way it will be forever.</em></p>
+                </div>
+                
+                <div id="tdaCivil_Book_2" class="hidden">
+                    <img src="images/civil_logo.jpg" />
+                    <br/>
+                    <br/>
+                    <h3><em>I Thought My Soul Would Rise and Fly: The Diary Of Patsy, A Freed Girl, Mars Bluff, South Carolina 1865</em></h3>
+                    
+                    <p>In December 1865, eight months after the Civil War ended, Congress ratified the Thirteenth amendment, abolishing slavery in the United States. However, this did not mean that the approximately four million formerly enslaved men, women, and children in the country were accepted as American citizens with equal rights under the law. They were no longer enslaved, but slavery's chains were hard to break.</p>
+                    
+                    <p>Racism, hatred, and violence continued after the Civil War. Southern states passed laws and regulations called the Black Codes in an attempt to virtually re-enslave the newly freed people. In some states, a freed man could only be employed as a farmer or a servant. People would be arrested if they refused to sign work contracts even if that meant receiving low wages. Essentially, the Black Codes tried to bring slavery back into practice. The freed men and women, however, resisted the many schemes that Southern leaders used to try limiting them. They refused to sign work contracts that did not meet their wage demands. They were also determined that their children be educated, and they refused to work on plantations that did not allow them to have a school. The African-American community came together to form their own churches and organize black conventions in order to fight for and demand protection under the law, as well as an end to the Black Codes. Most of all, the freed men and women tried to obtain land so that they could farm for themselves and be independent of white control.</p>
+                    
+                    <p>The struggles begun during this period of Reconstruction following the Civil War would not end until the civil rights movement of the 1950s and 1960s. To learn more about the civil rights movement, <a href="http://teacher.scholastic.com/activities/bhistory/" target="_blank">click here</a>.</p>
+                    
+                    <br/>
+                    <h3>Meet Patsy</h3>
+                    <p>Patsy began her life as a slave in South Carolina. Her ability to read and write made her a valuable member of the black community. She kept a diary beginning just after the Civil War, which recounts the confusing transition from slave to free.</p>
+                    
+                    <p><em>We celebrated Emancipation Day. Some people came from other farms. Violet and the other women made greens and peas and rice, for good luck, for the new year. The people who visited brought sweet potato pies and pecan pies, and we had a good time. It seems as if everyone except me and the other children made a speech about how President Lincoln had signed the Emancipation Proclamation three years ago, and what this day means to all of us.</em></p>
+                </div>
+                
+                <div id="tdaCivil_Book_3" class="hidden">
+                    <img src="images/civil_logo.jpg" />
+                    <br/>
+                    <br/>
+                    <h3><em>The Journal of James Edmond Pease: A Civil War Union Soldier, Virginia, 1863</em></h3>
+                    
+                    <p>Over two million men served as soldiers in the Union army during the Civil War. Some of these soldiers were drafted, but a number of them volunteered. They volunteered because they felt it was their duty to defend the Union, but they also volunteered because they got caught up in "war fever." An estimated 800,000 soldiers were 17 years old or younger. They had lied about their age to join because they wanted to be a part of what they thought would be a brief but glorious adventure. Perhaps they thought that army life would be an exciting alternative to their daily lives and daily chores.</p>
+                    
+                    <p>No matter what their reason for joining the war, the Civil War changed the boys who fought in it. But, like the Union, those who survived came out stronger for their scars and wiser for their experiences.</p>
+                    
+                    <br/>
+                    
+                    <h3>Meet James Edmond Pease</h3>
+                    <p>James Edmond Pease, an orphan, had nowhere to turn and little to lose so he joined the Union army. He kept the journal of his Company and recorded their experiences in battle against the Confederate "Reb" army.</p>
+            
+                    <p><em>I have to admit to being very nervous as we entered the woods. I even started to have trouble breathing and had to take in little gulps of air, but I kept moving forward by watching the man in front of me and dashed ahead whenever he did. My breathing settled down some and was almost normal when I saw something move out of the corner of my eye.</em></p>
+            
+                    <p><em>I was sure I had a Reb located - maybe 400 feet away - and I pointed my musket at the tree near his position. I was holding steady, aiming, finger on the trigger, when I heard the loud crack of a shot out of the many that was crackling around me and then the wooshing sound of the ball coming at me.</em></p>
+            
+                    <p><em>I know this does not seem possible but stranger things have happened in this strange war and I know what I heard, so I ducked and just then the ball sent my forage cap sailing. I was so startled I just sat there on the ground, staring at my cap with its new ventilation hole thru [sic?] the band and wondering what that ball would have done to my head if I hadn't moved.</em></p>
+                </div>
+			</div>
+        </div>
+	
+	</div>
+
+	<div class="content-bot"></div>
+</div>
+
+<a class="dakids" href="http://www.scholastic.com/dearamerica"></a>
+	
+</div><!-- /pageWrapper -->
+<div class="pgFooter"></div>
+
+<!-- #exec cgi="/menu/footer.pl?uri=/wide/teacher/no_ads/" -->
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Dear America | Scholastic.com</title>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+em	{
+	font-style:normal!important;
+}
+.kbsStoreX	{
+	z-index:9999;
+	border:10px solid transparent;
+	margin-top:-5px!important;
+	height:1px!important;
+	width:0px!important;
+}
+</style>
+<![endif]-->
+
+<style type="text/css">@import url("/kids/stacks/scene/signatures/_css/agescreener.css");</style>
+<link rel="stylesheet" href="styles/popUpStyles.css" media="all" type="text/css"  />
+<!-- LOAD THE AUTHORS -->
+<script type="text/javascript" src="scripts/loadAllTheBooks.js"></script>
+<style type="text/css">
+<!-- 
+-->
+</style>
+<script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 	
+	// LOAD THE AUTHORS XML
+	$.ajax({
+			type: "GET",
+			url: "xml/allthebooks.xml",
+			dataType: "xml",
+			success: loadAllTheBooks
+		});
+
+	// BUY IT NOW BOXES
+	$('.storePopup').css('display', 'none');
+	//CLOSE THE POPUP
+	$('.kbsStoreX').click(function(){
+		$('#kbsStorePopCalloutBooks').fadeOut('slow');
+		return false;
+	});	
+});
+</script>
+</head>
+<body>
+	<div id="popUpWrapper">
+        <a name="top"></a>
+        <div id="contentWrapper">
+            <div id="hdrPopUp">
+            	<span class="noCss">
+	                Teach Dear America
+				</span>
+            </div>
+          <div class="clear"><!-- clear the floats -->
+            <table width="479" border="0" cellpadding="10">
+              <tr>
+                <td colspan="2"><h3>Revolutionary War (1776-1781)</h3></td>
+              </tr>
+              <tr>
+                <td width="53">&nbsp;</td>
+                <td width="428"><em>Love Thy Neighbor, The Tory Diary of Prudence Emerson, Greenmarsh, Massachusetts, 1774</em><br />
+                  By Ann Turner<br />
+                  In the winter of 1775, as Prudence Emerson's neighbors prepare to fight the British for independence, Pru is torn between her family's sworn allegiance to the King, and her loneliness for the friends who abandon her for the Patriot cause. When the first battle at Bunker Hill explodes, Pru must find the courage to weather the turbulent times.</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td><em>The Journal of William Thomas Emerson, A Revolutionary War Patriot, Boston, Massachusetts, 1774</em><br />
+By Barry Denenberg<br />
+As tensions escalate in the period just before the American Revolution, a boy surrounded by political rumblings and violence joins a secret group of rebels against the British.</td>
+              </tr>
+            </table>
+          </div>
+    </div><!-- /contentWrapper -->
+	</div><!-- /popUpWrapper --> 
+</body>
+</html>

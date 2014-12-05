@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<books>
+	<book name="The Diary of Piper Davis">
+		<author>Kirby Larson</author>
+		<girl>Piper</girl>
+		<bookImage>images/books/imgAllBooksPiper.png</bookImage>
+		<download>pdf/FencesBetweenUs.pdf</download>
+		<guide>pdf/SCH_DAFencesDG.pdf</guide>
+		<bookShort>The Fences Between Us</bookShort>
+		<bookTitle>The Fences Between Us: The Diary of Piper Davis, Seattle Washington, 1941</bookTitle>
+		<timespan>World War II</timespan>
+		<bookSummary>With this sweeping tale of life on the World War II homefront, Newbery Honor author Kirby Larson brings her incredible talent to the Dear America series. When Pearl Harbor is attacked, America is finally unable to ignore the wars raging in Europe and Asia any longer. And one girl's entire life is about to change when everything she knows is turned on its head. After the devastating attack on Pearl Harbor, where her brother, a navy sailor, is stationed, Piper Davis begins chronicling her compelling journey through one of history's most tragic and unforgettable eras.</bookSummary>
+		<!--<bookDetail></bookDetail>-->
+		<buyLinkScholastic><![CDATA[http://store.scholastic.com/webapp/wcs/stores/servlet/ProductDisplay?Nav=com.endeca.navigation.Navigation%40406c507b&jspStoreDir=SSOStore&ERecs=%5Bcom.endeca.navigation.ERec%40730e107b%5D&searchTerm=9780545224185&productId=46552&catalogId=10051&Usq=N%3D0%26Ntk%3DSS_SI%26Ntt%3D9780545224185%26Ntx%3Dmode%252bmatchallpartial%26Nty%3D1&ERecsSize=1&langId=-1&SearchString=Ntt%3D9780545224185%26Ntk%3DSS_SI%26storeId%3D10052%26Ntx%3Dmode%252bmatchallpartial%26searchTerm%3D9780545224185%26N%3D0%26catalogId%3D10051%26jspStoreDir%3DSSOStore%26Nty%3D1&productName=Dear+America%3A+The+Fences+Between+Us+%A0&storeId=10052&Ntk=SS_SI&ddkey=SearchEndecaCmd]]></buyLinkScholastic>
+		<buyLink1><![CDATA[http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dstripbooks&field-keywords=9780545224185]]></buyLink1>
+		<buyLinkText1>Amazon</buyLinkText1>
+		<buyLink2><![CDATA[http://search.barnesandnoble.com/books/product.aspx?EAN=9780545224185]]></buyLink2>
+		<buyLinkText2>Barnes and Noble</buyLinkText2>
+		<buyLink3><![CDATA[http://www.indiebound.org/book/9780545224185]]></buyLink3>
+		<buyLinkText3>IndieBound</buyLinkText3>
+		<buyLink4></buyLink4>
+		<buyLinkText4></buyLinkText4>
+		<buyLink5></buyLink5>
+		<buyLinkText5></buyLinkText5>
+		<buyLink6></buyLink6>
+		<buyLinkText6></buyLinkText6>		
+	</book>
+	<book name="The Diary of Remember Patience Whipple">
+		<author>Kathryn Lasky</author>
+		<girl>Mem</girl>
+		<bookImage>images/books/imgAllBooksMem.png</bookImage>
+		<download>pdf/JourneyToTheNewWorld.pdf</download>
+		<guide>pdf/SCH_DAJourneyDG.pdf</guide>
+		<bookShort>A Journey to the New World</bookShort>
+		<bookTitle>A Journey to the New World: The Diary of Remember Patience Whipple, Mayflower, 1620</bookTitle>
+		<timespan>Colonial Period</timespan>
+		<bookSummary>Twelve-year-old Remember Patience Whipple ("Mem" for short) has just arrived in the New World with her parents after a grueling 65-day journey on the Mayflower. Mem has an irrepressible spirit, and leaps headfirst into life in her new home. Despite harsh conditions, Mem is fearless. She helps to care for the sick and wants more than anything to meet and befriend a Native American.</bookSummary>
+		<!--<bookDetail></bookDetail>-->
+		<buyLinkScholastic><![CDATA[http://store.scholastic.com/webapp/wcs/stores/servlet/ProductDisplay?Nav=com.endeca.navigation.Navigation%407c6d8f0f&jspStoreDir=SSOStore&ERecs=%5Bcom.endeca.navigation.ERec%402220f0f%5D&searchTerm=9780545238014&productId=46550&catalogId=10051&Usq=N%3D0%26Ntk%3DSS_SI%26Ntt%3D9780545238014%26Ntx%3Dmode%252bmatchallpartial%26Nty%3D1&ERecsSize=1&langId=-1&SearchString=Ntt%3D9780545238014%26Ntk%3DSS_SI%26storeId%3D10052%26Ntx%3Dmode%252bmatchallpartial%26searchTerm%3D9780545238014%26N%3D0%26catalogId%3D10051%26jspStoreDir%3DSSOStore%26Nty%3D1&productName=Dear+America%3A+A+Journey+to+the+New+World+%A0&storeId=10052&Ntk=SS_SI&ddkey=SearchEndecaCmd]]></buyLinkScholastic>
+		<buyLink1><![CDATA[http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dstripbooks&field-keywords=9780545238014]]></buyLink1>
+		<buyLinkText1>Amazon</buyLinkText1>
+		<buyLink2><![CDATA[http://search.barnesandnoble.com/books/product.aspx?EAN=9780545238014]]></buyLink2>
+		<buyLinkText2>Barnes and Noble</buyLinkText2>
+		<buyLink3><![CDATA[http://www.indiebound.org/book/9780545238014]]></buyLink3>
+		<buyLinkText3>IndieBound</buyLinkText3>
+		<buyLink4></buyLink4>
+		<buyLinkText4></buyLinkText4>
+		<buyLink5></buyLink5>
+		<buyLinkText5></buyLinkText5>
+		<buyLink6></buyLink6>
+		<buyLinkText6></buyLinkText6>		
+	</book>
+	<book name="The Diary of Abigail Jane Stewart">
+		<author>Kristiana Gregory</author>
+		<girl>Abigail</girl>
+		<bookImage>images/books/imgAllBooksAbigail.png</bookImage>
+		<download>pdf/WinterOfRedSnow.pdf</download>
+		<guide>pdf/SCH_DAWinterDG.pdf</guide>
+		<bookShort>The Winter of Red Snow</bookShort>
+		<bookTitle>The Winter of Red Snow: The Diary of Abigail Jane Stewart, Valley Forge, Pennsylvania, 1777</bookTitle>
+		<timespan>Revolutionary War</timespan>
+		<bookSummary>Eleven-year-old Abigail Jane Stewart's fictionalized diary about her life, family, friends, and neighbors, and the sides they have to choose in Valley Forge, Pennsylvania, during the height of the Revolutionary War, renders a vivid portrayal of one of the most memorable and crucial winters in American history.  Abby's life with her family is quickly upended when they are awakened by the unfamiliar sound of drums. General George Washington is leading the Continental soldiers into their winter encampment at Valley Forge, PA.</bookSummary>
+		<!--<bookDetail></bookDetail>-->
+		<buyLinkScholastic><![CDATA[http://store.scholastic.com/webapp/wcs/stores/servlet/ProductDisplay?Nav=com.endeca.navigation.Navigation%40594793aa&jspStoreDir=SSOStore&ERecs=%5Bcom.endeca.navigation.ERec%40472153aa%5D&searchTerm=9780545238021&productId=46556&catalogId=10051&Usq=N%3D0%26Ntk%3DSS_SI%26Ntt%3D9780545238021%26Ntx%3Dmode%252bmatchallpartial%26Nty%3D1&ERecsSize=1&langId=-1&SearchString=Ntt%3D9780545238021%26Ntk%3DSS_SI%26storeId%3D10052%26Ntx%3Dmode%252bmatchallpartial%26searchTerm%3D9780545238021%26N%3D0%26catalogId%3D10051%26j]]></buyLinkScholastic>
+		<buyLink1><![CDATA[http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dstripbooks&field-keywords=9780545238021]]></buyLink1>
+		<buyLinkText1>Amazon</buyLinkText1>
+		<buyLink2><![CDATA[http://search.barnesandnoble.com/books/product.aspx?EAN=9780545238021]]></buyLink2>
+		<buyLinkText2>Barnes and Noble</buyLinkText2>
+		<buyLink3><![CDATA[http://www.indiebound.org/book/9780545238021]]></buyLink3>
+		<buyLinkText3>IndieBound</buyLinkText3>
+		<buyLink4></buyLink4>
+		<buyLinkText4></buyLinkText4>
+		<buyLink5></buyLink5>
+		<buyLinkText5></buyLinkText5>
+		<buyLink6></buyLink6>
+		<buyLinkText6></buyLinkText6>		
+	</book>
+	<book name="The Diary of Margaret Ann Brady">
+		<author>Ellen Emerson White</author>
+		<girl>Margaret</girl>
+		<bookImage>images/books/imgAllBooksMargaret.png</bookImage>
+		<download>pdf/VoyageOnTheGreatTitanic.pdf</download>
+		<guide>pdf/SCH_DATitanicDG.pdf</guide>
+		<bookShort>Voyage on the Great Titanic</bookShort>
+		<bookTitle>Voyage on the Great Titanic: The Diary of Margaret Ann Brady, R.M.S. Titanic, 1912</bookTitle>
+		<timespan>Turn of the 20th Century</timespan>
+		<bookSummary>Five years ago, Margaret Ann Brady's older brother left her in the care of an orphanage and immigrated to America. When the orphanage receives an unusual request from an American woman looking for a traveling companion, Margaret's teachers agree that she is the perfect candidate to accompany Mrs. Carstairs on the Titanic, so that once Margaret arrives in New York she will be free to join her brother in Boston. But the Titanic is destined for tragedy, and Margaret's journey is thrown into a frozen nightmare when the ship collides with an iceberg.</bookSummary>
+		<!--<bookDetail></bookDetail>-->
+		<buyLinkScholastic></buyLinkScholastic>
+		<buyLink1></buyLink1>
+		<buyLinkText1></buyLinkText1>
+		<buyLink2></buyLink2>
+		<buyLinkText2></buyLinkText2>
+		<buyLink3></buyLink3>
+		<buyLinkText3></buyLinkText3>
+		<buyLink4></buyLink4>
+		<buyLinkText4></buyLinkText4>
+		<buyLink5></buyLink5>
+		<buyLinkText5></buyLinkText5>
+		<buyLink6></buyLink6>
+		<buyLinkText6></buyLinkText6>		
+	</book>
+	
+	<!-- ******************************************************** -->
+							<!-- PHASE 2 -->
+	<!-- ******************************************************** -->
+	<book name="Like the Willow Tree">
+		<author>Lois Lowry</author>
+		<girl>Amelia</girl>
+		<bookImage>images/books/imgAllBooksLydia.png</bookImage>
+		<download>pdf/LikeTheWillowTree.pdf</download>
+		<bookShort>Like the Willow Tree</bookShort>
+		<bookTitle>Like the Willow Tree: The Diary of Lydia Amelia Pierce, Portland, Maine, 1918</bookTitle>
+		<timespan>Turn of the 20th Century</timespan>
+		<bookSummary><![CDATA[
+			Suddenly orphaned by the Spanish flu epidemic in the fall of 1918, eleven-year-old Lydia Pierce and her fourteen-year-old brother, Daniel, of Portland, Maine, are taken by their uncle to be raised in the Shaker community at Sabbathday Lake. Thrust into the Shakers' <!-- ' --> unfamiliar way of life, Lydia must grapple with a new world that is nothing like the one she used to know.
+                        <br />
+						<br /> 
+			Now separated from her beloved brother, for men and women do not mix in this community, Lydia must adjust to many changes. But in time, and with her courageous spirit, she learns to find the joy in life again.
+			<br />
+			<br />
+			<a href="phase2_assets/loislowry/audio/DA_Willow_Lowry_Chs_1_3.mp3">Listen to a reading.</a>
+		]]></bookSummary>
+		<!--<bookDetail></bookDetail>-->
+		<buyLinkScholastic><![CDATA[http://store.scholastic.com/webapp/wcs/stores/servlet/SearchEndecaCmd?storeId=10052&catalogId=10051&searchTerm=9780545144698]]></buyLinkScholastic>
+		
+		<buyLink1><![CDATA[http://www.amazon.com/Like-Willow-Tree-Dear-America/dp/0545144698/ref=sr_1_1?s=books&ie=UTF8&qid=1292608476&sr=1-1]]></buyLink1>
+		<buyLinkText1>Amazon</buyLinkText1>
+		
+		<buyLink2><![CDATA[http://search.barnesandnoble.com/books/product.aspx?EAN=9780545144698]]></buyLink2>
+		<buyLinkText2>Barnes and Noble</buyLinkText2>
+		
+		<buyLink3><![CDATA[http://www.indiebound.org/book/9780545144698]]></buyLink3>
+		<buyLinkText3>IndieBound</buyLinkText3>
+		
+		<buyLink4><![CDATA[http://www.target.com/Like-Willow-Tree-Hardcover-Lowry/dp/B004FPXOXG/ref=sc_qi_detailbutton]]></buyLink4>
+		<buyLinkText4>Target</buyLinkText4>
+		
+		<buyLink5></buyLink5>
+		<buyLinkText5></buyLinkText5>
+		<buyLink6></buyLink6>
+		<buyLinkText6></buyLinkText6>		
+	</book>
+	
+	<book name="A Picture of Freedom">
+		<author>Patrick C. McKissack</author>
+		<girl>Clotee</girl>
+		<bookImage>images/books/imgAllBooksClotee.png</bookImage>
+		<download>pdf/APictureOfFreedom.pdf</download>
+		<bookShort>A Picture of Freedom</bookShort>
+		<bookTitle>A Picture of Freedom: The Diary of Clotee, a Slave Girl, Belmont Plantation, Virginia, 1859</bookTitle>
+		<timespan>Civil War</timespan>
+		<bookSummary><![CDATA[
+			It's 1859 and Clotee, a twelve-year-old slave, has the most wonderful, terrible secret. She knows that if she shares it with the wrong person, she will face unimaginable consequences. What is her secret? While doing her job of fanning her master's son during his daily lessons, Clotee has taught herself to read and write. However, she soon learns that the tutor, Ely Harms, has a secret of his own.
+						<br />
+						<br /> 
+						In a time when literacy is one of the most valuable skills to have, Clotee is determined to use her secret to save herself, and her family.
+		]]></bookSummary>
+		<!--<bookDetail></bookDetail>-->
+		<buyLinkScholastic><![CDATA[http://store.scholastic.com/webapp/wcs/stores/servlet/SearchEndecaCmd?storeId=10052&catalogId=10051&searchTerm=9780545242530]]></buyLinkScholastic>
+		
+		<buyLink1><![CDATA[http://www.amazon.com/Picture-Freedom-Dear-America/dp/0545242533/ref=sr_1_1?s=books&ie=UTF8&qid=1292608559&sr=1-1]]></buyLink1>
+		<buyLinkText1>Amazon</buyLinkText1>
+		
+		<buyLink2><![CDATA[http://search.barnesandnoble.com/books/product.aspx?EAN=9780545242530]]></buyLink2>
+		<buyLinkText2>Barnes and Noble</buyLinkText2>
+		
+		<buyLink3><![CDATA[http://www.indiebound.org/book/9780545242530]]></buyLink3>
+		<buyLinkText3>IndieBound</buyLinkText3>
+		
+		<buyLink4><![CDATA[http://www.target.com/Picture-Freedom-Hardcover-Pat-McKissack/dp/B004FQ4T7A/ref=sc_qi_detailbutton]]></buyLink4>
+		<buyLinkText4>Target</buyLinkText4>
+		
+		<buyLink5></buyLink5>
+		<buyLinkText5></buyLinkText5>
+		<buyLink6></buyLink6>
+		<buyLinkText6></buyLinkText6>		
+	</book>
+	
+	<book name="A Light in the Storm">
+		<author>Karen Hesse</author>
+		<girl>Martin</girl>
+		<bookImage>images/books/imgAllBooksAmelia.png</bookImage>
+		<download>pdf/ALightInTheStorm.pdf</download>
+		<bookShort>A Light in the Storm</bookShort>
+		<bookTitle>A Light in the Storm: The Diary of Amelia Martin, Fenwick Island, Delaware, 1861</bookTitle>
+		<timespan>Civil War</timespan>
+		<bookSummary><![CDATA[
+			In 1861, Amelia Martin's father is stripped of his post as a ship's captain when he is caught harboring the leader of a slave rebellion. Now he is an assistant lighthouse keeper on Fenwick Island, off the coast of Delaware -- a state wedged between the North and the South, just as Amelia is wedged between her warring parents. Amelia's mother blames her abolitionist husband for their living conditions, which she claims are taking a toll on her health. Amelia observes her mother's hate and her father's admiration for Abraham Lincoln.  
+						<br />
+						<br /> 
+			But slavery is the deeper issue separating the two sides. As the Civil War rages on, Amelia slowly learns that she cannot stop the fighting, but by keeping watch in the lighthouse each day, lighting the lamps, cleaning the glass, and rescuing victims of Atlantic storms, she can still make a difference.
+		<!-- ' -->]]></bookSummary>
+		<!--<bookDetail></bookDetail>-->
+		<buyLinkScholastic><![CDATA[http://store.scholastic.com/webapp/wcs/stores/servlet/SearchEndecaCmd?storeId=10052&catalogId=10051&searchTerm=9780545242455]]></buyLinkScholastic>
+		
+		<buyLink1><![CDATA[http://www.amazon.com/Light-Storm-Dear-America/dp/0545242452/ref=sr_1_1?s=books&ie=UTF8&qid=1292608635&sr=1-1]]></buyLink1>
+		<buyLinkText1>Amazon</buyLinkText1>
+		
+		<buyLink2><![CDATA[http://search.barnesandnoble.com/books/product.aspx?EAN=9780545242455]]></buyLink2>
+		<buyLinkText2>Barnes and Noble</buyLinkText2>
+		
+		<buyLink3><![CDATA[http://www.indiebound.org/book/9780545242455]]></buyLink3>
+		<buyLinkText3>IndieBound</buyLinkText3>
+		
+		<buyLink4><![CDATA[http://www.target.com/Like-Willow-Tree-Hardcover-Lowry/dp/B004FPXOXG/ref=nr_rvi_1]]></buyLink4>
+		<buyLinkText4>Target</buyLinkText4>
+		
+		<buyLink5></buyLink5>
+		<buyLinkText5></buyLinkText5>
+		<buyLink6></buyLink6>
+		<buyLinkText6></buyLinkText6>		
+	</book>
+	
+	
+	
+	
+	
+	
+	
+	<book name="When Will This Cruel War Be Over?">
+		<author>Barry Denenberg</author>
+		<girl>Simpson</girl>
+		<bookImage>images/books/imgAllBooksEmma.png</bookImage>
+		<download>pdf/WhenWillThisCruelWarBeOverSample.pdf</download>
+		<bookShort>When Will This Cruel War Be Over?</bookShort>
+		<bookTitle>When Will This Cruel War Be Over?: The Diary of Emma Simpson, Gordonsville, Virginia, 1864</bookTitle>
+		<timespan>Civil War</timespan>
+		<bookSummary><![CDATA[
+			The peaceful, traditional Southern life that Emma Simpson and her family know is shattered when the Civil War reaches their soil. Soon, Emma's<!-- ' --> father and brother are called to battle, but her family is confident the South will quickly win the War between the States. 
+                        <br />
+						<br /> 
+As the months drag on, though, the harsh realities of war set in. Death and hardship are all around Emma, and food, medicine, firewood, and ink for her to write in her diary become increasingly scarce as troops from the North march deeper into the South. Finally, even her home is commandeered by the Yankees. 
+                        <br />
+						<br /> 
+Still, with a brave spirit and the knowledge of what is most important, Emma never loses hope that the war will end.  
+		<!-- ' -->]]></bookSummary>
+		<!--<bookDetail></bookDetail>-->
+		<buyLinkScholastic><![CDATA[]]></buyLinkScholastic>
+		
+		<buyLink1><![CDATA[http://www.amazon.com/When-Will-This-Cruel-America/dp/0545275989/ref=sr_1_1?s=books&ie=UTF8&qid=1292608689&sr=1-1]]></buyLink1>
+		<buyLinkText1>Amazon</buyLinkText1>
+		
+		<buyLink2><![CDATA[http://search.barnesandnoble.com/books/product.aspx?EAN=9780545275989]]></buyLink2>
+		<buyLinkText2>Barnes and Noble</buyLinkText2>
+		
+		<buyLink3><![CDATA[http://www.indiebound.org/book/9780545275989]]></buyLink3>
+		<buyLinkText3>IndieBound</buyLinkText3>
+		
+		<buyLink4></buyLink4>
+		<buyLinkText4></buyLinkText4>
+		
+		<buyLink5></buyLink5>
+		<buyLinkText5></buyLinkText5>
+		<buyLink6></buyLink6>
+		<buyLinkText6></buyLinkText6>		
+	</book>
+
+
+
+
+<book name="Cannons at Dawn">
+		<author>Kristiana Gregory</author>
+		<girl>Stewart</girl>
+		<bookImage>images/books/imgAllBooksCannons.png</bookImage>
+		<download>pdf/CannonsAtDawnSample.pdf</download>
+		<bookShort>Cannons at Dawn</bookShort>
+		<bookTitle>Cannons at Dawn: The Second Diary of Abigail Jane Stewart, Valley Forge, Pennsylvania, 1779</bookTitle>
+		<timespan></timespan>
+		<bookSummary><![CDATA[Abigail Jane Stewart returns in this brand-new sequel to THE WINTER OF RED SNOW. The Revolutionary War toils on, but the Stewart family can no longer avoid getting involved. Abby<!-- ' -->s father joins the Continental Army, while Abby, her mother, and her siblings become camp followers. They face daily hardships alongside the troops and continue to spend time helping the Washingtons. Filled with romance and adventure, Abby<!-- ' -->s frontline view of the war captures the heartache and bravery of the soldiers, as well as the steep cost of freedom.
+		]]></bookSummary>
+		<!--<bookDetail></bookDetail>-->
+		<buyLinkScholastic><![CDATA[http://store.scholastic.com/webapp/wcs/stores/servlet/SearchEndecaCmd?storeId=10052&catalogId=10051&searchTerm=9780545213196]]></buyLinkScholastic>
+		
+		<buyLink1><![CDATA[http://www.amazon.com/Cannons-At-Dawn-Dear-America/dp/0545213193/ref=sr_1_1?s=books&ie=UTF8&qid=1302120704&sr=1-1]]></buyLink1>
+		<buyLinkText1>Amazon</buyLinkText1>
+		
+		<buyLink2><![CDATA[http://search.barnesandnoble.com/books/product.aspx?EAN=9780545213196]]></buyLink2>
+		<buyLinkText2>Barnes and Noble</buyLinkText2>
+		
+		<buyLink3><![CDATA[http://www.indiebound.org/book/9780545213196]]></buyLink3>
+		<buyLinkText3>IndieBound</buyLinkText3>
+		
+		<buyLink4></buyLink4>
+		<buyLinkText4></buyLinkText4>
+		
+		<buyLink5></buyLink5>
+		<buyLinkText5></buyLinkText5>
+		<buyLink6></buyLink6>
+		<buyLinkText6></buyLinkText6>		
+	</book>
+	
+
+
+
+
+
+
+	<book name="Standing in the Light">
+		<author>Mary Pope Osborne</author>
+		<girl>Logan</girl>
+		<bookImage>images/books/imgAllBooksStanding.png</bookImage>
+		<download>pdf/StandingInTheLightSample.pdf</download>
+		<bookShort>Standing in the Light</bookShort>
+		<bookTitle>Standing in the Light: The Diary of Catharine Carey Logan, Delaware Valley, Pennsylvania, 1763</bookTitle>
+		<timespan>Colonial Period</timespan>
+		<bookSummary><![CDATA[Catharine Carey Logan and her family have enjoyed a peaceful and prosperous life as the Quakers and Delaware Indians share a mutually trusting relationship. Recently, however, this friendship has been threatened by violence against the Indians. Then, Catharine and her brother are taken captive by the Lenape in retaliation. At first, Catharine is afraid of her captors. But when a handsome brave begins to teach her about the ways of the Lenape, she comes to see that all people share the same joys, hopes, and fears. Osborne crafts a thrilling story of romance and danger and remarkable courage.  
+		]]></bookSummary>
+		<!--<bookDetail></bookDetail>-->
+		<buyLinkScholastic><![CDATA[http://store.scholastic.com/webapp/wcs/stores/servlet/SearchEndecaCmd?storeId=10052&catalogId=10051&searchTerm=9780545266871]]></buyLinkScholastic>
+		
+		<buyLink1><![CDATA[http://www.amazon.com/Standing-Light-Dear-America-Osborne/dp/0545266874/ref=sr_1_1?s=books&ie=UTF8&qid=1302120683&sr=1-1]]></buyLink1>
+		<buyLinkText1>Amazon</buyLinkText1>
+		
+		<buyLink2><![CDATA[http://search.barnesandnoble.com/books/product.aspx?EAN=9780545266871]]></buyLink2>
+		<buyLinkText2>Barnes and Noble</buyLinkText2>
+		
+		<buyLink3><![CDATA[http://www.indiebound.org/book/9780545266871]]></buyLink3>
+		<buyLinkText3>IndieBound</buyLinkText3>
+		
+		<buyLink4></buyLink4>
+		<buyLinkText4></buyLinkText4>
+		
+		<buyLink5></buyLink5>
+		<buyLinkText5></buyLinkText5>
+		<buyLink6></buyLink6>
+		<buyLinkText6></buyLinkText6>		
+	</book>	
+	<book name="I Thought My Soul Would Rise and Fly">
+		<author>Joyce Hansen</author>
+		<girl>Patsy</girl>
+		<bookImage>images/books/imgAllBooksSoul.png</bookImage>
+		<download>pdf/IThoughtMySoulWouldRiseAndFlySample.pdf</download>
+		<bookShort>I Thought My Soul Would Rise and Fly</bookShort>
+		<bookTitle>I Thought My Soul Would Rise and Fly: The Diary of Patsy, a Freed Girl, Mars Bluff, South Carolina, 1865</bookTitle>
+		<timespan>Slavery and the Civil War</timespan>
+		<bookSummary><![CDATA[Patsy, an orphaned slave with a bad leg and a quiet nature, is considered slow by the Davis family. But Patsy<!-- ' -->s smart -- smart enough to learn to read and write on the sly. After the Civil War ends and slavery is abolished, Patsy believes Master Davis<!-- ' -->s promise to pay the former house slaves and to educate the slave children. But when the master ignores his promise to establish a school and the Freedmen<!-- ' -->s Bureau cannot provide a teacher, Patsy steps in to teach the students to read and write. Patsy's diary is filled with courage, conviction, and hope as she strives toward her freedom. 
+		<!-- ' -->]]></bookSummary>
+		<!--<bookDetail></bookDetail>-->
+		<buyLinkScholastic><![CDATA[http://store.scholastic.com/webapp/wcs/stores/servlet/SearchEndecaCmd?storeId=10052&catalogId=10051&searchTerm=9780545266864]]></buyLinkScholastic>
+		
+		<buyLink1><![CDATA[http://www.amazon.com/Thought-Soul-Would-Rise-America/dp/0545266866/ref=sr_1_1?s=books&ie=UTF8&qid=1302120784&sr=1-1]]></buyLink1>
+		<buyLinkText1>Amazon</buyLinkText1>
+		
+		<buyLink2><![CDATA[http://search.barnesandnoble.com/books/product.aspx?EAN=9780545266864]]></buyLink2>
+		<buyLinkText2>Barnes and Noble</buyLinkText2>
+		
+		<buyLink3><![CDATA[http://www.indiebound.org/book/9780545266864]]></buyLink3>
+		<buyLinkText3>IndieBound</buyLinkText3>
+		
+		<buyLink4></buyLink4>
+		<buyLinkText4></buyLinkText4>
+		
+		<buyLink5></buyLink5>
+		<buyLinkText5></buyLinkText5>
+		<buyLink6></buyLink6>
+		<buyLinkText6></buyLinkText6>		
+	</book>	
+</books>

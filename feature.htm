@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<title>Teach Dear America | Scholastic.com</title>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+em	{
+	font-style:normal!important;
+}
+</style>
+<![endif]-->
+
+
+</head>
+<body>
+<!-- #exec cgi="/menu/menu.pl?uri=/wide/teacher/no_ads/" -->
+
+<div id="pageWrapper" class="reset">
+<script src="http://cdn.jquerytools.org/1.2.4/full/jquery.tools.min.js"></script>
+
+<div id="daHeader">
+<a href="index.htm" class="logo"></a>
+<a href="libraryofcongress.htm" class="library" target="_blank"></a>
+<div class="navigation">
+<a href="index.htm">Home</a>    |    <a href="meettheauthors.htm" target="_blank">Meet the Authors</a>    |    <a href="explorethebooks.htm" target="_blank">Explore the Books</a>     
+</div>
+
+</div>
+
+<div id="slideWrapper-feature">
+
+
+
+<a class="btn-arrow-left prev"></a>
+<ul id="herotabs" class="navi">
+	<li><a class="btn-colonial" href="html/colonial.htm"></a></li>
+	<li><a class="btn-revolutionary" href="html/revolutionary.htm"></a></li>
+	<li><a class="btn-westward" href="html/westward.htm"></a></li>
+	<li><a class="btn-civil" href="html/civil.htm"></a></li>
+	<li><a class="btn-turnof" href="html/turnof.htm"></a></li>
+	<li><a class="btn-depression" href="html/depression.htm"></a></li>
+	<li><a class="btn-wwii" href="html/wwii.htm"></a></li>
+</ul>
+<a class="btn-arrow-right next"></a>
+
+</div>
+
+
+
+<div class="mainContent">
+
+	<div class="content-top"></div>
+
+
+	<div id="erainfo" class="content-mid">
+	
+	
+	<div class="css-panes clearfix">
+	<div style="display:block"></div>
+	</div>	
+	
+	
+	
+	
+	
+	</div>
+
+
+
+
+	<div class="content-bot"></div>
+</div>
+
+<a class="dakids" href="http://www.scholastic.com/dearamerica"></a>
+	
+</div><!-- /pageWrapper -->
+<div class="pgFooter"></div>
+
+<!-- #exec cgi="/menu/footer.pl?uri=/wide/teacher/no_ads/" -->
+
+<script>
+$("ul#herotabs").tabs("div.css-panes > div", {effect: 'ajax', history: true, current:'active', onBeforeClick: function(){$('.css-panes').fadeOut();},onClick: function(){$('.css-panes').fadeIn("slow");}});
+
+var api = $("ul#herotabs").data("tabs");
+
+$('a.next').click(function(){
+api.next();
+});
+
+$('a.prev').click(function(){
+api.prev();
+});
+</script>
+
+</body>
+</html>

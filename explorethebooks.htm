@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Dear America | Scholastic.com</title>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+em	{
+	font-style:normal!important;
+}
+.kbsStoreX	{
+	z-index:9999;
+	border:10px solid transparent;
+	margin-top:-5px!important;
+	height:1px!important;
+	width:0px!important;
+}
+</style>
+<![endif]-->
+
+<style type="text/css">@import url("/kids/stacks/scene/signatures/_css/agescreener.css");</style>
+<link rel="stylesheet" href="styles/popUpStyles.css" media="all" type="text/css"  />
+<!-- LOAD THE AUTHORS -->
+<script type="text/javascript" src="scripts/loadAllTheBooks.js"></script>
+<style type="text/css">
+<!-- 
+-->
+</style>
+<script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 	
+	// LOAD THE AUTHORS XML
+	$.ajax({
+			type: "GET",
+			url: "xml/allthebooks.xml",
+			dataType: "xml",
+			success: loadAllTheBooks
+		});
+
+	// BUY IT NOW BOXES
+	$('.storePopup').css('display', 'none');
+	//CLOSE THE POPUP
+	$('.kbsStoreX').click(function(){
+		$('#kbsStorePopCalloutBooks').fadeOut('slow');
+		return false;
+	});	
+});
+</script>
+</head>
+<body>
+	<div id="popUpWrapper">
+        <a name="top"></a>
+        <div id="contentWrapper">
+            <div id="hdrPopUp">
+            	<span class="noCss">
+	                Teach Dear America
+				</span>
+            </div><!-- hdrPopup -->
+             
+        	<a name="top"></a>
+            <!-- POPUP -->
+            <div id="kbsStorePopCalloutBooks" class="storePopup">
+                <a title="Close" class="kbsStoreX" href="#"></a>
+                <p class="kbsStoreTop" id="storeTopbookNumber"><br />
+                    <a class="aAgeScreener" href="" id="buyLinkScholastic" target="_blank">Scholastic</a><br />
+                    Or try these other online stores:<br/>
+                    <a class="aAgeScreener" href="" id="buyLink1" target="_blank"></a> | 
+                    <a class="aAgeScreener" href="" id="buyLink2" target="_blank"></a> | 
+                    <a class="aAgeScreener" href="" id="buyLink3" target="_blank"></a> 
+                    <a class="aAgeScreener" href="" id="buyLink4" target="_blank"></a> 
+                    <a class="aAgeScreener" href="" id="buyLink5" target="_blank"></a> 
+                    <a class="aAgeScreener" href="" id="buyLink6" target="_blank"></a>
+                    <p class="kbsStoreBottom"><strong>Find a Local Bookstore</strong><br/>Enter your address, city, or zip code to find bookstores near you using Google Maps:</p>
+                    <form target="_blank" method="get" action="http://maps.google.com/maps" name="storeNearMe" onsubmit="exitPageGM(this);return false;" id="zipFormbookNumber">
+                        <input type="text" class="kbsZip" name="near"/>
+                        <input type="hidden" value="bookstore" name="q"/>
+                        <input type="image" alt="FIND NOW" class="kbsFind" src="http://www.scholastic.com/kids/lastdragonchronicles/images/find_now.gif" name="find"/>
+                    </form>
+                </p>
+            </div><!-- /kbsStorePopCalloutBook -->
+            <!-- END POPUP -->
+            
+            <div id="btnBackToFeaturedBook">
+            	<a href="explorethebooks.htm">
+                	<span class="noCss">
+                    	Back to Featured Books
+                    </span>
+                </a>
+            </div><!-- /btnBackToFeaturedBook -->
+            
+        	<div id="hdrAllTheBooks">
+				<span class="noCss">
+					All The Books
+				</span>
+			</div><!-- /hdrAllScrapbooks -->
+            
+            <div class="txtAboutTheBook">
+            	<p><a href="http://teacher.scholastic.com/activities/teachdearamerica/pdf/Dear%20America%20Series%20Discussion%20Guide.pdf"
+                	target="_blank">Download the full-color Teacher's Guide to Dear America</a><br/>
+            	  <a href="#"
+                	target="_blank">Individual Discussion Guides for each book are available now</a><br/>
+            	  <a href="#"
+                	target="_blank">Reading Dear America speech from Dick Abrahamson</a>
+          	  </p>
+            	<p>Sample the audiobook</p>
+            	<p> <a href="audioBookFiles/DA_CANNONS_Clip.mp3" target="_blank">Canons at Dawn </a><br />
+            	  <a href="audioBookFiles/DA_FENCES_Clip.mp3" target="_blank">The Fences Between Us </a><br />
+   	          <a href="audioBookFiles/DA_WILLOW_Clip.mp3" target="_blank">Like the Willow Tree.</a></p>
+</div>
+            
+            <div id="allBooksBox">
+            </div><!-- /allBooksBox -->
+            
+            <script type="text/javascript">
+			/* Don't ask why!
+			<div id="hrPurple"></div>
+            
+			<div id="hdrComingSoon">
+				<span class="noCss">
+					Coming Soon
+				</span>
+			</div>
+			<div id="comingSoonBooks">
+				
+				  
+			</div><!-- /comingSoonBooks-->*/
+            </script>
+			<a href="pdf/DAMNNIATitlesAndTopics-timePeriods.pdf" target="_blank" class="txtAboutTheBook" style="color:#4f0b36">Full Publishing List</a>
+        <div class="clear"><!-- clear the floats --></div>
+    </div><!-- /contentWrapper -->
+	</div><!-- /popUpWrapper --> 
+</body>
+</html>

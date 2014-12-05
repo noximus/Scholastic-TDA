@@ -1,0 +1,764 @@
+@charset "utf-8";
+/* CSS Document */
+body	{
+	background:url(../images/bkgrdPopup.jpg);
+	margin:0;
+	padding:0;
+}
+#popUpWrapper	{
+	/*font:12px/15px Helvetica, Arial, sans-serif;
+    color:#4f0b36;*/
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size:14px;
+    line-height:1.4em;
+	color:#2B0318;
+    
+	padding-top:50px;
+}
+/*#popUpWrapper_Text_Georgia {
+    color:#2B0318;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size:14px;
+    font-weight:normal;
+    line-height:1.4em;
+    
+    padding-top:50px;
+}*/
+#contentWrapper	{
+	width:494px;
+	background-color:#FFFFFF;
+	position:relative;
+	margin:0 auto;
+	padding:0 0 22px 22px;
+}
+#wrapperScrapbook,
+#wrapperScrapbookPiper,
+#wrapperScrapbookMem,
+#wrapperScrapbookAbby,
+#wrapperScrapbookMargaret	{
+	width:742px;
+	position:relative;
+	margin:0 auto;
+	padding:0 0 22px 0;	
+}
+#wrapperScrapbookPiper	{
+	background:url(../images/bkgrdScrapbookPiper.png) no-repeat left top;
+}
+#wrapperScrapbookMem	{
+	background:url(../images/bkgrdScrapbookMem.png) no-repeat left top;
+}
+#wrapperScrapbookAbby	{
+	background:url(../images/bkgrdScrapbookAbby.png) no-repeat left top;
+}
+#wrapperScrapbookMargaret	{
+	background:url(../images/bkgrdScrapbookMargaret.png) no-repeat left top;
+}
+.clear	{
+	clear:both;
+}
+.clearRight	{
+	clear:both;
+}
+#popUpWrapper a	{
+	outline:none;
+}
+.noCss	{
+	display:none;
+}
+a.button	{
+	display:block;	
+}
+a.button:hover	{
+	background-image:none!important;
+}
+#hdrPopUp	{
+	background:url(../images/hdrPopUp.png) no-repeat;
+	width:572px;
+	height:112px;
+	margin:0 0 -10px -78px;
+	position:relative;
+	top:-25px;
+}
+#hdrPopUpScrapbook	{
+	background:url(../images/hdrPopUpScrapbook.png) no-repeat;
+	width:799px;
+	height:112px;
+	margin:0 0 -10px -78px;
+	position:relative;
+	top:-25px;
+}
+/* HOME PAGE */
+#linksBox	{
+	width:215px;
+	margin:0 auto;
+	display:none;
+}
+
+/* PICTURES KEEPSAKES */
+#hdrPicturesKeepsakes	{
+	background:url(../images/hdrPicturesKeepsakes.png) no-repeat;
+	width:221px;
+	height:36px;
+}
+#bkgrdSort	{
+	background:url(../images/bkgrdFormSort.png) no-repeat;
+	width:326px;
+	height:27px;
+	font:11px/12px Helvetica, Arial, sans-serif;
+	color:#fff;
+	margin:10px 0 38px 0;
+	padding:0 10px 0 7px;
+}
+.formSort select,
+.formSort label	{
+	border:none;
+	/*
+	position:relative;
+	top:-8px;
+	*/
+	margin:5px 2px 0 0;
+	padding:0;
+}
+.formSort input	{
+	width:26px;
+	height:24px;
+	margin:3px 0 0 0;
+	padding:0;
+	float:right;
+}
+#bkgrdSlideShow	{
+	/*background:url(../images/bkgrdSlideShow.jpg) no-repeat;*/
+	width:466px;
+	padding:5px 0 0 2px;
+	font:11px Helvetica, Arial, sans-serif;
+	position:relative;
+	z-index:100;
+}
+/* LIGHTBOX */
+.lightBox	{
+	background:url(../images/sorcImgMagnify.png) no-repeat;
+	width:47px;
+	height:47px;
+	position:absolute;	
+	right:3px;
+	top:-245px;
+	z-index:9000;
+}
+.lightBox a	{
+	width:47px;
+	height:47px;
+}
+/* MEET THE AUTHORS */
+#hdrMeetTheAuthors	{
+	background:url(../images/hdrMeetTheAuthors.gif) no-repeat;
+	width:191px;
+	height:24px;
+	margin:-20px 0 10px 0;
+}
+#txtAuthorBox	{
+	font-size:13px;
+	margin-bottom:25px;
+	padding-right:30px;
+}
+.authorsRow	{
+	height:180px;
+}
+.authorBox	{
+	background-repeat:no-repeat;
+	float:left;
+	width:245px;
+	height:180px;
+	font-size:12px;
+}
+.authorBox a.btnAuthorImg	{
+	display:block;
+	background-position:left top!important;
+	width:72px;
+    margin-right: 13px;
+	height:100px;
+	float:left;
+}
+.authorBox a:hover	{
+	background-position:left bottom!important;
+}	
+.authorBox a.txtAuthor	{
+	display:block;
+    float: left;
+	/*
+	height:155px;
+	*/
+    width: 140px;
+	padding-right:20px;
+	color:#4f0b36;
+	text-decoration:none;
+	cursor:pointer;
+}
+.authorBox a div	{
+	/*padding-left:85px;*/
+}
+.authorBox a:hover	{
+}
+.authorName	{
+	margin-top:25px;
+	height:32px;
+	font-size:14px;
+}
+.booksHeader	{
+	font-weight:bold;
+}
+ul.bookTitles	{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-weight:bold;
+}
+ul.bookTitles li	{
+	/*margin-left:50px;*/
+	
+	padding-left:0;
+}
+#btnBackToAuthors	{
+	display:block;
+	float:right;
+	background:url(../images/btnBackToAuthors.jpg) no-repeat left top;
+	width:112px;
+	height:30px;
+}
+a#btnBackToAuthors:hover	{
+	background-position:left bottom;
+}
+
+#authorBioSection	{
+	padding:0 15px 0 113px;
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+#authorName	{
+	font-size:18px;
+	margin-bottom:20px;
+}
+#booksHeading	{
+	font-size:14px;
+}
+ul#authorDtlBooksList	{
+	margin:0 0 40px 0;
+	padding:0;
+	list-style:none;
+}
+#hdrBio	{
+	font-weight:bold;
+}
+#authorBioSummary,
+#authorBioDetail	{
+}
+#authorVideoBox	{
+	margin-top:50px;
+}
+
+#authorBioSection a.justALink
+{
+    display: block;
+    position: relative;
+    top: -48px;
+    
+    margin-bottom: -34px;
+    
+    color:#4f0b36;
+}
+
+ul#authorDtlBooksList li a	{
+	color:#4f0b36;
+}
+#btnMoreBio	{
+	color:#fff;
+/*	display:block;*/
+	display:none;
+}
+#authorBioDetail,
+#authorBioSection	{
+	display:none;
+}
+/* ALL THE SCRAPBOOKS & ALL THE BOOKS */
+#hdrAllScrapbooks	{
+	background:url(../images/hdrSeeAllScrapbooks.png) no-repeat;
+	width:237px;
+	height:35px;
+}
+#hdrAllTheBooks	{
+	background:url(../images/hdrAllTheBooks.png) no-repeat;
+	width:189px;
+	height:36px;
+	margin:-20px 0 20px 0;
+}
+.bookItem	{
+	position:relative;
+}
+.bookItem,
+.scrapbookItem	{
+	height:172px;
+	padding:23px 0 0 5px;
+}
+
+.bookItem {
+    height: 200px !important;
+}
+
+.bookItemComingSoon	{
+	padding:23px 0 0 5px;	
+}
+.bookImageLink	{
+	display:block;
+	float:left;
+	height:172px;
+	width:140px;
+}
+.hdrAllBookName	{
+	font-style:italic;
+}
+.hdrAllBookName,
+.hdrAllScrapbookName	{
+	font-weight:bold;
+    font-size:14px;
+	margin-bottom:18px;
+    padding-right: 22px;
+}
+.txtAboutTheBook	{
+	margin-bottom:16px;
+}
+.txtAboutTheBook a	{
+	color:#4f0b36;
+}
+.btnExploreTheScrapbook	{
+	width:167px;
+	height:44px;
+	margin-left:131px;
+}
+.btnExploreTheScrapbook a	{
+	display:block;
+	background:url(../images/btnExploreTheScrapbook.png) no-repeat left top;
+	width:167px;
+	height:44px;
+}
+.btnExploreTheScrapbook a:hover	{
+	background-position:left bottom;
+}
+.btnBackToTop	{
+	margin:0 0 10px 5px;
+}
+.btnBackToTop a	{
+	color:#4f0b36;
+	text-decoration:none;
+}
+.btnBackToTop a:hover	{
+	text-decoration:underline;
+}
+.btnBuyTheBook	{
+	/*position:relative;*/
+	float:left;
+	width:137px;
+	height:30px;
+}
+.btnBuyTheBook a.buyBook	{
+	display:block;
+	background:url(../images/btnBuyTheBook.png) no-repeat left top;
+	width:137px;
+	height:30px;
+}
+.btnBuyTheBook a:hover,
+.btnReadExcerpt a:hover	{
+	background-position:left bottom;
+}	
+.btnReadExcerpt	{
+	float:left;
+	width:120px;
+	height:30px;
+}
+.btnReadExcerpt a	{
+	display:block;
+	background:url(../images/btnReadAnExcerpt.png) no-repeat left top;
+	width:120px;
+	height:30px;
+}
+#TheBookBox	{
+	position:relative;
+	padding:20px 0 0 130px;
+    
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size:14px;
+    line-height:1.4em;
+	color:#2B0318;
+}
+#bookTitle1	{
+	margin-bottom:4px;
+	font-style:italic;
+}
+#bookTitle1,
+#bookTitle2		{
+	font-weight:bold;
+	font-size:16px;
+	line-height:20px;
+}
+#bookTitle2	{
+	margin-bottom:22px;	
+}
+#bookAuthor	{
+	margin-bottom:5px;
+}
+#bookAuthor,
+#bookTimePeriod	{
+	font-size:14px;
+	line-height:18px;
+}
+#bookTimePeriod	{
+	margin-bottom:28px;
+}
+#bookSummary,
+#bookDetail	{
+	margin-right:35px;
+	text-align:justify;
+}
+#btnMoreSummary	{
+	color:#4f0b36;
+}
+#bookDetail	{
+	display:none;
+}
+.spaceBox	{
+	height:20px;
+}
+#hrPurple	{
+	height:1px;
+	width:462px;
+	margin:30px auto;
+	background-color:#c65a96;
+}
+#hdrComingSoon	{
+	background:url(../images/hdrComingSoon.png) no-repeat;
+	width:135px;
+	height:27px;
+	margin-bottom:20px;
+}
+
+.comingSoonTitle  {
+	font-weight:bold;
+    font-size:14px;
+	line-height:18px;
+	color:#4f0b36;
+	text-align:justify;
+	margin:0 20px 0 140px;
+}
+
+.comingSoonPdf  {
+	font-weight:bold;
+    font-size:12px;
+	line-height:18px;
+	color:#4f0b36;
+	margin:0 20px 0 0px;
+}
+
+
+.txtRelease  {
+    font-size:12px;
+	color:#4f0b36;
+	text-align:justify;
+	margin:0 20px 0 140px;
+}
+
+.txtReleaseSummary  {
+    font-weight:bold;
+    font-size:12px;
+	color:#4f0b36;
+	text-align:justify;
+	margin:0 20px 0 140px;
+}
+
+
+.bookItem h4	{
+	font-size:14px;
+	line-height:18px;
+	color:#4f0b36;
+	margin-bottom:7px;
+}
+.blurb	{
+	font-size:12px;
+	line-height:18px;
+	color:#4f0b36;
+	text-align:justify;
+	margin:0 20px 0 140px;
+}
+/* BUY THE BOOK POPUP */
+.storePopup	{
+	top:15px;
+	left:190px;
+	display:none;
+	position:absolute;
+	z-index:9999;
+	background:url(../images/pop_bg.png) no-repeat;
+	width:280px;
+	height:289px;
+	padding:10px 0 0 13px;
+	color:#000;
+}
+.storePopup a,
+.storePopupPre a	{
+	color:#000;
+	font-weight:bold;
+}
+.kbsStoreTop	{
+	padding-top:0px;
+	text-align:center;
+}
+.kbsStoreX	{
+	display:block;
+	width:20px;
+	height:20px;
+	float:right;
+	margin:10px 10px 0 0;
+}
+.kbsZip	{
+	float:left;
+}
+.kbsFind	{
+	float:left;
+	margin-left:10px;
+}
+#kbsStorePopCalloutBook	{
+	top:-180px;
+	left:35px;
+}
+#kbsStorePopCalloutBooks	{
+	top:0px;
+	left:215px;
+}
+#kbsStorePopCalloutBook,
+#kbsStorePopCalloutBooks {
+	font-size: 12px !important;
+	line-height: 15px !important;
+}
+
+/* RECIPES */
+#hdrRecipes	{
+	background:url(../images/hdrRecipes.gif) no-repeat;
+	width:80px;
+	height:29px;
+	margin-top:-20px;
+}
+.smallRecipeBox	{
+	float:left;
+	width:93px;
+	height:165px;
+	padding-right:30px;
+	background:url(../images/imgAllRecipesBorderBox.png) no-repeat;
+}
+.smallRecipeBox a	{
+	display:block;
+	color:#4f0b36;
+	text-decoration:none;
+	text-align:center;
+}
+.smallRecipeBox a:hover	{
+	text-decoration:underline;
+}
+.recipeThumbnail	{
+	width:85px;
+	height:85px;
+	margin:4px 0 18px 4px;
+}
+.linebreak	{
+	height:165px;
+}
+#theRecipe	{
+	padding-right:24px;
+}
+#actionBoxes	{
+	float:right;
+	width:55px;
+	height:20px;
+}
+#actionBoxes div	{
+	float:left;
+}
+#btnDnldRecipe	{
+	background:url(../images/iconDnld.png) no-repeat;
+	width:19px;
+	height:18px;
+	padding-right:13px;
+}
+#btnDnldRecipe a	{
+	display:block;
+	width:19px;
+	height:18px;
+}
+#btnSnd2Friend	{
+	background:url(../images/iconEmail.png) no-repeat;
+	width:22px;
+	height:18px;	
+}
+#btnSnd2Friend a	{
+	display:block;
+	width:22px;
+	height:18px;	
+}
+#hdrTheRecipe	{
+	font-size:18px;
+}
+#imgRecipePhoto	{
+	background:url(../images/bkgrdRecipePhoto.png);
+	padding:4px;
+	float:right;
+	margin-top:17px;
+}
+#theRecipe ul,
+#theRecipe ul li	{
+	list-style:none;
+	margin-left:0;
+	padding-left:0;
+}
+#recipeSource	{
+	margin-top:74px;
+}
+/* Quizzes and Games */
+#hdrQuizzesGames	{
+	background:url(../images/hdrQuizzesGames.png) no-repeat;
+	width:176px;
+	height:19px;
+}
+.smallQuizBox	{
+	float:left;
+	width:93px;
+	height:165px;
+	padding-right:30px;
+	background:url(../images/imgAllRecipesBorderBox.png) no-repeat;
+}
+.smallQuizBox a	{
+	display:block;
+	color:#4f0b36;
+	text-decoration:none;
+	text-align:center;
+}
+.smallQuizBox a:hover	{
+	text-decoration:underline;
+}
+.quizThumbnail	{
+	width:85px;
+	height:85px;
+	margin:4px 0 18px 4px;
+}
+/* QUIZ POPUP */
+.quizBox	{
+	width:363px;
+	height:396px;
+	padding:308px 80px 0 85px;
+	color:#27011e;
+}
+.heading1	{
+	font-size:23px;
+	letter-spacing:.004em;
+	margin-bottom:15px;
+}
+#bkgrdQuizPiper	{
+	background:url(../images/quizzes/bkgrdQuizPiper.jpg) no-repeat;
+}
+#bkgrdQuizAbby	{
+	background:url(../images/quizzes/bkgrdQuizAbby.jpg) no-repeat;
+	padding-left:95px;
+	padding-right:70px;
+}
+#bkgrdQuizMem	{
+	background:url(../images/quizzes/bkgrdQuizMem.jpg) no-repeat;
+}
+#bkgrdQuizMargaret	{
+	background:url(../images/quizzes/bkgrdQuizMargaret.jpg) no-repeat;
+}
+/* ARTS CRAFTS */
+#hdrArtsCrafts	{
+	background:url(../images/hdrArtsCrafts.gif) no-repeat;
+	width:138px;
+	height:24px;
+	margin-bottom:5px;
+}
+.smallCraftBox	{
+	float:left;
+	width:93px;
+	height:165px;
+	padding-right:30px;
+	background:url(../images/imgAllRecipesBorderBox.png) no-repeat;	
+}
+.smallCraftBox a	{
+	display:block;
+	color:#4f0b36;
+	text-decoration:none;
+	text-align:center;
+}
+.craftThumbnail	{
+	width:85px;
+	height:85px;
+	margin:4px 0 18px 4px;	
+}
+.eachStep	{
+}
+.stepText	{
+	float:right;
+	width:230px;
+}
+.rightSeparator	{
+	clear:right;
+}
+
+#hdrloc	{
+	background:url(../images/loc.jpg) no-repeat;
+	width:205px;
+	height:44px;
+	margin:-20px 0 10px 0;
+}
+
+.loc h3{
+color:#000;
+}
+
+.loc p{
+color:#000;
+padding-right: 22px;
+}
+
+#listLinksAuthors	{
+	width:215px;
+	margin: 0 0 0 -22px;
+	padding:0;
+	height:21px;
+	font:10px "Trebuchet MS", Trebuchet, Verdana, Arial, sans-serif;
+	text-align:center;
+}
+
+#listLinksAuthors li	{
+	display:inline;
+	margin:0 0 0 10px;
+	padding:0;
+	list-style:none;
+	width:7px;
+}
+
+#listLinksAuthors li a	{
+	display:inline-block;
+	background: url(../images/btnLinkNext4.png) no-repeat left top;
+	height:10px;
+	color:#4F0B36;
+	padding:11px 0 0 2px;
+	text-decoration:none;
+}
+
+#listLinksAuthors li a:hover	{
+	background: url(../images/btnLinkNext4.png) no-repeat right top !important;
+}
+
+#listLinksAuthors li a.selected {
+    background: url(../images/btnLinkNext4.png) no-repeat right top !important;
+}
+
+#dlGuide {
+    margin: 0 0 22px 0;
+}
+
+#dlGuide a {
+    color: #4F0B36 !important;
+}

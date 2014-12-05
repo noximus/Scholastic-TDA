@@ -1,0 +1,49 @@
+/*body, html {  font-family: Verdana, Arial, Helvetica, sans-serif; margin: 0; padding:0; overflow: hidden; }*/
+#bookcontainer-unique-id1234 {
+	margin: 0;
+	outline: none;
+	padding:0;
+	width:722px;
+	height:680px;
+	background:transparent 0 0 no-repeat;
+	position:relative;
+	overflow:hidden;
+}
+#book-scrpbk-unique-id1234 {
+	margin: 0;
+	outline: none;
+	padding:0;
+	width:902px;
+	height:700px;
+	background:transparent;
+	position:absolute;
+	top:-10px;
+	left:-90px;
+	text-align:center;
+/*	z-index:990;*/
+}
+/* "Flash not found" notice formatting */
+#book-scrpbk-unique-id1234 h1 {
+	color: #FFFFFF;
+}
+#book-scrpbk-unique-id1234 img {
+	border: none;
+}
+#book-scrpbk-unique-id1234 p {
+	color: #999999;
+	font-size: 0.6em;
+}
+#book-scrpbk-unique-id1234 a,
+a:visited {
+	color: #CCCCCC;
+	text-decoration: none;
+}
+#book-scrpbk-unique-id1234 a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#book-scrpbk-unique-id1234 a:hover,
+a:focus {
+	color: #FFFFFF;
+	text-decoration: underline;
+}

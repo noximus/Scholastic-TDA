@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<title>Teach Dear America | Scholastic.com</title>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+em	{
+	font-style:normal!important;
+}
+</style>
+<![endif]-->
+
+
+</head>
+<body>
+<!-- #exec cgi="/menu/menu.pl?uri=/wide/teacher/no_ads/" -->
+
+<div id="pageWrapper" class="reset">
+<script src="http://cdn.jquerytools.org/1.2.4/full/jquery.tools.min.js"></script>
+
+<div id="daHeader">
+<a href="index.htm" class="logo"></a>
+<a href="libraryofcongress.htm" class="library" target="_blank"></a>
+<div class="navigation">
+<a href="index.htm">Home</a>    |    <a href="meettheauthors.htm" target="_blank">Meet the Authors</a>    |    <a href="explorethebooks.htm" target="_blank">Explore the Books   |</a>     
+</div>
+
+</div>
+
+<div id="slideWrapper-feature">
+
+
+
+<a class="btn-arrow-left prev" href="westward.htm"></a>
+<ul id="herotabs" class="navi">
+	<li><a class="btn-colonial" href="colonial.htm"></a></li>
+	<li><a class="btn-revolutionary" href="revolutionary.htm"></a></li>
+	<li><a class="btn-westward" href="westward.htm"></a></li>
+	<li><a class="btn-civil active" href="civil.htm"></a></li>
+	<li><a class="btn-turnof" href="turnof.htm"></a></li>
+	<li><a class="btn-depression" href="depression.htm"></a></li>
+	<li><a class="btn-wwii" href="wwii.htm"></a></li>
+</ul>
+<a class="btn-arrow-right next" href="turnof.htm"></a>
+
+</div>
+
+
+
+<div class="mainContent">
+
+	<div class="content-top"></div>
+
+
+	<div id="erainfo" class="content-mid clearfix">
+    
+    <!-- NOTE: Remove this script after Dev proccess -->
+	<!--script type="text/javascript">
+        $(document).ready(function() {
+            $.ajax({
+                url: 'includes/civil_sidenav.inc.htm',
+				dataType: 'html',
+                success: function(data)
+                {
+                    $('div.pageLeft').first()
+						.html(data);
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown)
+				{
+					$('div.pageLeft').first()
+						.html('<h2>Could not find Sidenav</h2>');
+				}
+            });
+        });
+    </script-->
+    <div class="pageLeft">
+    
+    <!-- the tabs - which is the sidenav -->
+    <!-- #include file="includes\civil_sidenav.inc.htm" -->
+    
+    </div>
+    
+    <script type="text/javascript">
+		$.tdaCurrentPage = 'civil_war';
+	</script>
+
+<div class="pageRight">
+	<div class="eralogo"></div>
+
+
+
+<div>
+		<img src="images/civil_logo.jpg" />
+		<img src="images/eraimages/civilwar.jpg" alt="civil war" width="455" height="222" />
+		<p>The American Civil War was a conflict that pitted the Northern states against the Southern states. The war raged for four years (1861-65) and was marked by some of the bloodiest battles of modern history. Huge armies were raised on both sides. The war not only affected the soldiers but women and children at home, especially in the Southern states. Everyone was engaged in supporting the war effort even when battles were taking place in view of their homes.</p>
+		</div>
+
+	
+	</div>
+
+
+
+
+
+<script>
+
+
+$('.slideDwn').click( function() {
+$("a.current").removeClass("current");
+$('ul li').removeClass("current");
+$(this).addClass("current").parent().find('.hidden').slideToggle("slow");
+});
+
+</script>	
+	
+	
+	
+	
+	</div>
+
+
+
+
+	<div class="content-bot"></div>
+</div>
+
+<a class="dakids" href="http://www.scholastic.com/dearamerica"></a>
+	
+</div><!-- /pageWrapper -->
+<div class="pgFooter"></div>
+
+<!-- #exec cgi="/menu/footer.pl?uri=/wide/teacher/no_ads/" -->
+
+</body>
+</html>

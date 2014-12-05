@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Dear America | Scholastic.com</title>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+em	{
+	font-style:normal!important;
+}
+.kbsStoreX	{
+	z-index:9999;
+	border:10px solid transparent;
+	margin-top:-5px!important;
+	height:1px!important;
+	width:0px!important;
+}
+.btnReadExcerpt {
+    margin-left: 13px !important;
+}
+</style>
+<![endif]-->
+<style type="text/css">@import url("/kids/stacks/scene/signatures/_css/agescreener.css");</style>
+<link rel="stylesheet" href="styles/popUpStyles.css" media="all" type="text/css"  />
+<!-- LOAD A BOOK -->
+<script type="text/javascript" src="scripts/loadABook.js"></script>
+<style type="text/css">
+<!-- 
+-->
+</style>
+<script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+<!-- LOAD GET VALUES FROM URL -->
+<script type="text/javascript" src="scripts/jquery.url.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 		
+	// LOAD THE AUTHORS XML
+	$.ajax({
+			type: "GET",
+			url: "xml/allthebooks.xml",
+			dataType: "xml",
+			success: loadABook
+		});	
+	$('.buyBook').click(function(){
+		$('#kbsStorePopCalloutBook').fadeIn('slow');
+		return false;
+	});
+	$('.kbsStoreX').click(function(){
+		$('#kbsStorePopCalloutBook').fadeOut('slow');
+		return false;
+	});
+	$('#btnMoreSummary').click(function(){
+		$('#bookDetail').show('slow');
+		$('#btnMoreSummary').css('display', 'none');
+		return false;		
+	});	
+});
+</script>
+	<div id="popUpWrapper">
+        <a name="top"></a>
+        <div id="contentWrapper">
+            <div id="hdrPopUp">
+            	<span class="noCss">
+	                Teach Dear America
+				</span>
+            </div><!-- hdrPopup -->  	
+        	<div id="hdrAllTheBooks">
+				<span class="noCss">
+					All The Books
+				</span>
+			</div><!-- /hdrAllScrapbooks -->
+            <div id="TheBookBox">
+            	<div id="bookTitle1">
+                </div><!-- /bookTitle1 -->
+            	<div id="bookTitle2">
+                </div><!-- /bookTitle2 -->
+            	<div id="bookAuthor">
+                	Author: <span></span>
+                </div><!-- /bookAuthor -->
+            	<div id="bookTimePeriod">
+                	Time Period: <span></span>
+                </div><!-- /bookTimePeriod -->
+                <div id="bookSummary">
+                </div><!-- /bookSummary -->
+				<!--<a href="" id="btnMoreSummary">...MORE</a>-->
+                <div id="bookDetail">
+                </div><!-- /bookDetail -->
+                <div class="spaceBox"><!-- space! --></div>
+                
+                <div id="dlGuide">
+                	<a href="" target="_blank">Download the discussion guide.</a>
+                </div>
+                
+                <div>
+                    <div class="btnBuyTheBook">
+                        <a href="#" class="buyBook" id="openbookNumber">
+                            <span class="noCss">Buy The Book</span>
+                        </a>
+                        <div id="kbsStorePopCalloutBook" class="storePopup">
+                            <a title="Close" class="kbsStoreX" href="#"></a>
+                            <p class="kbsStoreTop" id="storeTopbookNumber"><br />
+                                <a class="aAgeScreener" href="" id="buyLinkScholastic">Scholastic</a><br />
+                                Or try these other online stores:<br/>
+                                <a class="aAgeScreener" href="" id="buyLink1" target="_blank"></a> | 
+                                <a class="aAgeScreener" href="" id="buyLink2" target="_blank"></a> | 
+                                <a class="aAgeScreener" href="" id="buyLink3" target="_blank"></a>
+                                <a class="aAgeScreener" href="" id="buyLink4" target="_blank"></a>
+                                <a class="aAgeScreener" href="" id="buyLink5" target="_blank"></a>
+                                <a class="aAgeScreener" href="" id="buyLink6" target="_blank"></a>
+                                <p class="kbsStoreBottom"><strong>Find a Local Bookstore</strong><br/>Enter your address, city, or zip code to find bookstores near you using Google Maps:</p>
+                                <form target="_blank" method="get" action="http://maps.google.com/maps" name="storeNearMe" onsubmit="exitPageGM(this);return false;" id="zipFormbookNumber">
+                                    <input type="text" class="kbsZip" name="near"/>
+                                    <input type="hidden" value="bookstore" name="q"/>
+                                    <input type="image" alt="FIND NOW" class="kbsFind" src="http://www.scholastic.com/kids/lastdragonchronicles/images/find_now.gif" name="find"/>
+                                </form>
+                            </p>
+                        </div><!-- /kbsStorePopCalloutBook -->
+                    </div><!-- /btnBuyTheBook -->
+                    <div class="btnReadExcerpt">
+                        <a href="pdf/excerpt.pdf" target="_blank" id="btnDownload">
+                            <span class="noCss">Download an Excerpt</span>
+                        </a>
+                    </div><!-- /btnReadExcerpt -->
+                </div>
+                
+                <div class="clearRight"><!-- clear the floats --></div>
+            </div>
+            <!-- /theBookBox -->
+        <div class="clear"><!-- clear the floats --></div>
+        </div><!-- /contentWrapper -->
+    </div><!-- /PopUpWrapper -->    
+     
+
+<!-- SiteCatalyst code version: H.5.
+
+Copyright 1997-2006 Omniture, Inc. More info available at
+
+http://www.omniture.com -->
+
+<script type="text/javascript" src="http://www.scholastic.com/menu/templates/s_code.js"></script>
+
+<script type="text/javascript">
+
+var currentPage = location.pathname;
+
+s.pageName=""
+
+s.channel=""
+
+s.server=""
+
+if ( currentPage.indexOf("404error.asp") != -1 )
+
+        s.pageType="errorPage";
+
+else
+
+        s.pageType="";
+
+s.prop1=""
+
+s.prop2=""
+
+s.prop3=""
+
+s.prop4=""
+
+s.prop5=""
+
+s.prop14=""
+
+s.prop15=""
+
+s.prop16=""
+
+s.prop17=""
+
+s.prop18=""
+
+s.eVar3=""
+
+s.eVar4=""
+
+s.eVar6=""
+
+s.eVar13=""
+
+s.eVar14=""
+
+s.eVar15=""
+
+s.eVar16=""
+
+s.hier1=""
+
+if ( currentPage.indexOf("404error.asp") != -1 )
+
+            s.hier5=""
+
+else
+
+            s.hier5="static"
+
+s.events=""
+
+ 
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+
+<script type="text/javascript"><!--
+
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+
+//--></script><!--/DO NOT REMOVE/-->
+
+<!-- End SiteCatalyst code version: H.5. -->
+
+     
+</body>
+</html>

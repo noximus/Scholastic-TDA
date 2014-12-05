@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tdaContainer	{
+	width:720px;
+	height:600px;
+}
+#tdaContainer span,
+#tdaLogo h1		{
+	display:none;
+	/* no css support */
+}
+#tdaTopBox	{
+	background:url(../images/daBkgrdTop.jpg) no-repeat;
+	height:99px;
+}
+#tdaLogo	{
+	background:url(../images/logoDearAmerica.png) no-repeat;
+	width:269px;
+	height:76px;
+}
+
+#tdaBody	{
+	background:url(../images/daBkgrdBody.jpg) no-repeat;
+	height:457px;
+	padding-left:130px;
+}
+#tdaBooks	{
+	background:url(../images/imgBooks.png) no-repeat;
+	width:456px;
+	height:206px;
+}
+#tdaTextBox	{
+	background:url(../images/txtDearAmericaIsBack.png) no-repeat;
+	width:456px;
+	height:220px;
+	position:relative;
+}
+#tdaTextBox a	{
+	display:block;
+	width:65px;
+	height:25px;
+	position:relative;
+	top:192px;
+	left:212px;
+	
+}
+#tdaFoot	{
+	background:url(../images/daBkgrdFoot.jpg) no-repeat;
+	height:44px;
+}

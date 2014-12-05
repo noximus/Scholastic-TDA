@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Dear America | Scholastic.com</title>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+em	{
+	font-style:normal!important;
+}
+</style>
+<![endif]-->
+<link rel="stylesheet" href="styles/daStyles.css" media="all" type="text/css"  />
+<!-- LOAD THE AUTHORS -->
+<script type="text/javascript" src="scripts/loadABook.js"></script>
+<!-- DROP DOWN FUNCTION -->
+<script type="text/javascript" src="scripts/navigationDropDowns.js"></script>
+<!-- SHOW THE DROPDOWNS PERMANENTLY IF THE USER DOESN'T HAVE JAVASCRIPT -->
+<noscript>
+<style type="text/css">
+#btnTopGirlDropDown,
+#btnTopActivityDropDown	{
+	display:block;
+}
+</style>
+</noscript>
+<style type="text/css">
+<!-- 
+#btnSortByGirl	{
+	background:url(images/btnTopNavSortByGirlOff.png) no-repeat;
+}
+#btnSortByActivity	{
+	background:url(images/btnTopNavSortByActivityOff.png) no-repeat;
+}
+#btnSortByGirl	a	{
+	display:none;
+}
+#btnSortByActivity a	{
+	display:none;
+}
+#primaryShadeBox	{
+	padding-bottom:25px;
+}
+#btnExploreTheBooks a	{
+	background:none;
+	cursor:default;
+}
+-->
+</style>
+<!-- #exec cgi="/menu/menu.pl?&uri=/dearamerica/index.htm" --> 
+<script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+	// RUN THE DROP-DOWN FUNCTIONALITY
+	dropDowns();
+		
+	// LOAD THE AUTHORS XML
+	$.ajax({
+			type: "GET",
+			url: "xml/allthebooks.xml",
+			dataType: "xml",
+			success: loadABook
+		});
+		
+	$('#btnMoreBio').click(function(){
+		$('#authorBioSummary').hide('slow');	
+		$('#authorBioDetail').show('slow');
+		$('#btnMoreBio').css('display', 'none');
+		return false;		
+	});
+	$('#btnBackToAuthors').click(function(){
+		$('#authorsListSection').show('slow');
+		$('#authorBioSection').hide('slow');
+		return false;		
+	});
+	
+});
+</script>
+	<div id="dearAmericaWrapper">
+		<div id="daTopStuff">
+        	<!--#include file="includes/topnav.inc.htm"-->
+        </div><!-- /topStuff -->
+        <div id="daLeftNav">
+        	<!--#include file="includes/leftnav.inc.htm"-->
+        </div><!-- /daLeftNav -->
+        <div id="primaryShadeBox">
+        	<a name="top"></a>
+            <div id="btnBackToFeaturedBook">
+            	<a href="explorethebooks.htm">
+                	<span class="noCss">
+                    	Back to Explore The Books
+                    </span>
+                </a>
+            </div><!-- /btnBackToFeaturedBook -->
+        	<div id="hdrAllTheBooks">
+				<span class="noCss">
+					All The Books
+				</span>
+			</div><!-- /hdrAllScrapbooks -->
+            <div id="TheBookBox">
+            	<div id="bookTitle1">                	
+                </div><!-- /bookTitle1 -->
+            	<div id="bookTitle2">                	
+                </div><!-- /bookTitle2 -->
+            	<div id="bookAuthor">
+                	Author: <span></span>
+                </div><!-- /bookAuthor -->
+            	<div id="bookTimePeriod">
+                	Time Period: <span></span>
+                </div><!-- /bookTimePeriod -->
+                <div id="bookSummary">
+                </div><!-- /bookSummary -->
+                <div class="btnBuyTheBook"><a href="#" id="openbookNumber"><span class="noCss">Buy The Book</span></a></div>
+                <div id="kbsStorePopCallout1" class="storePopup">
+                    <a title="Close" class="kbsStoreX" href="#"></a>
+                    <p class="kbsStoreTop" id="storeTopbookNumber"><br />
+                        <a class="aAgeScreener" href="#AgeScreener" title="" id="buyLinkScholastic">Scholastic</a><br />
+                        Or try these other online stores:<br/>
+                        <a class="aAgeScreener" href="#AgeScreener" title="" id="buyLink1"></a> | 
+                        <a class="aAgeScreener" href="#AgeScreener" title="" id="buyLink2"></a> | 
+                        <a class="aAgeScreener" href="#AgeScreener" title="" id="buyLink3"></a> | 
+                        <a class="aAgeScreener" href="#AgeScreener" title="" id="buyLink4"></a> | 
+                        <a class="aAgeScreener" href="#AgeScreener" title="" id="buyLink5"></a> | 
+                        <a class="aAgeScreener" href="#AgeScreener" title="" id="buyLink6"></a>
+                        <p class="kbsStoreBottom"><strong>Find a Local Bookstore</strong><br/>Enter your address, city, or zip code to find bookstores near you using Google Maps:</p>
+                        <form target="_blank" method="get" action="http://maps.google.com/maps" name="storeNearMe" onsubmit="exitPageGM(this);return false;" id="zipFormbookNumber">
+                            <input type="text" class="kbsZip" name="near"/>
+                            <input type="hidden" value="bookstore" name="q"/>
+                            <input type="image" alt="FIND NOW" class="kbsFind" src="http://www.scholastic.com/kids/lastdragonchronicles/images/find_now.gif" name="find"/>
+                        </form>
+                    </p>
+                </div><!-- /kbsStorePopCallout1 -->
+            </div><!-- /allBooksBox -->
+        </div><!-- /primaryShadeBox -->
+        <div class="clear"><!-- clear the floats --></div>
+    </div><!-- /dearAmericaWrapper -->   
+    <!--#include file="includes/minisite_footer.inc.htm"-->	<!-- #exec cgi="/menu/footer.pl?&uri=/dearamerica/index.htm" -->
+</body>
+</html>

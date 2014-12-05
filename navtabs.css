@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* This css document is included only in the index page (index.htm)!!!
+ * 
+ * #herotabs, the list inside (ul) and each item should have relative positioning,
+ * in order jQuery's position() function to work correctly!
+ * 
+ * Appreantly in order to get the relative position of an element according it's parent
+ * it's parent must have relative positioning!!!
+ */
+#herotabs {
+	background:url("images/track.png") no-repeat scroll 0 0 transparent;
+	float:left;
+	height:36px;
+	width:709px;
+	overflow: hidden;
+	position: relative;
+}
+
+#herotabs ul {
+	position: relative;
+}
+
+#herotabs ul li a{
+	display: block;
+	float: left;
+}
+
+#herotabs ul li{
+	position: relative;
+	float: left;
+}

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<authors>
+
+<!-- AUTHOR -->
+	<author name="Kirby Larson">
+		<imageAuthor>images/authors/imgKirbyLarsonHead.png</imageAuthor>
+		<books>
+			<bookTitle name="Piper Davis">
+				<bookFullTitle>The Fences Between Us</bookFullTitle>
+				<bookLink>aboutthebook.htm?girl=Piper</bookLink>
+				<nameLink>piperscrapbook.htm</nameLink>
+			</bookTitle>
+		</books>
+		<!-- AUTHOR DETAIL PAGE -->
+		<imageAuthorLarge>images/authors/imgKirbyLarsonHeadLarge.png</imageAuthorLarge>
+		<bioSummary>Kirby Larson is the acclaimed author of the 2007 Newbery Honor Book Hattie Big Sky. She is also the author of Two Bobbies: A True Story of Hurricane Katrina, Friendship, and Survival, as well as the award-winning picture book Nubs: The True Story of a Mutt, a Marine, and a Miracle. She lives in Kenmore, Washington with her husband, Neil. Visit her website at www.kirbylarson.com.</bioSummary>
+		<bioDetail></bioDetail>
+		<video><![CDATA[
+					<object id="myExperience88407697001" class="BrightcoveExperience">
+                    <param name="bgcolor" value="#000000" />
+                    <param name="width" value="323" />
+                    <param name="height" value="273" />
+                    <param name="playerID" value="1842760475" />
+                    <param name="publisherID" value="1543299976"/>
+                    <param name="isVid" value="true" />
+                    <param name="dynamicStreaming" value="true" />                    
+                    <param name="@videoPlayer" value="88407697001" />
+                    <param name="wmode" value="transparent" />
+                    </object>
+                    <script type="text/javascript">brightcove.createExperiences();</script>
+					]]></video>
+	</author>
+<!-- AUTHOR -->
+	<author name="Kathryn Lasky">
+		<imageAuthor>images/authors/imgKathrynLaskyHead.png</imageAuthor>
+		<books>
+			<bookTitle name="Remember Patience Whipple">
+				<bookFullTitle>A Journey to the New World</bookFullTitle>
+				<bookLink>aboutthebook.htm?girl=Mem</bookLink>
+				<nameLink>memscrapbook.htm</nameLink>
+			</bookTitle>
+		</books>
+		<!-- AUTHOR DETAIL PAGE -->
+		<imageAuthorLarge>images/authors/imgKathrynLaskyHeadLarge.png</imageAuthorLarge>
+		<bioSummary>Kathryn Lasky is the Newbery Honor author of over one hundred fiction and nonfiction books for children and young adults. Her critically acclaimed titles include Beyond the Burning Time, True North, and the Guardians of Ga'Hoole fantasy series, as well as several titles in the Dear America series. She lives with her husband in Cambridge, Massachusetts.</bioSummary>
+		<bioDetail></bioDetail>
+		<video></video>
+	</author>
+	
+<!-- AUTHOR -->
+	<author name="Kristiana Gregory">
+		<imageAuthor>images/authors/imgKristianaGregoryHead.png</imageAuthor>
+		<books>
+			<bookTitle name="Abigail Jane Stewart">
+				<bookFullTitle>The Winter of Red Snow</bookFullTitle>
+				<bookLink>aboutthebook.htm?girl=Abby</bookLink>
+				<nameLink>abbyscrapbook.htm</nameLink>
+			</bookTitle>
+		</books>
+		<!-- AUTHOR DETAIL PAGE -->
+		<imageAuthorLarge>images/authors/imgKristianaGregoryHeadLg.png</imageAuthorLarge>
+		<bioSummary>Kristiana Gregory is the bestselling author of many Dear America titles, including The Winter of Red Snow, Across the Wide and Lonesome Prairie, and Seeds of Hope. She has also written the Cabin Creek Mysteries. She lives in Boise, Idaho, with her family.</bioSummary>
+		<bioDetail></bioDetail>
+		<video></video>
+	</author>
+	
+<!-- AUTHOR -->
+	<author name="Ellen Emerson White">
+		<imageAuthor>images/authors/imgEllenEmersonWhiteHead.png</imageAuthor>
+		<books>
+			<bookTitle name="Margaret Ann Brady">
+				<bookFullTitle>Voyage on the Great Titanic</bookFullTitle>
+				<bookLink>aboutthebook.htm?girl=Margaret</bookLink>
+				<nameLink>margaretscrapbook.htm</nameLink>
+			</bookTitle>
+		</books>
+		<!-- AUTHOR DETAIL PAGE -->
+		<imageAuthorLarge>images/authors/imgEllenEmersonWhiteHeadLg.png</imageAuthorLarge>
+		<bioSummary>Ellen Emerson White is the critically acclaimed author of many novels for young adults, including the President's Daughter series, the Santa Paws series, and numerous titles in the Dear America series. She lives in New York City.</bioSummary>
+		<bioDetail></bioDetail>
+		<video></video>
+	</author>
+	
+	<!-- ******************************************************** -->
+							<!-- PHASE 2 -->
+	<!-- ******************************************************** -->
+	
+	<!-- AUTHOR -->
+	<author name="Patricia C. McKissack">
+		<imageAuthor>images/authors/imgPatriciaMcKissackHead.png</imageAuthor>
+		<books>
+			<bookTitle name="Clotee, A Slave Girl">
+				<bookFullTitle>A Picture of Freedom</bookFullTitle>
+				<bookLink>aboutthebook.htm?girl=Clotee</bookLink>
+				<nameLink>cloteescrapbook.htm</nameLink>
+			</bookTitle>
+		</books>
+		<!-- AUTHOR DETAIL PAGE -->
+		<imageAuthorLarge>images/authors/imgPatriciaMcKissackHeadLg.png</imageAuthorLarge>
+		<bioSummary><![CDATA[
+			<p>Award-winning author Patricia C. McKissack says, "I was inspired to write A Picture  of Freedom by the story I grew up hearing about my great-great-greatgrandmother, Lizzie Passmore, who had been a slave in Barbour County, Alabama. Although it was against the law, she had someow learned to read and write. After the Civil War ended, she started teaching children in her home near Clayton, Alabama. Unfortunately that is all I know about this remarkable woman, but it gave me the foundation upon which I built Clotee's story."</p>
+			<p>Although this is McKissack's first full-length work of fiction, she has written over sixty books for children, including Flossie and the Fox, Mirandy and Brother Wind, a Caldecott Honor Book, and The Dark-Thirty: Southern Tales of the Supernatural, a Newbery Honor Book. She has co-authored with her husband, Fredrick, numerous nonfiction books, which include the Coretta Scott King Award winners, Sojourner Truth: Ain't I a Woman?and Christmas in the Big House, Christmas in the Quarters. She also co-authored with her son, Fredrick, Jr., Black Diamond: T he Story of the Negro Baseball Leagues, which was a Coretta Scott King Honor Book. And together with her husband and son, McKissack has written the Clone Codes series. </p>
+			<p>While researching Christmas in the Big House, the McKissacks visited six plantations in the Tidewater area of Virginia. "It was natural for me to set the Clotee story there because it was so fresh in my mind and we had tons of material that found a place in this book." </p>
+			<p>McKissack says her teaching experiences helped her understand how Clotee might have learned to read and write. "Finding Clotee's voice was the most difficult problem I had to overcome. Once I heard, in my head, how she would say things, then the story was easy to tell. She told it to me." </p>
+			<p>McKissack l ives with her husband in Chesterfield, Missouri, a suburb of St. Louis. When they aren't traveling for research, they travel for fun.</p>
+		]]></bioSummary>
+		<bioDetail></bioDetail>
+		<video></video>
+	</author>
+	
+	<!-- AUTHOR -->
+	<author name="Barry Denenberg">
+		<imageAuthor>images/authors/imgBarryDenenberg.png</imageAuthor>
+		<books>
+			<bookTitle name="Emma Simpson">
+				<bookFullTitle>When Will This Cruel War Be Over?</bookFullTitle>
+				<bookLink>aboutthebook.htm?girl=Simpson</bookLink>
+				<nameLink>emmascrapbook.htm</nameLink>
+			</bookTitle>
+		</books>
+		<!-- AUTHOR DETAIL PAGE -->
+		<imageAuthorLarge>images/authors/imgBarryDenenbergLg.png</imageAuthorLarge>
+		<bioSummary><![CDATA[
+			<p>Barry Denenberg is an acclaimed nonfiction writer whose main interest is American history. Writing for the Dear America series was compelling to him because, "It allowed me to write history from the perspective of those who experienced it. Not the history made by politicians, but the history made by ordinary people during extraordinary times. History from the bottom up, not the top down." Denenberg immersed himself in a wealth of material, concentrating on the diaries and letters of the time, sources not generally available to middle-grade readers.</p>
+			<p>"The Civil War was a pivotal event in the his¬tory of the United States. It was the only war where Americans fought each other. Because the mili-tary activity took place overwhelmingly in the South, I decided to tell the story from the Southern perspective, a perspective that asks the question - as moving today as it was then - What is it like to have your world torn apart while war rages at your doorstep?" Setting the diary in Gordonsville, a small town in Virginia, enabled him to show the grave effects of the war on ordinary civilians.</p>
+			<p>"While doing the research for When Will This Cruel War Be Over?" he says, "I found I could, after a while, almost feel what it was like to be Emma Simpson. It is that experience that I hope comes through in her diary." </p>
+			<p>Mr. Denenberg's nonfiction books include An American Hero: The True Story of Charles A. Lindbergh; Voices from Vietnam, a Booklist Editor's Choice Book and an ALA Best Book for Young Adults; The True Story of J. Edgar Hoover and the FBI, a Junior Library Guild Selection; All Shook Up: The Life and Death of Elvis Presley; and Nelson Mandela: "No Easy Walk to Freedom," all published by Scholastic. When Will This Cruel War Be Over? was his first work of fiction for middle-grade readers. He lives in Bedford, New York, with his wife, Jean, and their daughter, Emma.</p>
+		]]></bioSummary>
+		<bioDetail></bioDetail>
+		<video></video>
+	</author>
+	
+	<!-- AUTHOR -->
+	<author name="Lois Lowry">
+		<imageAuthor>images/authors/imgLoisLowry.png</imageAuthor>
+		<books>
+			<bookTitle name="Lydia Amelia Pierce">
+				<bookFullTitle>Like the Willow Tree</bookFullTitle>
+				<bookLink>aboutthebook.htm?girl=Amelia</bookLink>
+				<nameLink>lydiascrapbook.htm</nameLink>
+			</bookTitle>
+		</books>
+		<!-- AUTHOR DETAIL PAGE -->
+		<imageAuthorLarge>images/authors/imgLoisLowryLg.png</imageAuthorLarge>
+		<bioSummary><![CDATA[
+			<a class="justALink" href="phase2_assets/loislowry/audio/DA_Willow_Lowry_Interview.mp3">Listen to an interview with the author</a>
+			<p>Lois Lowry is the acclaimed author of two Newbery Medal books, Number the Stars and The Giver. She has written many books for young readers, including Gathering Blue, Messenger, and the picture book Crow Call. </p>
+			<p>Buying a house in southwestern Maine and discovering the Sabbathday Lake community led her to develop the story that became Lydia Pierce's diary, Like the Willow Tree. </p>
+			<p>She notes, "Eight years ago, I bought a very old farmhouse in southwest Maine. It sits on a hilltop that had once been called Brigham Hill. I often found myself wondering what life was like in the late eighteenth century when the house was new. The granite foundation, the wide pine floors, the post-and-beam barn with its wooden pegs and hand-hewn nails - all of it felt saturated with memories of people who worked hard and, I hoped, had been happy here. </p>
+			<p>"Thirty miles away, by way of winding roads past lakes and small villages, I discovered a place that had come to life at almost the same time as Brigham Hill Farm. It was called Sabbathday Lake, and it was the site of a Shaker community. </p>
+			<p>"I had, some years before, visited the Shaker Village at Canterbury, New Hampshire, had had a tour, and been greeted pleasantly by elderly Sister Bertha Lindsay, one of the last living Shakers there. But she, I knew, had since died, and there were no longer any Shakers left at Canterbury.</p>
+			<p>"It was a surprise to find Sabbathday Lake and to discover that three Shakers remain in residence there - not feeble and pious, but busy, committed, and cheerful. On my first visit there, I joined a regular tour. Then, on a different day, I took the tour a second time. On several different days I simply walked around, absorbing the landscape and the history that seemed to permeate it. Finally I returned several times to ask questions of Brother Arnold Hadd, one of the three Shakers who still live in the dwelling there, and a knowledgeable historian. I used their library, read their journals and records, and imagined what I could not know. Then I created a little girl, gave her a name and a fictional life, and took her to Sabbathday Lake to live at Chosen Land."
+				<br />
+				- Lois Lowry, Bridgton, Maine
+			</p>
+		]]></bioSummary>
+		<bioDetail></bioDetail>
+		<video><![CDATA[
+			<!--a class="justALink" href="phase2_assets/loislowry/audio/DA_Willow_Lowry_Chs_1_3.mp3">"Like the Willow Tree" - chapters 1 to 3</a>
+			<br /-->
+			<!--a class="justALink" href="phase2_assets/loislowry/audio/DA_Willow_Lowry_Interview.mp3">Listen to an interview with the author</a-->
+		]]></video>
+	</author>
+	
+	<!-- AUTHOR -->
+	<author name="Karen Hesse">
+		<imageAuthor>images/authors/imgKarenHesse.png</imageAuthor>
+		<books>
+			<bookTitle name="Amelia Martin">
+				<bookFullTitle>A Light in the Storm</bookFullTitle>
+				<bookLink>aboutthebook.htm?girl=Martin</bookLink>
+				<nameLink>ameliascrapbook.htm</nameLink>
+			</bookTitle>
+		</books>
+		<!-- AUTHOR DETAIL PAGE -->
+		<imageAuthorLarge>images/authors/imgKarenHesseLg.png</imageAuthorLarge>
+		<bioSummary><![CDATA[
+			<p>Karen Hesse says about writing this book, "While researching in the 1911 New York Times, I came across a series of articles written about Ida Lewis. Ida Lewis kept the Lime Rock Light burning off the coast of Newport, Rhode Island, during and after the Civil War, taking over her father's duties when he became too ill to serve. Ida Lewis never hesitated to go to sea in a storm, placing her own life in peril numerous times to rescue those who would otherwise have perished. She saved twentytwo people in her career as Lightkeeper. Yet she hated the attention her heroism brought. Ida Lewis saw herself as a Lightkeeper doing her job, nothing more, nothing less. Her story inspired me. To think of a female given such responsibility at that point in history! And the image of a light burning in the darkness of a Delaware night was so fitting when I looked at the darkness spreading over this country as the Civil War unfolded. Amelia Martin was created in Ida Lewis's image, and in the image of the other female Lightkeepers who sacrificed and struggled to keep their Lights burning through some of this country's darkest hours." </p>
+			<p>Karen Hesse is one of the most distinguished children's book authors in America today. Her acclaimed novels include Out of the Dust, winner of the 1998 Newbery Medal, the Scott O'Dell Award, and many other awards and honors; The Music of Dolphins, an ALA Best Book for Young Adults; and Just Juice. She lives with her family in southern Vermont.</p>
+		]]></bioSummary>
+		<bioDetail></bioDetail>
+		<video></video>
+	</author>
+	
+	
+	<author name="Mary Pope Osborne">
+		<imageAuthor>images/authors/imgMaryPope.png</imageAuthor>
+		<books>
+			<bookTitle name="Amelia Martin">
+				<bookFullTitle>A Light in the Storm</bookFullTitle>
+				<bookLink>aboutthebook.htm?girl=Martin</bookLink>
+				<nameLink>ameliascrapbook.htm</nameLink>
+			</bookTitle>
+		</books>
+		<!-- AUTHOR DETAIL PAGE -->
+		<imageAuthorLarge>images/authors/imgMaryPopeLg.png</imageAuthorLarge>
+		<bioSummary><![CDATA[
+			<p>When she was four years old, Mary Pope Osborne's father, who was a colonel
+in the army, was stationed in Salzburg, Austria. Across the street from
+her house was an ancient castle on a cliff. So when she first heard fairy
+tales, Mary Pope Osborne felt as if the magic of Cinderella or Sleeping
+Beauty was taking place right in her own neighborhood.</p>
+<p>
+When she was five, her family moved to Virginia and lived inside an old
+fort that was surrounded by a moat. So when she heard stories of American
+history, she felt as if those dramas were taking place right in her own
+backyard. Maybe those early environments explain why mythical and
+historical times and places seem more real to Mary Pope Osborne than the
+modern world of shopping malls and freeways.</p>
+<p>
+When she was a teenager, she continued to visit imaginary places by
+spending all her free time at the local community theater. Whether she
+acted in a play or worked backstage, the world of Tennessee Williams or
+Shakespeare always seemed more real than the dreary life of high school.</p>
+<p>
+Once she graduated from college, she tried to turn her dreams into reality
+by actually visiting faraway places. Then she finally settled in New York
+City where she married her husband, Will Osborne, an actor, playwright,
+and theater director.</p>
+		]]></bioSummary>
+		<bioDetail></bioDetail>
+		<video></video>
+	</author>
+	<author name="Joyce Hansen">
+		<imageAuthor>images/authors/imgLastAuthor.png</imageAuthor>
+		<books>
+			<bookTitle name="Amelia Martin">
+				<bookFullTitle>A Light in the Storm</bookFullTitle>
+				<bookLink>aboutthebook.htm?girl=Martin</bookLink>
+				<nameLink>ameliascrapbook.htm</nameLink>
+			</bookTitle>
+		</books>
+		<!-- AUTHOR DETAIL PAGE -->
+		<imageAuthorLarge>images/authors/imgLastAuthorLg.png</imageAuthorLarge>
+		<bioSummary><![CDATA[
+			<p>Joyce Hansen was born in New York City and lived there most of her life.
+She grew up in the Bronx and taught in the New York City public school for
+22 years, until retirement in 1995. Now she lives in South Carolina with
+her husband and writes full-time.</p>
+<p>
+Joyce Hansen writes about what she knows and what moves her deeply. Her
+characters are greatly influenced by childhood and her students. Her love
+of books and writing came from her mother, who wanted to be a journalist.
+Her mother grew up in a large family during the Depression, and though she
+was intelligent and literate, she couldn't finish high school because she
+had to work.</p>
+<p>
+From her father, she learned how to tell stories. He entertained with
+stories about his boyhood in the West Indies and his experiences as a
+young man in the Harlem of the 1920s and '30s. He also helped Joyce Hansen
+to see the beauty and poetry in the everyday scenes and "just plain folks"
+he captured in his photographs.</p>
+<p>She has also been inspired by students' creativity - the way they twist,
+bend, enliven, deconstruct, and sometimes even destroy language; their
+loves, hates, fears, feelings, and needs filter into her writing. Joyce
+Hansen writes for all children who need and can relate to things she
+writes about - the importance of family, maintaining a sense of hope, and
+responsibility for oneself and other living things.</p>
+<p>
+"Those of us who write for young people have a special responsibility
+because the word is so strong. We must use our words to help our children
+acquire a richness of soul and spirit, so that perhaps one fine day we
+will learn to live with ourselves and one another in peace and harmony. "</p>
+		]]></bioSummary>
+		<bioDetail></bioDetail>
+		<video></video>
+	</author>
+	<author name="">
+		<imageAuthor></imageAuthor>
+		<books>
+			<bookTitle name="">
+				<bookFullTitle></bookFullTitle>
+				<bookLink></bookLink>
+				<nameLink></nameLink>
+			</bookTitle>
+		</books>
+		<!-- AUTHOR DETAIL PAGE -->
+		<imageAuthorLarge></imageAuthorLarge>
+		<bioSummary><![CDATA[]]></bioSummary>
+		<bioDetail></bioDetail>
+		<video></video>
+	</author>
+	<author name="">
+		<imageAuthor></imageAuthor>
+		<books>
+			<bookTitle name="">
+				<bookFullTitle></bookFullTitle>
+				<bookLink></bookLink>
+				<nameLink></nameLink>
+			</bookTitle>
+		</books>
+		<!-- AUTHOR DETAIL PAGE -->
+		<imageAuthorLarge></imageAuthorLarge>
+		<bioSummary><![CDATA[]]></bioSummary>
+		<bioDetail></bioDetail>
+		<video></video>
+	</author>
+</authors>

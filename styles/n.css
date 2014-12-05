@@ -1,0 +1,75 @@
+
+#emailCallout {
+	background: transparent url(../images/box_email.png) 0 15px no-repeat;
+	color: #fff;
+	display: none;
+	height: 390px;
+	left: 431px;	
+	position: absolute;	
+	top: 393px;
+	width: 295px;
+}
+#emailCallout a	{
+	outline:none;
+}
+#emailCallout a.email {
+	background: url(../images/btmEmail2.png) no-repeat;
+	display: block;
+	height: 30px;
+	margin-left: 159px;
+	text-indent: -100001px;
+	width: 136px;
+}
+#emailCallout a.email:hover { background-position: 0 -30px; }
+#emailCallout #frmEmail {
+	font: normal 11px verdana, arial, sans-serif;
+	margin: 25px 20px 0 25px;
+	padding: 0;
+}
+#emailCallout #frmEmail .txt {
+	border: none;
+	display: block;		
+	margin-bottom: 15px;
+	padding: 5px;
+	width: 235px;
+}
+#emailCallout #frmEmail input.error {
+	color: #f00;
+	font-weight: bold;		
+}
+#emailCallout #frmEmail p {
+	margin: 0;
+	padding: 0 11px;
+}
+#emailCallout #frmEmail p.btn { padding-top: 5px; padding-bottom: 5px; }
+#emailCallout #frmEmail p.btn a {
+	background: url(../images/btnSendEmail.png) no-repeat;
+	display: block;
+	height: 49px;
+	margin-left: auto;
+	margin-right: auto;
+	text-indent: -100001px;
+	width: 186px;
+}
+#emailCallout #frmEmail p.btn a:hover { background-position: 0 -49px; }
+#emailCallout #frmEmail .small {
+	font-size: 9px;
+}
+#emailCallout #frmEmail .small a { color: #fff; text-decoration: underline; }
+#emailCallout #tyou {
+	display: none;
+	font: bold 15px verdana, arial, sans-serif;
+	padding-top: 115px;
+	text-align: center;
+}
+#emailCallout #tyou h3, #emailCallout #tyou p { margin: 0; padding: 0; }
+#emailCallout #tyou h3 { color: #FF6699; font-size: 15px; }
+#emailCallout #tyou p { padding-bottom: 20px; }
+#emailCallout #tyou p a { color: #fff; text-decoration: underline; }
+#emailCallout	#btnClosePopup	{
+	float:right;
+	background:url(../images/btnClosePopup.png) no-repeat;
+	width:24px;
+	height:24px;
+	margin:22px 12px 0 0;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Dear America | Scholastic.com</title>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+em	{
+	font-style:normal!important;
+}
+.kbsStoreX	{
+	z-index:9999;
+	border:10px solid transparent;
+	margin-top:-5px!important;
+	height:1px!important;
+	width:0px!important;
+}
+</style>
+<![endif]-->
+
+<style type="text/css">@import url("/kids/stacks/scene/signatures/_css/agescreener.css");</style>
+<link rel="stylesheet" href="styles/popUpStyles.css" media="all" type="text/css"  />
+<!-- LOAD THE AUTHORS -->
+<script type="text/javascript" src="scripts/loadAllTheBooks.js"></script>
+<style type="text/css">
+<!-- 
+-->
+</style>
+<script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 	
+	// LOAD THE AUTHORS XML
+	$.ajax({
+			type: "GET",
+			url: "xml/allthebooks.xml",
+			dataType: "xml",
+			success: loadAllTheBooks
+		});
+
+	// BUY IT NOW BOXES
+	$('.storePopup').css('display', 'none');
+	//CLOSE THE POPUP
+	$('.kbsStoreX').click(function(){
+		$('#kbsStorePopCalloutBooks').fadeOut('slow');
+		return false;
+	});	
+});
+</script>
+</head>
+<body>
+	<div id="popUpWrapper">
+        <a name="top"></a>
+        <div id="contentWrapper">
+            <div id="hdrPopUp">
+            	<span class="noCss">
+	                Teach Dear America
+				</span>
+            </div>
+          <div class="clear"><!-- clear the floats -->
+            <table width="479" border="0" cellpadding="10">
+              <tr>
+                <td colspan="2"><h3>Colonial Period (1607 – 1776)</h3></td>
+              </tr>
+              <tr>
+                <td width="53">&nbsp;</td>
+                <td width="428"><em>The Devil's Book, The Salem Village Diary of Deliverance Trembley, Massachusetts Bay Colony, 1691</em><br />
+By Lisa Rowe Fraustino<br />
+Deliverance Trembley finds herself caught up in the drama of the Salem witch trials.</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td><em>Look to the Hills, The Diary of Lozette Moreau, a French Slave Girl, New York Colony, 1763</em><br />
+By Patricia C. McKissack<br />
+Lozette is a French slave who must find her place in the New World when her masters uproot her and bring her to colonial America.</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td><em>The Journal of Jasper Jonathan Pierce, A Pilgrim Boy, Plymouth, 1620</em><br />
+By Ann Rinaldi<br />
+Jasper, a 14-year-old Pilgrim, makes his mark at Plymouth by establishing a friendship with the Nauset Indians.</td>
+              </tr>
+            </table>
+          </div>
+    </div><!-- /contentWrapper -->
+	</div><!-- /popUpWrapper --> 
+</body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<scrapbooks>
+	<scrapbook name="Piper Davis">
+		<author>Kirby Larson</author>
+		<scrapbookImage>images/books/imgScrapbooksPiper.png</scrapbookImage>
+		<scrapbookLink>piperscrapbook.htm</scrapbookLink>
+		<bookShort>The Fences Between Us</bookShort>
+		<bookTitle>The Fences Between Us: The Diary of Piper Davis, Seattle Washington, 1941</bookTitle>
+		<bookLink>aboutTheBook.htm?girl=Piper</bookLink>
+	</scrapbook>
+	<scrapbook name="Remember Patience Whipple">
+		<author>Kathryn Lasky</author>
+		<scrapbookImage>images/books/imgScrapbooksMem.png</scrapbookImage>
+		<scrapbookLink>memscrapbook.htm</scrapbookLink>
+		<bookShort>A Journey to the New World</bookShort>
+		<bookTitle>A Journey to the New World: The Diary of Remember Patience Whipple, Mayflower, 162</bookTitle>
+		<bookLink>aboutTheBook.htm?girl=Mem</bookLink>
+	</scrapbook>
+	<scrapbook name="Abigail Jane Stewart">
+		<author>Kristiana Gregory</author>
+		<scrapbookImage>images/books/imgScrapbooksAbigail.png</scrapbookImage>
+		<scrapbookLink>abbyscrapbook.htm</scrapbookLink>
+		<bookShort>The Winter of Red Snow</bookShort>
+		<bookTitle>The Winter of Red Snow: The Diary of Abigail Jane Stewart, Valley Forge, Pennsylvania, 1777</bookTitle>
+		<bookLink>aboutTheBook.htm?girl=Abigail</bookLink>
+	</scrapbook>
+	<scrapbook name="Margaret Ann Brady">
+		<author>Ellen Emerson White</author>
+		<scrapbookImage>images/books/imgScrapbooksMargaret.png</scrapbookImage>
+		<scrapbookLink>margaretscrapbook.htm</scrapbookLink>
+		<bookShort>Voyage on the Great Titanic</bookShort>
+		<bookTitle>Voyage on the Great Titanic: The Diary of Margaret Ann Brady, R.M.S. Titanic, 1912</bookTitle>
+		<bookLink>aboutTheBook.htm?girl=Margaret</bookLink>
+	</scrapbook>
+</scrapbooks>

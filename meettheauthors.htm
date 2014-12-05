@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Dear America | Scholastic.com</title>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+em	{
+	font-style:normal!important;
+}
+</style>
+<![endif]-->
+<link rel="stylesheet" href="styles/popUpStyles.css" media="all" type="text/css"  />
+<!-- LOAD THE AUTHORS -->
+<script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="scripts/loadTheAuthors.js"></script>
+<style type="text/css">
+
+-->
+</style>
+<script type="text/javascript">
+$(document).ready(function(){ 
+		
+	// LOAD THE AUTHORS XML
+	$.ajax({
+			type: "GET",
+			url: "xml/authors.xml",
+			dataType: "xml",
+			//success: alert('xml loaded')
+			success: loadTheAuthors
+		});
+	
+});
+</script>
+		<div id="popUpWrapper">
+         <a name="top"></a>
+           <div id="contentWrapper">
+            <div id="hdrPopUp">
+            	<span class="noCss">
+	                Teach Dear America
+				</span>
+            </div><!-- hdrPopup -->    
+            <div id="hdrMeetTheAuthors">
+				<span class="noCss">
+					Meet the Authors
+				</span>
+			</div><!-- /hdrPicturesKeepsakes -->
+            <!-- AUTHORS LIST SECTION -->
+            <div id="authorsListSection">
+            <div id="txtAuthorBox">
+            	Each diary in the Dear America book series is written by a different author in order to give each story a unique and diverse historical perspective. They are bestselling authors, as well as recipients of prestigious awards. Whether it is telling the tale of a pilgrim voyage across the treacherous Atlantic, or a young girl fighting for Japanese equality during WWII, the authors of the Dear America series transport you both emotionally and historically to a different place and time. 
+            </div><!-- /txtAuthorBox -->
+            <div id="authorsBox">
+            	<div class="authorsRow">
+                    <div class="authorBox" id="authorBox1">
+                    	<a class="btnAuthorImg" onclick="loadAuthorBio($(this).attr('id')); return false;" href="#"><!-- author image --></a> 
+                        <a class="txtAuthor" onclick="loadAuthorBio($(this).attr('id')); return false;">
+                            <div class="authorName">
+                            </div><!-- /authorName -->
+                            <div class="booksHeader">
+                            </div>
+                        	<ul class="bookTitles">
+                            </ul><!-- /bookTitles -->
+                        </a>
+                    </div><!-- /authorBox -->
+                    <div class="authorBox" id="authorBox2">
+                    	<a class="btnAuthorImg" onclick="loadAuthorBio($(this).attr('id')); return false;" href="#"><!-- author image --></a> 
+                        <a class="txtAuthor" onclick="loadAuthorBio($(this).attr('id')); return false;">
+                        	<div class="authorName">
+                            </div><!-- /authorName -->
+                            <div class="booksHeader">
+                            </div>
+                            <ul class="bookTitles">
+                            </ul><!-- /bookTitles -->
+                        </a>
+                    </div><!-- /authorBox -->
+                </div><!-- /authorsRow -->
+            	<div class="authorsRow">
+                    <div class="authorBox" id="authorBox3">
+                    	<a class="btnAuthorImg" onclick="loadAuthorBio($(this).attr('id')); return false;" href="#"><!-- author image --></a> 
+                        <a class="txtAuthor" onclick="loadAuthorBio($(this).attr('id')); return false;">
+                        	<div class="authorName">
+                            </div><!-- /authorName -->
+                            <div class="booksHeader">
+                            </div>
+                            <ul class="bookTitles">
+                            </ul><!-- /bookTitles -->
+                        </a>
+                    </div><!-- /authorBox -->
+                    <div class="authorBox" id="authorBox4">
+                    	<a class="btnAuthorImg" onclick="loadAuthorBio($(this).attr('id')); return false;" href="#"><!-- author image --></a> 
+                        <a class="txtAuthor" onclick="loadAuthorBio($(this).attr('id')); return false;">
+                        	<div class="authorName">
+                            </div><!-- /authorName -->
+                            <div class="booksHeader">
+                            </div>
+                            <ul class="bookTitles">
+                            </ul><!-- /bookTitles -->
+                        </a>
+                    </div><!-- /authorBox -->
+                </div><!-- /authorsRow -->
+            </div><!-- /authorsBox -->  
+            <div id="linksBox">
+                <div id="hdrClickToSeeMoreBooks">
+                    <span class="noCss">
+                        Click the next dot to see more books
+                    </span>
+                </div><!-- /hdrClickToSeeMoreBooks -->
+                <ul id="listLinksAuthors">
+                </ul><!-- /listLinksAuthors -->
+           </div><!-- /linksBox -->
+           </div><!-- /authorsListSection -->
+           <!-- END AUTHORS LIST SECTION -->
+           
+           <!-- AUTHOR DETAIL SECTION -->
+           <div id="authorBioSection">
+           <br/>
+           		<a href="meettheauthors.htm" id="btnBackToAuthors">
+                	<span class="noCss">
+                    	Back to Authors
+                    </span>
+                </a>
+           		<div id="authorName">
+                </div><!-- /authorName -->
+                <div id="booksHeading">
+                	Dear America Books by This Author:
+                </div><!-- /booksHeading -->
+                <ul id="authorDtlBooksList">
+                </ul>
+                <div id="hdrBio">
+                	BIO
+                </div><!-- /hdrBio -->
+                <div id="authorBioSummary">
+                </div><!-- /authorBioSummary -->
+				<a href="" id="btnMoreBio">...MORE</a>
+                <div id="authorBioDetail">
+                </div><!-- /authorBioDetail -->
+                <div id="authorVideoBox">
+                    <!-- Start of Brightcove Player -->
+                    <div style="display:none"></div>
+                    <script type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+    				<span class="theVideo">
+                    
+                    </span>
+                    <!-- End of Brightcove Player -->
+                </div><!-- /authorVideoBox -->
+           </div>
+           <!-- END AUTHOR DETAIL SECTION -->
+           <div class="clear"><!-- clear the floats --></div>
+        </div><!-- /contentWrapper -->
+        </div><!-- /PopUpWrapper -->    
+     
+
+<!-- SiteCatalyst code version: H.5.
+
+Copyright 1997-2006 Omniture, Inc. More info available at
+
+http://www.omniture.com -->
+
+<script type="text/javascript" src="http://www.scholastic.com/menu/templates/s_code.js"></script>
+
+<script type="text/javascript">
+
+var currentPage = location.pathname;
+
+s.pageName=""
+
+s.channel=""
+
+s.server=""
+
+if ( currentPage.indexOf("404error.asp") != -1 )
+
+        s.pageType="errorPage";
+
+else
+
+        s.pageType="";
+
+s.prop1=""
+
+s.prop2=""
+
+s.prop3=""
+
+s.prop4=""
+
+s.prop5=""
+
+s.prop14=""
+
+s.prop15=""
+
+s.prop16=""
+
+s.prop17=""
+
+s.prop18=""
+
+s.eVar3=""
+
+s.eVar4=""
+
+s.eVar6=""
+
+s.eVar13=""
+
+s.eVar14=""
+
+s.eVar15=""
+
+s.eVar16=""
+
+s.hier1=""
+
+if ( currentPage.indexOf("404error.asp") != -1 )
+
+            s.hier5=""
+
+else
+
+            s.hier5="static"
+
+s.events=""
+
+ 
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+
+<script type="text/javascript"><!--
+
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+
+//--></script><!--/DO NOT REMOVE/-->
+
+<!-- End SiteCatalyst code version: H.5. -->
+
+     
+
+</body>
+</html>

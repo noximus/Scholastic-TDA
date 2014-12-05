@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Dear America | Scholastic.com</title>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+em	{
+	font-style:normal!important;
+}
+</style>
+<![endif]-->
+<link rel="stylesheet" href="styles/popUpStyles.css" media="all" type="text/css"  />
+<link rel="stylesheet" href="styles/scrapbook.css" type="text/css" />
+<script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+<!-- LOAD THE BOOKS FUNCTIONALITY -->
+<script type="text/javascript" src="scripts/loadTheBooks.js"></script>
+
+	<script type="text/javascript" src="dabooks/js/swfobject.js"></script>
+	<script type="text/javascript" src="dabooks/js/swfaddress.js"></script>
+	<script type="text/javascript" src="dabooks/dabooks.js"></script>
+	<script type="text/javascript">
+		//<![CDATA[
+		var flashvars = {
+			/*
+				IMPORTANT: when only using one of the options below, REMOVE THE COMMA (,) at the end of the line.
+							Otherwise this will break JavaScript (and thus the loading of the Flash content) in Internet Explorer.
+							(Just make sure that the last of the enabled settings does not end with a comma).
+				
+				Remove the // in front of an option to enable it.
+			*/
+			
+			/* This is the ABSOLUTE base that to use for all path resolving. This has an effect on ALL paths (including GUI, sounds etc). */
+			//basePath: "http://www.example.com/megazine/",
+			
+			/* Used to pass the name of the xml file to use. Path is RELATIVE to basePath, or, if not set, to the megazine.swf file. */
+			xmlFile: "../abigail/book.xml"
+			
+			/* Determines whether to enable transparency (show HTML background). Not recommended (slow). Use book/background instead. */
+			//wmode: "transparent"
+		};
+		var params = {
+			menu: "false",
+			scale: "noscale",
+			allowFullscreen: "false",
+			allowScriptAccess: "always",
+			wmode: "transparent"
+
+		};
+		var attributes = {
+			/* This must be the same as the ID of the HTML element that will contain the Flash element. */
+			id: "book-scrpbk-unique-id1234"
+		};
+		/* Actually load the Flash. */
+		swfobject.embedSWF("dabooks/preloader.swf", "book-scrpbk-unique-id1234", "902", "700", "9.0.115", "dabooks/js/expressInstall.swf", flashvars, params, attributes);
+		//]]>
+	</script>	
+<body>    
+	<div id="popUpWrapper">
+        <a name="top"></a>
+        <div id="wrapperScrapbookAbby">
+            <div id="hdrPopUpScrapbook">
+            	<span class="noCss">
+	                Teach Dear America				</span>            </div><!-- hdrPopup --> 
+            <div id="bookcontainer-unique-id1234" style="margin: 0; outline: none; padding:0; width:722px; height:680px; background:transparent 0 0 no-repeat; position:relative; overflow:hidden;">
+                <div id="book-scrpbk-unique-id1234" style="margin-left:-90px; margin-top:-10px; outline: none; padding:0; width:902px; height:700px; background:transparent; position:absolute; top:0; left:0; text-align:center;">
+                    <h1>Book requires FlashPlayer 9</h1>
+                    <p><a href="http://get.adobe.com/flashplayer/"><img src="http://www.adobe.com/images/shared/download_buttons/get_adobe_flash_player.png" alt="Get Adobe Flash Player"/></a></p>
+                    <p>Please try the above link first. If you still encounter problems after installing the Flash Player, try this one:</p>
+                    <p><a href="http://get.adobe.com/shockwave/"><img src="http://www.adobe.com/images/shared/download_buttons/get_adobe_shockwave_player.png" alt="Get Adobe Shockwave Player"/></a></p>
+                </div>
+    <a href="http://community.scholastic.com/scholastic/board?board.id=dearamerica" id="btnSbookLivingDiary"><!-- join our living diary --></a>            </div>
+        <div class="clear"><!-- clear the floats --></div>
+    </div>
+      <!-- /contentWrapper -->
+ </div><!-- /popUpWrapper -->
+
+
+<!-- SiteCatalyst code version: H.5.
+Copyright 1997-2006 Omniture, Inc. More info available at
+http://www.omniture.com -->
+<script type="text/javascript" src="/menu/templates/s_code.js"></script>
+<script type="text/javascript">
+var count = 0;
+var to = null;
+var callPageNumber = 0;
+var currentPage ="";
+
+var myArray = [];
+myArray[2] = 'Welcome:1_1';
+myArray[4] = 'Pictures&Keepsakes:1_2';
+myArray[6] = 'Pictures&Keepsakes:2_2';
+myArray[8] = 'Arts&Crafts:1_1';
+myArray[10] = 'Recipes:1_1';
+myArray[12] = 'Fashion:1_1';
+myArray[14] = 'Games&Quizzes:1_1';
+myArray[16] = 'Chat:1_1';
+
+var prevPage = null;
+
+function PageCheck()
+{
+	var callPage = SWFAddress.getPath(); 
+	
+	if((prevPage != null) && (prevPage != callPage))
+	{
+
+		callPageNumber = callPage.split("/")[1];
+
+		if(myArray[callPageNumber] != undefined)
+		{ 
+
+		var s=s_gi(s_account);	
+		s.manageVars("clearVars"); 
+
+		currentPage = myArray[callPageNumber]; 
+		
+		s.pageName='Teachers:DearAmerica:Scrapbook:Abigail:' + currentPage;
+		s.channel='Teachers:DearAmerica';
+		s.server='teachdearamerica';
+		s.prop3='Teachers:Content:Activities:DearAmerica:Scrapbook:Abigail';
+		s.prop42='Teachers:DearAmerica:Scrapbook';
+		s.hier1='Teachers|Content|Activities|DearAmerica|Scrapbook|Abigail';
+		s.t();
+		}
+	}
+	prevPage = callPage;	
+
+};
+
+
+SWFAddress.addEventListener(SWFAddressEvent.CHANGE, onChange);
+
+function onChange()
+{ 
+	$(function()
+	{
+			if (to){ clearTimeout(to); }
+			to = setTimeout(function(){
+				PageCheck();
+			}, 1000);
+	});
+
+};
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.5. -->
+
+
+</body>
+</html>

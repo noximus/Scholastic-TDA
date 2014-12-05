@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book
+ 	licensekey="7d096e93aabd1a6b9998f1992ab79856"
+	pageheight="420"
+	pagewidth="360"
+	bgcolor="0x000000"
+	bggradient="false"
+	pagethickness="0"
+	maxloaded="0"
+	minscale="1"	
+	maxscale="1"
+	zoomwheel="false"
+	zoommaxscale="1"
+	zoomminscale="1"
+	zoomliquidscaling="false"
+	lang="en"
+	shadows="0"
+	spinecolor="0x000000"
+	foldfx="1"
+	edgecolor="0x000000"
+	centercovers="true"
+	ignoresides="false"
+	dragrange="40"	
+	thumbloadtext=""
+
+
+	plugins="anchors, backgroundsounds, batchpages, gallery, javascript, keyboardnavigation, links, overlays, swfaddress, titles"
+	>
+
+	<chapter>
+	
+		<page stiff="true" anchor="cover" bgcolor="0x000000" >
+			<img src="../piper/pages/piper_ofc.png" aa="true" width="330" height="420"/>
+<!-- bookmarks --> 						
+            <area  bgcolor="0x000000" left="305" top="0" width="55" height="75" url="anchor:welcome" title ="Welcome" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="75" width="55" height="65" url="anchor:picsnkeeps" title ="Pictures and Keepsakes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="140" width="55" height="60" url="anchor:artscrafts" title ="Arts and Crafts" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="200" width="55" height="60" url="anchor:recipes" title ="Recipes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="260" width="55" height="65" url="anchor:fashion" title ="Fashion" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="325" width="55" height="55" url="anchor:quizzies" title ="Games & Quizzes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="380" width="55" height="40" url="anchor:chat" title ="Chat" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 				
+		</page>
+
+		<page bgcolor="0x000000" >
+			<img src="../piper/pages/02_welcome1-1A.png" aa="true" left="40" width="320" height="420" />
+		</page>
+		<page anchor="welcome" bgcolor="0x000000" >
+			<img src="../piper/pages/03_welcome1-1B.png" aa="true" left="0" width="305" height="420" />
+<!-- bookmarks --> 						
+			<img src="../piper/pages/03_welcome1-1B-welcomeTabRight55x85.png" aa="true" left="305" top="1" width="55" height="85" />
+            <area  bgcolor="0x000000" left="305" top="75" width="55" height="65" url="anchor:picsnkeeps" title ="Pictures and Keepsakes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="140" width="55" height="60" url="anchor:artscrafts" title ="Arts and Crafts" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="200" width="55" height="60" url="anchor:recipes" title ="Recipes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="260" width="55" height="65" url="anchor:fashion" title ="Fashion" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="325" width="55" height="55" url="anchor:quizzies" title ="Games & Quizzes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="380" width="55" height="40" url="anchor:chat" title ="Chat" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 	
+		
+		</page>
+		
+		<page bgcolor="0x000000" >
+			<img src="../piper/pages/04_picsnkeeps1-3A.gif" aa="true" left="55" width="305" height="420" />
+<!-- bookmarks -->
+			<img src="../piper/pages/04_picsnkeeps1-3A-welcomeTabLeft55x85.png" aa="true" left="0" top="0" width="55" height="85" />
+            <area  bgcolor="0x000000" left="0" top="0" width="55" height="70" url="anchor:welcome" title ="Welcome" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 
+<!-- hyperlinks --> 
+            <area  bgcolor="0xff0000" left="95" top="350" width="230" height="45" url="/dearamerica/pictureskeepsakes.asp?girl=Piper" overlay="color(0,0,0x000000)">
+			<title><![CDATA[See All Pictures & Keepsakes]]></title>
+			</area>			
+<!-- hyperlinks --> 
+		</page>
+		<page anchor="picsnkeeps" bgcolor="0x000000" >
+			<img src="../piper/pages/05_picsnkeeps1-3B.png" aa="true" left="0" width="305" height="420" />
+<!-- bookmarks --> 
+			<img src="../piper/pages/05_picsnkeeps1-3B-picsTabRight55x90.png" aa="true" left="305" top="50" width="55" height="90" />
+            <area  bgcolor="0x000000" left="305" top="140" width="55" height="60" url="anchor:artscrafts" title ="Arts and Crafts" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="200" width="55" height="60" url="anchor:recipes" title ="Recipes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="260" width="55" height="65" url="anchor:fashion" title ="Fashion" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="325" width="55" height="55" url="anchor:quizzies" title ="Games & Quizzes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="380" width="55" height="40" url="anchor:chat" title ="Chat" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 						
+		</page>
+		
+		<page bgcolor="0x000000" >
+			<img src="../piper/pages/06_picsnkeeps2-3A.gif" aa="true" left="55" width="305" height="420" />
+			<area left="60" top="100" width="270" height="240" hires="../piper/pages/piper_1.jpg" gallery="my_gallery" gallerybuttonpos="top" gallerybutton="true" />
+<!-- bookmarks --> 
+			<img src="../piper/pages/06_picsnkeeps2-3A-picsTabLeft55x90.png" aa="true" left="0" top="50" width="55" height="90" />
+            <area  bgcolor="0x000000" left="0" top="0" width="55" height="70" url="anchor:welcome" title ="Welcome" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="70" width="55" height="60" url="anchor:picsnkeeps" title ="Pictures and Keepsakes" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 			
+		</page>
+
+		<page bgcolor="0x000000" >
+			<img src="../piper/pages/07_picsnkeeps2-3B.gif" aa="true" left="0" width="305" height="420" />
+<!-- bookmarks --> 			
+            <area  bgcolor="0x000000" left="305" top="140" width="55" height="60" url="anchor:artscrafts" title ="Arts and Crafts" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="200" width="55" height="60" url="anchor:recipes" title ="Recipes"  overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="260" width="55" height="65" url="anchor:fashion" title ="Fashion" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="325" width="55" height="55" url="anchor:quizzies" title ="Games & Quizzes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="380" width="55" height="40" url="anchor:chat" title ="Chat" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 			
+			
+		</page>
+		
+		<page bgcolor="0x000000" >
+			<img src="../piper/pages/08_picsnkeeps3-3A.gif" aa="true" left="55" width="305" height="420" />
+			<area left="70" top="25" width="200" height="145" hires="../piper/pages/piper_2.jpg" gallery="my_gallery" gallerybuttonpos="top" gallerybutton="true" />
+			<area left="173" top="145" width="170" height="250" hires="../piper/pages/piper_3.jpg" gallery="my_gallery" gallerybuttonpos="top" gallerybutton="true" />
+<!-- bookmarks --> 			
+            <area  bgcolor="0x000000" left="0" top="0" width="55" height="70" url="anchor:welcome" title ="Welcome" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="70" width="55" height="60" url="anchor:picsnkeeps" title ="Pictures and Keepsakes" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 			
+			
+		</page>
+		<page bgcolor="0x000000" >
+			<img src="../piper/pages/09_picsnkeeps3-3B.gif" aa="true" left="0" width="305" height="420" />
+			<area left="150" top="40" width="115" height="92" hires="../piper/pages/piper_4.jpg" gallery="my_gallery" gallerybuttonpos="top" gallerybutton="true" />
+			<area left="40" top="85" width="107" height="71" hires="../piper/pages/piper_5.jpg" gallery="my_gallery" gallerybuttonpos="top" gallerybutton="true" />
+			<area left="15" top="175" width="267" height="192" hires="../piper/pages/piper_6.jpg" gallery="my_gallery" gallerybuttonpos="top" gallerybutton="true" />
+<!-- bookmarks --> 			
+            <area  bgcolor="0x000000" left="305" top="140" width="55" height="60" url="anchor:artscrafts" title ="Arts and Crafts" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="200" width="55" height="60" url="anchor:recipes" title ="Recipes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="260" width="55" height="65" url="anchor:fashion" title ="Fashion" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="325" width="55" height="55" url="anchor:quizzies" title ="Games & Quizzes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="380" width="55" height="40" url="anchor:chat" title ="Chat" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 			
+		</page>
+		
+		<page bgcolor="0x000000" >
+			<img src="../piper/pages/10_artscrafts1-1A.gif" aa="true" left="55" width="305" height="420" />
+<!-- bookmarks --> 			
+            <area  bgcolor="0x000000" left="0" top="0" width="55" height="70" url="anchor:welcome" title ="Welcome" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="70" width="55" height="60" url="anchor:picsnkeeps" title ="Pictures and Keepsakes" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 			
+<!-- hyperlinks --> 
+            <area  bgcolor="0xff0000" left="75" top="340" width="235" height="45" url="/dearamerica/artscrafts.htm?girl=Piper" overlay="color(0,0,0x000000)">
+			<title><![CDATA[See All Arts & Crafts]]></title>
+			</area>			
+<!-- hyperlinks --> 			
+		</page>
+		<page anchor="artscrafts" bgcolor="0x000000" >
+			<img src="../piper/pages/11_artscrafts1-1B.gif" aa="true" left="0" width="305" height="420" />
+<!-- bookmarks --> 		
+			<img src="../piper/pages/11_artscrafts1-1B-artsTabRight55x90.png" aa="true" left="305" top="116" width="55" height="90" />
+            <area  bgcolor="0x000000" left="305" top="200" width="55" height="90" url="anchor:recipes" title ="Recipes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="260" width="55" height="65" url="anchor:fashion" title ="Fashion" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="325" width="55" height="55" url="anchor:quizzies" title ="Games & Quizzes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="380" width="55" height="40" url="anchor:chat" title ="Chat" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 			
+		</page>
+		
+		<page bgcolor="0x000000" >
+			<img src="../piper/pages/12_recipies1-2A.gif" aa="true" left="55" width="305" height="420" />
+<!-- bookmarks --> 		
+			<img src="../piper/pages/12_recipies1-2A-artsTabLeft55x90.png" aa="true" left="0" top="116" width="55" height="90" />
+            <area  bgcolor="0x000000" left="0" top="0" width="55" height="70" url="anchor:welcome" title ="Welcome" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="70" width="55" height="60" url="anchor:picsnkeeps" title ="Pictures and Keepsakes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="130" width="55" height="60" url="anchor:artscrafts" title ="Arts and Crafts" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 			
+<!-- hyperlinks --> 
+            <area  bgcolor="0xff0000" left="145" top="310" width="145" height="40" url="/dearamerica/recipes.htm?girl=Piper" overlay="color(0,0,0x000000)">
+			<title><![CDATA[See All Recipes]]></title>
+			</area>			
+<!-- hyperlinks --> 			
+		</page>
+		<page anchor="recipes" bgcolor="0x000000" >
+			<img src="../piper/pages/13_recipies1-2B.gif" aa="true" left="0" width="305" height="420" />
+<!-- bookmarks --> 			
+			<img src="../piper/pages/13_recipies1-2B-recipTabRight55x95.png" aa="true" left="305" top="167" width="55" height="95" />
+            <area  bgcolor="0x000000" left="305" top="260" width="55" height="65" url="anchor:fashion" title ="Fashion" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="325" width="55" height="55" url="anchor:quizzies" title ="Games & Quizzes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="380" width="55" height="40" url="anchor:chat" title ="Chat" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 			
+		</page>		
+		<page bgcolor="0x000000" >
+			<img src="../piper/pages/14_fashion1-1A.gif" aa="true" left="55" width="305" height="420" />
+<!-- bookmarks --> 	
+			<img src="../piper/pages/14_recipies2-2A-recipTabLeft55x90.png" aa="true" left="0" top="167" width="55" height="90" />
+            <area  bgcolor="0x000000" left="0" top="0" width="55" height="70" url="anchor:welcome" title ="Welcome" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="70" width="55" height="60" url="anchor:picsnkeeps" title ="Pictures and Keepsakes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="130" width="55" height="60" url="anchor:artscrafts" title ="Arts and Crafts" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="190" width="55" height="60" url="anchor:recipes" title ="Recipes" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 			
+<!-- hyperlinks --> 
+            <area  bgcolor="0xff0000" left="85" top="330" width="210" height="40" url="/dearamerica/fashion.htm" overlay="color(0,0,0x000000)">
+			<title><![CDATA[See All Fashion]]></title>
+			</area>			
+<!-- hyperlinks --> 			
+		</page>
+		<page anchor="fashion" bgcolor="0x000000" >
+			<img src="../piper/pages/15_fashion1-1B.png" aa="true" left="0" width="305" height="420" />
+<!-- bookmarks --> 	
+			<img src="../piper/pages/15_fashion1-1B-fashTabRight55x95.png" aa="true" left="305" top="232" width="55" height="95" />
+            <area  bgcolor="0x000000" left="305" top="325" width="55" height="55" url="anchor:quizzies" title ="Games & Quizzes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="305" top="380" width="55" height="40" url="anchor:chat" title ="Chat" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 			
+			
+		</page>
+		
+		<page bgcolor="0x000000" >
+			<img src="../piper/pages/16_quizzes1-1A.gif" aa="true" left="55" width="305" height="420" />
+<!-- bookmarks --> 			
+			<img src="../piper/pages/16_quizzes1-1A-fashTabLeft55x95.png" aa="true" left="0" top="232" width="55" height="95" />
+            <area  bgcolor="0x000000" left="0" top="0" width="55" height="70" url="anchor:welcome" title ="Welcome" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="70" width="55" height="60" url="anchor:picsnkeeps" title ="Pictures and Keepsakes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="130" width="55" height="60" url="anchor:artscrafts" title ="Arts and Crafts" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="190" width="55" height="60" url="anchor:recipes" title ="Recipes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="250" width="55" height="65" url="anchor:fashion" title ="Fashion" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 			
+<!-- hyperlinks --> 
+            <area  bgcolor="0xff0000" left="110" top="365" width="220" height="40" url="/dearamerica/quizzesgames.htm?girl=Piper" overlay="color(0,0,0x000000)">
+			<title><![CDATA[See All Games & Quizzes]]></title>
+			</area>			
+<!-- hyperlinks --> 			
+		</page>
+		<page anchor="quizzies" bgcolor="0x000000" >
+			<img src="../piper/pages/17_quizzes1-1B.gif" aa="true" left="0" width="305" height="420" />
+<!-- bookmarks --> 		
+			<img src="../piper/pages/17_quizzes1-1B-quizTabRight55x80.png" aa="true" left="305" top="300" width="55" height="80" />
+            <area  bgcolor="0x000000" left="305" top="380" width="55" height="40" url="anchor:chat" title ="Chat" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 			
+<!-- games --> 	
+			<img src="../piper/pages/wordgame.swf" />  
+<!-- games --> 	
+		
+		</page>
+		
+		<page bgcolor="0x000000" >
+			<img src="../piper/pages/18_chat1-1A.gif" aa="true" left="55" width="305" height="420" />
+<!-- bookmarks --> 	
+			<img src="../piper/pages/18_chat1-1A-quizTabLeft55x85.png" aa="true" left="0" top="298" width="55" height="85" />
+            <area  bgcolor="0x000000" left="0" top="0" width="55" height="70" url="anchor:welcome" title ="Welcome" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="70" width="55" height="60" url="anchor:picsnkeeps" title ="Pictures and Keepsakes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="130" width="55" height="60" url="anchor:artscrafts" title ="Arts and Crafts" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="190" width="55" height="60" url="anchor:recipes" title ="Recipes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="250" width="55" height="65" url="anchor:fashion" title ="Fashion" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="310" width="55" height="65" url="anchor:quizzies" title ="Games & Quizzes" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 			
+<!-- hyperlinks -->             
+			<area  bgcolor="0xff0000" left="90" top="345" width="220" height="40" url="http://community.scholastic.com/scholastic/board?board.id=dearamerica" overlay="color(0,0,0x000000)">
+			<title><![CDATA[Go to the Message Board]]></title>
+			</area>			
+<!-- hyperlinks --> 			
+		</page>
+		<page anchor="chat" bgcolor="0x000000" >
+			<img src="../piper/pages/19_chat1-1B.png" aa="true" left="0" width="320" height="420" />
+<!-- bookmarks --> 	
+			<img src="../piper/pages/19_chat1-1B-chatTabRight55x85.png" aa="true" left="305" top="336" width="55" height="85" />
+<!-- bookmarks --> 
+		</page>
+		
+		<page stiff="true" anchor="cover" bgcolor="0x000000" >
+			<img src="../piper/pages/piper_obc.png" aa="true" left="40" width="330" height="420"/>
+<!-- bookmarks --> 	
+			<img src="../piper/pages/20_back-chatTabLeft40x85.png" aa="true" left="0" top="336" width="40" height="85" />
+			            <area  bgcolor="0x000000" left="0" top="0" width="55" height="70" url="anchor:welcome" title ="Welcome" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="70" width="55" height="60" url="anchor:picsnkeeps" title ="Pictures and Keepsakes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="130" width="55" height="60" url="anchor:artscrafts" title ="Arts and Crafts" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="190" width="55" height="60" url="anchor:recipes" title ="Recipes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="250" width="55" height="65" url="anchor:fashion" title ="Fashion" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="310" width="55" height="65" url="anchor:quizzies" title ="Games & Quizzes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="375" width="55" height="45" url="anchor:chat" title ="Chat" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 			
+		</page>
+		
+	</chapter>
+</book>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book
+	pageheight="420"
+	pagewidth="360"
+	bgcolor="0x000000"
+	bggradient="false"
+	pagethickness="0"
+	maxloaded="0"
+	minscale="1"	
+	maxscale="1"
+	zoomwheel="false"
+	zoommaxscale="1"
+	zoomminscale="1"
+	zoomliquidscaling="false"
+	lang="en"
+	shadows="0"
+	spinecolor="0x000000"
+	foldfx="1"
+	edgecolor="0x000000"
+	centercovers="true"
+	ignoresides="false"
+	dragrange="40"
+	thumbloadtext=""	
+
+	plugins="anchors, backgroundsounds, batchpages, gallery, javascript, keyboardnavigation, links, overlays, swfaddress, titles"
+	>
+
+	<chapter>
+	
+		<page stiff="true" anchor="cover" bgcolor="0x000000" >
+			<img src="../abigail2/pages/abigail2_ofc.png" aa="true" width="315" height="420"/>
+<!-- bookmarks --> 						
+            <area  bgcolor="0x000000" left="310" top="30" width="50" height="110" url="anchor:welcome" title ="Welcome" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="310" top="140" width="50" height="90" url="anchor:artscrafts" title ="Arts and Crafts" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="310" top="230" width="50" height="90" url="anchor:recipes" title ="Recipes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="310" top="320" width="50" height="100" url="anchor:quizzies" title ="Games & Quizzes" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 	
+			
+		</page>
+
+		<page bgcolor="0x000000" >
+			<img src="../abigail2/pages/abigail2_ifc.png" aa="true" left="45" width="315" height="420" />
+		</page>
+		<page anchor="welcome" bgcolor="0x000000" >
+			<img src="../abigail2/pages/abigail2_welcome_1.png" aa="true" left="0" width="305" height="420" />
+<!-- bookmarks --> 						
+			<img src="../abigail2/pages/tab_welcome_right.png" aa="true" left="305" top="36" width="50" height="110" />
+            <area  bgcolor="0x000000" left="310" top="140" width="50" height="90" url="anchor:artscrafts" title ="Arts and Crafts" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="310" top="230" width="50" height="90" url="anchor:recipes" title ="Recipes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="310" top="320" width="50" height="100" url="anchor:quizzies" title ="Games & Quizzes" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 	
+		
+		</page>
+		
+		<page bgcolor="0x000000" >
+			<img src="../abigail2/pages/tab_welcome_left.png" aa="true" left="10" top="34" width="50" height="115" />
+			<img src="../abigail2/pages/abigail2_ac_1.png" aa="true" left="55" width="305" height="420" />
+<!-- bookmarks -->
+			<area  bgcolor="0x000000" left="0" top="35" width="50" height="105" url="anchor:welcome" title ="Welcome" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 
+<!-- hyperlinks --> 
+            <area  bgcolor="0xff0000" left="130" top="305" width="210" height="75" url="/dearamerica/artscrafts.htm?girl=Emma" overlay="color(0,0,0x000000)">
+			<title><![CDATA[See All Arts & Crafts]]></title>
+			</area>			
+<!-- hyperlinks --> 
+		</page>
+		<page anchor="artscrafts" bgcolor="0x000000" >
+			<img src="../abigail2/pages/abigail2_ac_2.png" aa="true" left="0" width="305" height="420" />
+<!-- bookmarks --> 
+			<img src="../abigail2/pages/tab_ac_right.png" aa="true" left="305" top="133" width="50" height="100" />
+            <area  bgcolor="0x000000" left="310" top="230" width="50" height="90" url="anchor:recipes" title ="Recipes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="310" top="320" width="50" height="100" url="anchor:quizzies" title ="Games & Quizzes" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 						
+		</page>
+		
+		<page bgcolor="0x000000" >
+			<img src="../abigail2/pages/tab_ac_left.png" aa="true" left="10" top="133" width="50" height="100" />		
+			<img src="../abigail2/pages/abigail2_recipes_1.png" aa="true" left="55" width="305" height="420" />
+<!-- bookmarks -->
+            <area  bgcolor="0x000000" left="0" top="35" width="50" height="105" url="anchor:welcome" title ="Welcome" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="140" width="50" height="80" url="anchor:artscrafts" title ="Arts and Crafts" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 			
+<!-- hyperlinks --> 
+            <area  bgcolor="0xff0000" left="130" top="320" width="185" height="65" url="/dearamerica/recipes.htm?girl=Emma" overlay="color(0,0,0x000000)">
+			<title><![CDATA[See All Recipes]]></title>
+			</area>			
+<!-- hyperlinks --> 		
+		</page>
+		<page anchor="recipes" bgcolor="0x000000" >
+			<img src="../abigail2/pages/abigail2_recipes_2.png" aa="true" left="0" width="305" height="420" />
+<!-- bookmarks --> 		
+			<img src="../abigail2/pages/tab_recipes_right.png" aa="true" left="305" top="213" width="50" height="115" />
+            <area  bgcolor="0x000000" left="310" top="320" width="50" height="100" url="anchor:quizzies" title ="Games & Quizzes" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 			
+		</page>
+		
+		<page bgcolor="0x000000" >
+			<img src="../abigail2/pages/tab_recipes_left.png" aa="true" left="10" top="213" width="50" height="115" />
+			<img src="../abigail2/pages/abigail2_games_1.png" aa="true" left="55" width="305" height="420" />
+<!-- bookmarks -->
+            <area  bgcolor="0x000000" left="0" top="35" width="50" height="105" url="anchor:welcome" title ="Welcome" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="140" width="50" height="80" url="anchor:artscrafts" title ="Arts and Crafts" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="220" width="50" height="90" url="anchor:recipes" title ="Recipes" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 			
+<!-- hyperlinks --> 
+            <area  bgcolor="0xff0000" left="130" top="265" width="210" height="85" url="/dearamerica/quizzesgames.htm?girl=Emma" overlay="color(0,0,0x000000)">
+			<title><![CDATA[See All Games & Quizzes]]></title>
+			</area>			
+<!-- hyperlinks --> 			
+		</page>
+		
+		
+		<page anchor="quizzies" stiff="true" bgcolor="0x000000" >
+			<img src="../abigail2/pages/abigail2_ibc.png" aa="true" left="0" width="315" height="420" />
+<!-- bookmarks --> 	
+	 		<img src="../abigail2/pages/tab_games_right.png" aa="true" left="315" top="300" width="40" height="100" />
+<!-- bookmarks --> 			
+<!-- hyperlinks --> 
+            <area  bgcolor="0xff0000" left="75" top="270" width="155" height="25" url="/dearamerica/quizzesgames.htm?girl=Emma" overlay="color(0,0,0x000000)">
+			<title><![CDATA[See All Games & Quizzes]]></title>
+			</area>			
+<!-- hyperlinks --> 			
+			
+		</page>
+		
+		<page stiff="true" bgcolor="0x000000" >
+	 		<img src="../abigail2/pages/tab_games_left.png" aa="true" left="7" top="302" width="40" height="100" />
+			<img src="../abigail2/pages/abigail2_obc.png" aa="true" left="47" width="313" height="420"/>
+<!-- bookmarks -->
+            <area  bgcolor="0x000000" left="0" top="35" width="50" height="105" url="anchor:welcome" title ="Welcome" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="140" width="50" height="80" url="anchor:artscrafts" title ="Arts and Crafts" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="220" width="50" height="90" url="anchor:recipes" title ="Recipes" overlay="color(0,0,0x000000)"></area>
+            <area  bgcolor="0x000000" left="0" top="310" width="50" height="90" url="anchor:quizzies" title ="Games & Quizzes" overlay="color(0,0,0x000000)"></area>
+<!-- bookmarks --> 			
+		</page>
+		
+	</chapter>
+</book>
